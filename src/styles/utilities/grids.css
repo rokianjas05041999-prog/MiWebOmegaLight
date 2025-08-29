@@ -1,0 +1,114 @@
+/* ===========================================
+   GRID UTILITIES
+   =========================================== */
+
+@layer components {
+  /* Portfolio Grid */
+  .portfolio-grid {
+    @apply grid gap-8 lg:grid-cols-2 xl:grid-cols-3;
+  }
+
+  .portfolio-item {
+    @apply relative overflow-hidden transition-all duration-300 bg-white rounded-2xl;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .portfolio-item:hover {
+    @apply transform -translate-y-2;
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* Services Grid */
+  .services-grid {
+    @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .service-card {
+    @apply p-8 transition-all duration-300 rounded-2xl;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+  }
+
+  .service-card:hover {
+    @apply transform -translate-y-2;
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-200);
+  }
+
+  /* Team Grid */
+  .team-grid {
+    @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+
+  .team-card {
+    @apply overflow-hidden transition-all duration-300 bg-white rounded-2xl;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .team-card:hover {
+    @apply transform -translate-y-2;
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* Testimonials Grid */
+  .testimonials-grid {
+    @apply grid gap-8 lg:grid-cols-2 xl:grid-cols-3;
+  }
+
+  .testimonial-card {
+    @apply p-8 transition-all duration-300 rounded-2xl;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+  }
+
+  .testimonial-card:hover {
+    @apply transform -translate-y-1;
+    box-shadow: var(--shadow-md);
+  }
+
+  /* Stats Grid */
+  .stats-grid {
+    @apply grid gap-8 sm:grid-cols-2 lg:grid-cols-4;
+  }
+
+  .stat-card {
+    @apply p-6 text-center transition-all duration-300 rounded-xl;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+  }
+
+  .stat-card:hover {
+    @apply transform -translate-y-1;
+    border-color: var(--color-primary-200);
+  }
+
+  /* Generic Grid Utilities */
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .grid-auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .grid-responsive {
+    @apply grid gap-6 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .grid-masonry {
+    columns: 1;
+    column-gap: 2rem;
+  }
+
+  @media (min-width: 640px) {
+    .grid-masonry {
+      columns: 2;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .grid-masonry {
+      columns: 3;
+    }
+  }
+}

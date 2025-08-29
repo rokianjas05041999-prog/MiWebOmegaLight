@@ -1,0 +1,66 @@
+/* ===========================================
+   TAILWIND CSS v4.1 - COMPANY PROFILE TEMPLATE
+   Standardized CSS Architecture with Theme System
+   
+   New Layered Structure:
+   1. Base Layer - Variables, typography, base styles
+   2. Components Layer - UI components and sections  
+   3. Utilities Layer - Helper classes and utilities
+   
+   Standards:
+   - BEM-like naming conventions
+   - CSS Variables for theming
+   - Mobile-first approach
+   - Accessibility compliant
+   =========================================== */
+
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+/* Import Base Layer */
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/typography.css";
+@import "./base/icons.css";
+@import "./base/dark-mode.css";
+@import "./base/animations.css";
+@import "./base/accessibility.css";
+
+/* Import Components Layer (separated files) */
+@import './components/switchers.css';
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/about.css';
+@import './components/category.css';
+@import './components/mini-statistic.css';
+@import './components/gallery.css';
+@import './components/product.css';
+@import './components/blog.css';
+@import './components/brands.css';
+@import './components/testimonials.css';
+@import './components/team.css';
+@import './components/contact.css';
+@import './components/footer.css';
+@import './components/lightbox.css';
+@import './components/quick-view.css';
+@import './components/detail-general.css';
+@import './components/detail-category.css';
+@import './components/detail-product.css';
+@import './components/detail-article.css';
+@import './components/detail-team.css';
+@import './components/archive-product.css';
+@import './components/archive-article.css';
+@import './components/archive-category.css';
+@import './components/archive-portfolio.css';
+@import './components/archive-team.css';
+@import './components/related-content.css';
+@import './components/detail-portfolio.css';
+@import './components/faqs.css';
+@import './components/archive-faqs.css';
+@import './components/detail-faq.css';
+
+/* Import Utilities Layer (separated files) */
+@import './utilities/layout.css';
+@import './utilities/buttons.css';
+@import './utilities/colors.css';
+@import './utilities/grids.css';

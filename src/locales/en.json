@@ -1,0 +1,1922 @@
+{
+  "common": {
+    "home": "Home",
+    "chooseLanguage": "Choose Language",
+    "chooseTheme": "Choose Theme"
+  },
+  "brand": {
+    "name": "OmegaLight"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "gallery": "Gallery",
+    "products": "Products",
+    "blog": "Blog",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "search": "Search...",
+    "searchAnything": "Search anything......",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "Trusted Solutions Since 1995",
+    "title": "Trusted Electrical Solutions",
+    "subtitle": "Complete Electrical Store for Your Needs",
+    "description": "Serving home and industrial electrical needs since 1995. We provide quality products from leading brands at competitive prices and professional installation services by experienced technicians.",
+    "cta": {
+      "primary": "View Products",
+      "secondary": "Free Consultation"
+    }
+  },
+  "category": {
+    "badge": "Complete Products",
+    "title": "Product Categories",
+    "subtitle": "Find Your Electrical Needs",
+    "description": "Various quality electrical equipment from leading brands for household to industrial needs.",
+    "items": {
+      "led": {
+        "title": "LED Lights",
+        "description": "Save up to 80% energy with long lifespan"
+      },
+      "cable": {
+        "title": "Electrical Cables",
+        "description": "SNI certified cables in various sizes and types"
+      },
+      "panel": {
+        "title": "MCB & Panels",
+        "description": "Maximum protection for electrical installations"
+      },
+      "outlet": {
+        "title": "Outlets",
+        "description": "Various models for all needs"
+      },
+      "spotlight": {
+        "title": "Spotlights",
+        "description": "Indoor & outdoor with high durability"
+      },
+      "fitting": {
+        "title": "Lamp Fittings",
+        "description": "Quality fittings for various lamp types"
+      },
+      "switch": {
+        "title": "Switches",
+        "description": "Modern design with optimal function"
+      },
+      "tools": {
+        "title": "Electrical Tools",
+        "description": "Professional work equipment"
+      }
+    },
+    "loadMore": "View More Categories"
+  },
+  "about": {
+    "badge": "About OmegaLight",
+    "title": "About Us",
+    "subtitle": "Trusted Electrical Store Since 1995",
+    "description": "Serving household and industrial electrical equipment needs with quality products and competitive prices.",
+    "company": {
+      "name": "CV. Elektro Jaya Abadi",
+      "tagline": "Electrical Equipment & Installation Specialist",
+      "text1": "Starting from a small shop in West Jakarta, CV. Elektro Jaya Abadi has now developed into one of the leading electrical equipment distributors in Indonesia. With more than 25 years of experience, we truly understand customer needs.",
+      "text2": "We provide various electrical equipment from leading brands such as Schneider Electric, Panasonic, Philips, and ABB. All products we sell are original products with official warranties from manufacturers.",
+      "text3": "In addition to selling products, we also provide electrical installation and consultation services. Our experienced and certified technician team is ready to help you complete various electrical projects."
+    },
+    "features": {
+      "quality": "Guaranteed Quality Products",
+      "price": "Competitive Prices",
+      "service": "Professional Service",
+      "warranty": "Official Warranty"
+    }
+  },
+  "stats": {
+    "title": "OmegaLight in Numbers",
+    "subtitle": "Serving Electrical Needs Since 1995",
+    "description": "Customer trust and satisfaction are proof of our service quality.",
+    "items": {
+      "products": "Products Available",
+      "customers": "Satisfied Customers",
+      "experience": "Years Experience",
+      "brands": "Brand Partners"
+    }
+  },
+  "gallery": {
+    "title": "Project Gallery",
+    "subtitle": "Documentation of Our Work Results",
+    "description": "See various electrical installation projects we have completed with high quality standards.",
+    "items": {
+      "panel": {
+        "title": "Electrical Panel Installation",
+        "location": "Office Building Jakarta"
+      },
+      "industrial": {
+        "title": "Industrial Lighting Installation",
+        "location": "Textile Factory Bandung"
+      },
+      "cable": {
+        "title": "Cable Tray Installation",
+        "location": "Thamrin City Mall"
+      },
+      "smart": {
+        "title": "Smart Home Installation",
+        "location": "Elite Housing BSD"
+      },
+      "solar": {
+        "title": "Solar Panel Installation",
+        "location": "Grand Indonesia Hotel"
+      },
+      "maintenance": {
+        "title": "Routine Maintenance",
+        "location": "Sudirman Park Apartment"
+      }
+    },
+    "cta": "View All Projects"
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "Best Quality Electrical Equipment",
+    "description": "Find various original electrical products at competitive prices. All products with official distributor warranty.",
+    "badges": {
+      "sale": "SALE",
+      "new": "NEW",
+      "hot": "HOT",
+      "bestseller": "BEST SELLER",
+      "limited": "LIMITED"
+    },
+    "quickView": {
+      "button": "Quick View",
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock",
+      "findAt": "Find our products at:",
+      "detail": "Details",
+      "whatsapp": "WhatsApp"
+    },
+    "cta": "Details",
+    "outOfStock": "Out of Stock",
+    "loadMore": "View More Products",
+    "items": {
+      "led": {
+        "name": "Philips LED Light 9W Cool Daylight",
+        "description": "Save up to 85% energy, lasts up to 15,000 hours"
+      },
+      "cable": {
+        "name": "Supreme NYM Cable 2x1.5 (50 Meters)",
+        "description": "SNI electrical installation cable, pure copper"
+      },
+      "mcb": {
+        "name": "Schneider Domae MCB 1 Phase 16A",
+        "description": "Circuit breaker for electrical installation protection"
+      },
+      "outlet": {
+        "name": "Panasonic Wide Series White Outlet",
+        "description": "Wall outlet with child protection"
+      },
+      "spotlight": {
+        "name": "Osram LED Spotlight 50W Daylight",
+        "description": "IP65 Waterproof, suitable for outdoor"
+      },
+      "fitting": {
+        "name": "Broco E27 Hanging Lamp Fitting",
+        "description": "Heat-resistant ceramic material, 1.5m cable"
+      },
+      "dimmer": {
+        "name": "Legrand Niloe LED Dimmer Switch",
+        "description": "LED brightness control 10-300W"
+      },
+      "solar": {
+        "name": "Monocrystalline Solar Panel 100W",
+        "description": "High efficiency solar panel with 25-year warranty"
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog & Articles",
+    "subtitle": "Tips and Information About Electrical",
+    "description": "Read interesting articles about installation tips, maintenance, and latest trends in the electrical world.",
+    "categories": {
+      "tips": "Tips",
+      "guide": "Guide",
+      "tech": "Technology"
+    },
+    "readTime": "5 min read",
+    "readMore": "Read More",
+    "viewAll": "View All Articles",
+    "items": {
+      "tips": {
+        "title": "5 Tips for Safe and Correct Electrical Installation",
+        "excerpt": "Complete guide for home electrical installation with proper safety standards."
+      },
+      "led": {
+        "title": "Save Electricity Bills with LED Lights",
+        "excerpt": "Learn how to save up to 80% on electricity bills by switching to the latest LED technology."
+      },
+      "smart": {
+        "title": "Smart Home Trends 2025: The Future of Smart Homes",
+        "excerpt": "Explore the latest smart home technologies that can improve comfort and energy efficiency."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "subtitle": "What they say about our service",
+    "description": "Customer satisfaction is our top priority. See the experiences of those who have trusted OmegaLight products and services.",
+    "stats": {
+      "customers": "Happy Customers",
+      "rating": "Rating"
+    },
+    "items": {
+      "client1": {
+        "text": "Very satisfied with OmegaLight products and services. Good product quality, competitive prices, and very responsive service. The technician team is also professional in installation.",
+        "name": "Budi Santoso",
+        "position": "Homeowner",
+        "location": "West Jakarta"
+      },
+      "client2": {
+        "text": "Been a customer at OmegaLight for 5 years for shop needs. Products are always original, clear warranty, and satisfying after sales service. Highly recommended!",
+        "name": "Sari Wijaya",
+        "position": "Shop Owner",
+        "location": "Tangerang"
+      },
+      "client3": {
+        "text": "OmegaLight team really helped our building installation project. Free consultation, accurate needs calculation, and execution according to timeline. Trusted partner for big projects.",
+        "name": "Ahmad Firdaus",
+        "position": "Project Manager",
+        "location": "Bekasi"
+      }
+    }
+  },
+  "brands": {
+    "title": "Trusted Brand Partners",
+    "subtitle": "Working with world's leading brands"
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Contact & Location",
+    "subtitle": "Ready to Serve Your Electrical Needs",
+    "description": "Contact us for free consultation, product orders, or installation services. Our professional team is ready to help you 24/7.",
+    "form": {
+      "title": "Send Message",
+      "subtitle": "Fill out the form below and we will contact you soon",
+      "name": "Full Name *",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email *",
+      "emailPlaceholder": "name@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "08xx-xxxx-xxxx",
+      "company": "Company",
+      "companyPlaceholder": "Company name (optional)",
+      "message": "Message *",
+      "messagePlaceholder": "Tell us about your electrical needs or questions you want to ask...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Store Address",
+        "details": "Jl. Raya Industri No. 88\nJababeka Industrial Area\nCikarang, Bekasi 17530"
+      },
+      "phone": {
+        "title": "Phone & WhatsApp",
+        "details": "(021) 8934-5678\n+62 812-3456-7890\n+62 856-7890-1234"
+      },
+      "email": {
+        "title": "Email",
+        "details": "info@omegalight.co.id\nsales@omegalight.co.id\nsupport@omegalight.co.id"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "details": "Monday - Friday: 08:00 - 17:00\nSaturday: 08:00 - 15:00\nSunday: Closed"
+      },
+      "map": "Store Location Map"
+    }
+  },
+  "detail": {
+    "breadcrumb": {
+      "category": "Category",
+      "currentPage": "Current Page"
+    },
+    "meta": {
+      "category": "Category",
+      "publishedDate": "January 15, 2025"
+    },
+    "header": {
+      "title": "Professional Electrical Solutions for Your Business",
+      "subtitle": "Comprehensive electrical services and solutions designed to meet your specific business needs with professional quality and reliability."
+    },
+    "actions": {
+      "contactUs": "Contact Us",
+      "share": "Share",
+      "bookmark": "Bookmark"
+    },
+    "image": {
+      "alt": "Professional Electrical Solutions",
+      "zoomTitle": "Click to zoom image"
+    },
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "text1": "At OmegaLight, we provide comprehensive electrical solutions designed to meet the diverse needs of modern businesses and residential properties. Our team of certified professionals brings years of experience and cutting-edge technology to every project.",
+        "text2": "From basic electrical installations to complex industrial systems, we ensure safety, reliability, and efficiency in all our services. Our commitment to quality and customer satisfaction has made us a trusted partner for electrical solutions."
+      },
+      "features": {
+        "title": "Key Features",
+        "feature1": {
+          "title": "Safety First",
+          "description": "All our installations meet the highest safety standards and comply with local electrical codes."
+        },
+        "feature2": {
+          "title": "Professional Service",
+          "description": "Our certified electricians provide expert installation and maintenance services."
+        },
+        "feature3": {
+          "title": "24/7 Support",
+          "description": "Round-the-clock emergency support for critical electrical issues."
+        },
+        "feature4": {
+          "title": "Competitive Pricing",
+          "description": "Fair and transparent pricing with no hidden costs or surprises."
+        }
+      },
+      "detailed": {
+        "title": "Detailed Information",
+        "text1": "Our electrical services encompass a wide range of solutions, from residential wiring and lighting installations to complex commercial and industrial electrical systems. We use only high-quality materials and the latest technology to ensure long-lasting, reliable results.",
+        "servicesTitle": "Services Offered",
+        "services": {
+          "service1": "Electrical Installation & Wiring",
+          "service2": "Lighting Design & Installation",
+          "service3": "Panel Upgrades & Maintenance",
+          "service4": "Emergency Electrical Repairs",
+          "service5": "Energy Efficiency Consulting",
+          "service6": "Smart Home Integration"
+        },
+        "text2": "We pride ourselves on delivering projects on time and within budget, while maintaining the highest standards of workmanship. Our team stays updated with the latest industry trends and technologies to provide innovative solutions that meet evolving customer needs."
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact our team today for a free consultation and quote for your electrical project.",
+      "getQuote": "Get Free Quote",
+      "callNow": "Call Now"
+    },
+    "sidebar": {
+      "quickInfo": {
+        "title": "Quick Information",
+        "category": {
+          "label": "Category:",
+          "value": "Electrical Services"
+        },
+        "serviceArea": {
+          "label": "Service Area:",
+          "value": "Nationwide"
+        },
+        "availability": {
+          "label": "Availability:",
+          "value": "24/7"
+        },
+        "experience": {
+          "label": "Experience:",
+          "value": "15+ Years"
+        }
+      },
+      "contact": {
+        "title": "Contact Information",
+        "phone": {
+          "label": "Phone"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "address": {
+          "label": "Address",
+          "value": "123 Electric Ave, City, State 12345"
+        }
+      },
+      "relatedLinks": {
+        "title": "Related Links",
+        "link1": "Our Services",
+        "link2": "Product Catalog",
+        "link3": "Case Studies",
+        "link4": "Customer Reviews"
+      },
+      "socialShare": {
+        "title": "Share This Page",
+        "facebook": "Share on Facebook",
+        "twitter": "Share on Twitter",
+        "linkedin": "Share on LinkedIn",
+        "whatsapp": "Share on WhatsApp"
+      }
+    }
+  },
+  "detail": {
+    "product": {
+      "breadcrumb": {
+        "catalog": "Product Catalog",
+        "category": "LED Lights",
+        "currentProduct": "Philips LED Light 9W"
+      },
+      "badges": {
+        "sale": "SALE 30%"
+      },
+      "image": {
+        "alt": "Philips LED Light 9W Cool Daylight",
+        "zoomTitle": "Click to zoom image"
+      },
+      "title": "Philips LED Light 9W Cool Daylight",
+      "reviews": "reviews",
+      "sku": {
+        "label": "SKU:"
+      },
+      "availability": {
+        "label": "Availability:",
+        "inStock": "Available (25 units)"
+      },
+      "price": {
+        "note": "Prices may change at any time. Contact us for current pricing information."
+      },
+      "variants": {
+        "wattage": "Wattage:",
+        "color": "Light Color:"
+      },
+      "contact": {
+        "title": "Interested in this product?",
+        "subtitle": "Contact us for more information and best offers"
+      },
+      "actions": {
+        "whatsapp": "Contact via WhatsApp",
+        "phone": "Call Now",
+        "inquiry": "Send Inquiry",
+        "compare": "Compare",
+        "share": "Share"
+      },
+      "features": {
+        "title": "Key Features",
+        "feature1": "Save up to 85% energy",
+        "feature2": "Lasts up to 15,000 hours",
+        "feature3": "Stable light without flicker",
+        "feature4": "Official 2-year warranty"
+      },
+      "tabs": {
+        "description": "Description",
+        "specifications": "Specifications",
+        "reviews": "Reviews (128)",
+        "contact": "Contact"
+      },
+      "description": {
+        "title": "About Product",
+        "text1": "Philips LED Light 9W Cool Daylight is a modern lighting solution that combines high energy efficiency with superior light quality. With cutting-edge LED technology from Philips, this light provides bright and even illumination for various household and commercial needs.",
+        "text2": "Designed to replace traditional 60W incandescent bulbs, this LED light saves up to 85% electricity consumption while providing equivalent light output. With a lifespan of up to 15,000 hours, your investment will pay off in the long run.",
+        "benefits": {
+          "title": "Product Advantages",
+          "benefit1": "High-quality LED technology from Philips",
+          "benefit2": "High energy efficiency with savings up to 85%",
+          "benefit3": "Bright white light ideal for work and study spaces",
+          "benefit4": "Does not produce excessive heat",
+          "benefit5": "Environmentally friendly without mercury",
+          "benefit6": "Official warranty from Philips Indonesia distributor"
+        }
+      },
+      "specifications": {
+        "title": "Technical Specifications",
+        "brand": "Brand:",
+        "wattage": "Wattage:",
+        "voltage": "Voltage:",
+        "lumens": "Lumens:",
+        "colorTemp": "Color Temperature:",
+        "lifespan": "Lifespan:",
+        "base": "Base:",
+        "dimmable": "Dimmable:",
+        "no": "No",
+        "warranty": "Warranty:",
+        "years": "Years",
+        "certification": "Certification:"
+      },
+      "reviews": {
+        "title": "Customer Reviews",
+        "count": "reviews",
+        "date1": "2 days ago",
+        "date2": "1 week ago",
+        "date3": "2 weeks ago",
+        "review1": "This Philips LED light is excellent! The light is bright and not glaring. Been using it for 6 months and still durable. Highly recommended for those who want to replace home lights.",
+        "review2": "Good quality as expected. Fast delivery and safe packaging. Price is also competitive compared to other stores. Will order again for other rooms.",
+        "review3": "Original Philips product at affordable price. Home electricity became more efficient after replacing all lights with LED. Thank you OmegaLight!",
+        "loadMore": "View More Reviews"
+      },
+      "contact": {
+        "tab": {
+          "title": "Contact Us"
+        },
+        "phone": {
+          "title": "Phone",
+          "hours": "Monday - Friday: 08:00 - 17:00 WIB"
+        },
+        "whatsapp": {
+          "hours": "24 Hours (Quick response)"
+        },
+        "email": {
+          "response": "Response within 24 hours"
+        },
+        "address": {
+          "title": "Address",
+          "text": "Jl. Raya Listrik No. 123, South Jakarta 12345",
+          "hours": "Open: Monday - Saturday 08:00 - 18:00"
+        }
+      },
+      "related": {
+        "title": "Related Products"
+      }
+    }
+  },
+  "categoryDetail": {
+    "breadcrumb": {
+      "categories": "Categories",
+      "currentCategory": "LED Lights"
+    },
+    "header": {
+      "badge": "Product Category",
+      "productCount": "24 Products",
+      "rating": "4.8 Rating",
+      "title": "LED Lights & Energy Efficient Lighting",
+      "description": "Discover our comprehensive collection of LED lights and energy-efficient lighting solutions. From residential to commercial applications, find the perfect lighting for every need with up to 80% energy savings.",
+      "imageAlt": "LED Lights Collection",
+      "energySaving": "Up to 80% Energy Saving"
+    },
+    "actions": {
+      "filter": "Filter Products",
+      "sort": "Sort By",
+      "view": "Grid View"
+    },
+    "filters": {
+      "priceRange": "Price Range:",
+      "allPrices": "All Prices",
+      "under50": "Under $50",
+      "50to100": "$50 - $100",
+      "over100": "Over $100",
+      "brand": "Brand:",
+      "allBrands": "All Brands",
+      "wattage": "Wattage:",
+      "allWattage": "All Wattage"
+    },
+    "results": {
+      "showing": "Showing",
+      "products": "products"
+    },
+    "sort": {
+      "sortBy": "Sort by:",
+      "featured": "Featured",
+      "priceLowHigh": "Price: Low to High",
+      "priceHighLow": "Price: High to Low",
+      "newest": "Newest First",
+      "rating": "Highest Rated"
+    },
+    "products": {
+      "badges": {
+        "bestseller": "BEST SELLER",
+        "new": "NEW",
+        "sale": "SALE",
+        "hot": "HOT",
+        "limited": "LIMITED"
+      },
+      "quickView": "Quick View",
+      "cta": "Detail",
+      "outOfStock": "Out of Stock",
+      "product1": {
+        "brand": "Philips",
+        "name": "LED Bulb 9W Cool Daylight",
+        "description": "Energy efficient LED bulb with 15,000 hours lifespan"
+      },
+      "product2": {
+        "brand": "Osram",
+        "name": "LED Spotlight 50W Daylight",
+        "description": "IP65 waterproof spotlight for outdoor applications"
+      },
+      "product3": {
+        "brand": "Panasonic",
+        "name": "LED Panel Light 36W",
+        "description": "Ultra-slim LED panel for modern ceiling applications"
+      },
+      "product4": {
+        "brand": "Schneider",
+        "name": "LED Strip Light 5M RGB",
+        "description": "Flexible RGB LED strip with remote control"
+      },
+      "product5": {
+        "brand": "Philips",
+        "name": "LED Tube Light 18W T8",
+        "description": "Direct replacement for fluorescent tubes"
+      },
+      "product6": {
+        "brand": "TP-Link",
+        "name": "Smart LED Bulb WiFi 10W",
+        "description": "Voice control and app control smart bulb"
+      },
+      "product7": {
+        "brand": "Osram",
+        "name": "LED Downlight 12W Recessed",
+        "description": "Ceiling mounted LED downlight for modern interiors"
+      },
+      "product8": {
+        "brand": "Schneider",
+        "name": "LED Strip Controller RGB",
+        "description": "Remote control for RGB LED strips"
+      }
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "info": {
+      "title": "About LED Lights",
+      "text1": "LED (Light Emitting Diode) technology represents the future of lighting. Our LED lights offer superior energy efficiency, longer lifespan, and better light quality compared to traditional incandescent and fluorescent bulbs.",
+      "text2": "With up to 80% energy savings and lifespans of 15,000+ hours, LED lights are the smart choice for both residential and commercial applications. Browse our extensive collection to find the perfect lighting solution for your needs.",
+      "features": {
+        "energy": {
+          "title": "Energy Efficient",
+          "description": "Up to 80% less energy consumption"
+        },
+        "lifespan": {
+          "title": "Long Lifespan",
+          "description": "15,000+ hours of operation"
+        },
+        "quality": {
+          "title": "Superior Quality",
+          "description": "Better light quality and color rendering"
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "Trusted solution for your electrical needs. Official distributor of quality electrical products with professional installation services.",
+    "followUs": "Follow Us",
+    "mainMenu": "Main Menu",
+    "menu": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products",
+      "gallery": "Gallery",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "information": "Information",
+    "info": {
+      "howToOrder": "How to Order",
+      "payment": "Payment Methods",
+      "shipping": "Shipping",
+      "faq": "FAQ"
+    },
+    "legal": "Legal",
+    "contactUs": "Contact Us",
+    "contact": {
+      "address": "Jl. Raya Industri No. 88\nJababeka Industrial Area\nCikarang, Bekasi 17530"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Get the latest promo and product info",
+      "placeholder": "Your Email",
+      "submit": "Subscribe"
+    },
+    "copyright": "All rights reserved.",
+    "poweredBy": "Powered by OmegaLight Team"
+  },
+  "article": {
+    "currentTitle": "Article Detail",
+    "category": "Electrical Tips",
+    "publishDate": "January 15, 2024",
+    "readingTime": "5 min read",
+    "title": "Essential Guide to Modern Electrical Installation: Safety Tips and Best Practices",
+    "excerpt": "Learn the fundamental principles of safe electrical installation, from planning to execution. This comprehensive guide covers everything you need to know about modern electrical systems and safety protocols.",
+    "authorName": "Ahmad Electrical Expert",
+    "authorRole": "Senior Electrical Engineer",
+    "imageCaption": "Modern electrical installation with safety equipment and professional tools",
+    "introTitle": "Introduction",
+    "introParagraph1": "Electrical installation is a critical aspect of any construction or renovation project. Whether you're building a new home, upgrading an existing electrical system, or simply adding new outlets, understanding the fundamentals of electrical work is essential for safety and compliance.",
+    "introParagraph2": "In this comprehensive guide, we'll explore the key principles of modern electrical installation, covering everything from initial planning and design to final testing and certification. Our goal is to provide you with the knowledge needed to make informed decisions about your electrical projects.",
+    "planningTitle": "Planning Your Electrical Installation",
+    "assessmentTitle": "Initial Assessment",
+    "assessmentParagraph": "Before beginning any electrical work, it's crucial to conduct a thorough assessment of your current electrical system and future needs. This includes evaluating the existing wiring, determining power requirements, and identifying potential safety hazards.",
+    "checklistTitle": "Pre-Installation Checklist:",
+    "checklist1": "Evaluate current electrical panel capacity",
+    "checklist2": "Assess existing wiring condition",
+    "checklist3": "Calculate total power requirements",
+    "checklist4": "Check local building codes and permits",
+    "safetyTitle": "Safety First: Essential Precautions",
+    "warningTitle": "Important Safety Notice",
+    "warningText": "Electrical work can be dangerous and should only be performed by qualified professionals. Always turn off power at the main breaker before beginning any electrical work and use proper safety equipment.",
+    "safetyParagraph": "Safety should always be your top priority when working with electrical systems. Here are the essential safety measures that every electrical installation project should follow.",
+    "toolsTitle": "Essential Tools and Materials",
+    "toolsCardTitle": "Basic Tools",
+    "toolsCardText": "Wire strippers, screwdrivers, pliers, voltage tester, and multimeter are essential for most electrical work.",
+    "safetyCardTitle": "Safety Equipment",
+    "safetyCardText": "Insulated gloves, safety glasses, hard hat, and non-conductive footwear for personal protection.",
+    "materialsCardTitle": "Quality Materials",
+    "materialsCardText": "Use only certified electrical components, proper gauge wiring, and approved junction boxes.",
+    "conclusionTitle": "Conclusion",
+    "conclusionParagraph": "Proper electrical installation is crucial for the safety and functionality of any building. While this guide provides valuable insights into the process, remember that electrical work should always be performed by licensed professionals who can ensure compliance with local codes and safety standards.",
+    "shareLabel": "Share this article:",
+    "shareButton": "Share",
+    "copyLink": "Copy Link",
+    "backToBlog": "Back to Blog"
+  },
+  "related": {
+    "title": "Related Content",
+    "subtitle": "Discover more relevant information and services",
+    "category1": "Safety Tips",
+    "category2": "Smart Home",
+    "category3": "Energy Saving",
+    "item1Title": "Essential Electrical Safety Tips for Your Home",
+    "item1Excerpt": "Learn important safety measures to protect your family and property from electrical hazards.",
+    "item2Title": "Smart Home Electrical Solutions",
+    "item2Excerpt": "Transform your home with intelligent electrical systems and automation technology.",
+    "item3Title": "Energy Efficiency Solutions",
+    "item3Excerpt": "Reduce your energy consumption and costs with our efficient electrical solutions.",
+    "readMore": "Read More",
+    "viewAll": "View All Articles"
+  },
+  "archiveProduct": {
+    "breadcrumb": {
+      "current": "Product Archive"
+    },
+    "header": {
+      "badge": "Complete Catalog",
+      "title": "Product Archive",
+      "subtitle": "Browse Our Complete Collection of Electrical Products",
+      "description": "Discover our extensive range of quality electrical products from leading brands. Use our advanced filters to find exactly what you need for your electrical projects.",
+      "imageAlt": "Electrical Products Collection"
+    },
+    "stats": {
+      "products": "Products",
+      "brands": "Brands",
+      "categories": "Categories"
+    },
+    "search": {
+      "placeholder": "Search products..."
+    },
+    "filters": {
+      "toggle": "Filters",
+      "title": "Filters",
+      "clear": "Clear All",
+      "apply": "Apply Filters",
+      "active": "Active filters:",
+      "category": "Category",
+      "brand": "Brand",
+      "priceRange": "Price Range",
+      "availability": "Availability",
+      "categories": {
+        "led": "LED Lights",
+        "cables": "Electrical Cables",
+        "mcb": "MCB & Panels",
+        "outlets": "Outlets",
+        "spotlights": "Spotlights",
+        "fittings": "Lamp Fittings",
+        "switches": "Switches",
+        "tools": "Electrical Tools"
+      },
+      "price": {
+        "under50k": "Under $50",
+        "50k-100k": "$50 - $100",
+        "100k-250k": "$100 - $250",
+        "250k-500k": "$250 - $500",
+        "over500k": "Over $500"
+      },
+      "inStock": "In Stock",
+      "onSale": "On Sale",
+      "newArrivals": "New Arrivals"
+    },
+    "sort": {
+      "featured": "Featured",
+      "nameAsc": "Name A-Z",
+      "nameDesc": "Name Z-A",
+      "priceAsc": "Price Low to High",
+      "priceDesc": "Price High to Low",
+      "newest": "Newest First"
+    },
+    "results": {
+      "showing": "Showing",
+      "of": "of",
+      "products": "products"
+    },
+    "loadMore": "Load More Products",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "archiveArticle": {
+    "breadcrumb": {
+      "current": "Article Archive"
+    },
+    "header": {
+      "badge": "Complete Collection",
+      "title": "Article Archive",
+      "subtitle": "Browse Our Complete Collection of Electrical Articles",
+      "description": "Discover our extensive library of electrical articles, tips, guides, and industry insights. Use our advanced filters to find exactly what you need for your electrical knowledge.",
+      "imageAlt": "Electrical Articles Collection"
+    },
+    "stats": {
+      "articles": "Articles",
+      "categories": "Categories",
+      "authors": "Authors"
+    },
+    "search": {
+      "placeholder": "Search articles..."
+    },
+    "filters": {
+      "toggle": "Filters",
+      "title": "Filters",
+      "clear": "Clear All",
+      "apply": "Apply Filters",
+      "active": "Active filters:",
+      "category": "Category",
+      "author": "Author",
+      "readingTime": "Reading Time",
+      "date": "Publication Date",
+      "categories": {
+        "tips": "Tips & Tricks",
+        "guides": "Installation Guides",
+        "safety": "Safety Guidelines",
+        "technology": "Technology Updates",
+        "maintenance": "Maintenance",
+        "troubleshooting": "Troubleshooting",
+        "news": "Industry News",
+        "reviews": "Product Reviews"
+      },
+      "time": {
+        "quick": "Quick Read (1-3 min)",
+        "medium": "Medium Read (4-7 min)",
+        "long": "Long Read (8+ min)"
+      },
+      "date": {
+        "thisMonth": "This Month",
+        "last3Months": "Last 3 Months",
+        "last6Months": "Last 6 Months",
+        "thisYear": "This Year"
+      }
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "popular": "Most Popular",
+      "titleAsc": "Title A-Z",
+      "titleDesc": "Title Z-A"
+    },
+    "results": {
+      "showing": "Showing",
+      "of": "of",
+      "articles": "articles"
+    },
+    "quickView": "Quick View",
+    "loadMore": "Load More Articles",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "categories": {
+      "tips": "Tips",
+      "guides": "Guides",
+      "safety": "Safety",
+      "technology": "Technology",
+      "maintenance": "Maintenance",
+      "troubleshooting": "Troubleshooting",
+      "news": "News",
+      "reviews": "Reviews"
+    },
+    "authors": {
+      "ahmadExpert": "Ahmad Electrical Expert",
+      "sariEngineer": "Sari Engineer",
+      "budiTechnician": "Budi Technician",
+      "omegaTeam": "OmegaLight Team"
+    },
+    "sampleDates": {
+      "date1": "January 15, 2024",
+      "date2": "January 12, 2024",
+      "date3": "January 10, 2024",
+      "date4": "January 8, 2024",
+      "date5": "January 5, 2024",
+      "date6": "January 3, 2024"
+    },
+    "readingTimes": {
+      "threeMin": "3 min read",
+      "fourMin": "4 min read",
+      "fiveMin": "5 min read",
+      "sixMin": "6 min read",
+      "sevenMin": "7 min read",
+      "eightMin": "8 min read"
+    },
+    "sampleArticles": {
+      "safety": {
+        "title": "5 Essential Electrical Safety Tips for Your Home",
+        "excerpt": "Learn the fundamental safety measures to protect your family and property from electrical hazards. These essential tips will help you maintain a safe electrical environment."
+      },
+      "ledGuide": {
+        "title": "Complete Guide to LED Light Installation",
+        "excerpt": "Step-by-step instructions for installing LED lights in your home or office. Save energy and money with proper LED installation techniques."
+      },
+      "smartHome": {
+        "title": "Smart Home Electrical Systems: Future of Home Automation",
+        "excerpt": "Explore the latest smart home technologies and how they're revolutionizing residential electrical systems. Learn about automation benefits and installation."
+      },
+      "maintenance": {
+        "title": "Electrical Maintenance Checklist for Homeowners",
+        "excerpt": "Regular maintenance is key to electrical safety and efficiency. Follow this comprehensive checklist to keep your electrical system in top condition."
+      },
+      "troubleshooting": {
+        "title": "Common Electrical Problems and How to Fix Them",
+        "excerpt": "Identify and resolve common electrical issues in your home. Learn when to DIY and when to call a professional electrician for safety."
+      },
+      "trends": {
+        "title": "Latest Electrical Industry Trends and Innovations",
+        "excerpt": "Stay updated with the latest developments in the electrical industry. From new technologies to regulatory changes affecting electrical work."
+      }
+    },
+    "tags": {
+      "safety": "Safety",
+      "home": "Home",
+      "tips": "Tips",
+      "led": "LED",
+      "installation": "Installation",
+      "energySaving": "Energy Saving",
+      "smartHome": "Smart Home",
+      "automation": "Automation",
+      "technology": "Technology",
+      "maintenance": "Maintenance",
+      "checklist": "Checklist",
+      "troubleshooting": "Troubleshooting",
+      "diy": "DIY",
+      "problems": "Problems",
+      "industry": "Industry",
+      "trends": "Trends",
+      "innovation": "Innovation"
+    }
+  },
+  "archiveCategory": {
+    "breadcrumb": {
+      "current": "Category Archive"
+    },
+    "header": {
+      "badge": "Complete Categories",
+      "title": "Category Archive",
+      "subtitle": "Browse Our Complete Collection of Product Categories",
+      "description": "Discover our comprehensive range of electrical product categories. Use our advanced filters to find exactly what you need for your electrical projects.",
+      "imageAlt": "Electrical Categories Collection"
+    },
+    "stats": {
+      "categories": "Categories",
+      "products": "Products",
+      "brands": "Brands"
+    },
+    "search": {
+      "placeholder": "Search categories..."
+    },
+    "filters": {
+      "toggle": "Filters",
+      "title": "Filters",
+      "clear": "Clear All",
+      "apply": "Apply Filters",
+      "active": "Active filters:",
+      "productCount": "Product Count",
+      "brand": "Available Brands",
+      "type": "Category Type",
+      "count": {
+        "small": "1-10 Products",
+        "medium": "11-50 Products",
+        "large": "51-100 Products",
+        "xlarge": "100+ Products"
+      },
+      "types": {
+        "lighting": "Lighting",
+        "wiring": "Wiring & Cables",
+        "protection": "Protection",
+        "tools": "Tools & Equipment"
+      }
+    },
+    "sort": {
+      "featured": "Featured",
+      "nameAsc": "Name A-Z",
+      "nameDesc": "Name Z-A",
+      "productCount": "Most Products",
+      "newest": "Newest First"
+    },
+    "results": {
+      "showing": "Showing",
+      "of": "of",
+      "categories": "categories"
+    },
+    "badges": {
+      "popular": "POPULAR",
+      "essential": "ESSENTIAL",
+      "safety": "SAFETY",
+      "outdoor": "OUTDOOR",
+      "smart": "SMART",
+      "professional": "PROFESSIONAL"
+    },
+    "types": {
+      "lighting": "Lighting",
+      "wiring": "Wiring & Cables",
+      "protection": "Protection",
+      "tools": "Tools & Equipment"
+    },
+    "features": {
+      "energySaving": "Energy Saving",
+      "longLife": "Long Life",
+      "ecoFriendly": "Eco Friendly",
+      "sniCertified": "SNI Certified",
+      "pureCoppper": "Pure Copper",
+      "durable": "Durable",
+      "maxProtection": "Max Protection",
+      "reliable": "Reliable",
+      "certified": "Certified",
+      "childSafe": "Child Safe",
+      "modern": "Modern",
+      "versatile": "Versatile",
+      "waterproof": "Waterproof",
+      "highPower": "High Power",
+      "heatResistant": "Heat Resistant",
+      "quality": "Quality",
+      "compatible": "Compatible",
+      "smart": "Smart",
+      "stylish": "Stylish",
+      "professional": "Professional",
+      "precision": "Precision"
+    },
+    "productLabel": "Products",
+    "brandLabel": "Brands",
+    "viewCategory": "View Category",
+    "loadMore": "Load More Categories",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "portfolio": {
+    "breadcrumb": {
+      "currentProject": "Project Detail"
+    },
+    "meta": {
+      "category": "Electrical Installation",
+      "completedDate": "December 15, 2024",
+      "status": "Completed"
+    },
+    "header": {
+      "title": "Modern Office Building Electrical Installation",
+      "subtitle": "Complete electrical system installation for a 15-story modern office building including smart lighting, power distribution, and emergency systems with energy-efficient solutions."
+    },
+    "stats": {
+      "floors": "15",
+      "floorsLabel": "Floors",
+      "duration": "6",
+      "durationLabel": "Months",
+      "team": "12",
+      "teamLabel": "Technicians",
+      "power": "2.5MW",
+      "powerLabel": "Capacity"
+    },
+    "actions": {
+      "contactUs": "Contact Us",
+      "share": "Share",
+      "download": "Download PDF"
+    },
+    "gallery": {
+      "featured": {
+        "alt": "Modern Office Building Electrical Installation"
+      },
+      "zoomTitle": "Click to zoom image"
+    },
+    "sections": {
+      "overview": {
+        "title": "Project Overview",
+        "text1": "This comprehensive electrical installation project involved designing and implementing a complete electrical infrastructure for a modern 15-story office building in Jakarta's central business district. The project required careful planning, coordination with multiple stakeholders, and adherence to the highest safety and quality standards.",
+        "text2": "Our team successfully delivered a state-of-the-art electrical system that includes smart lighting controls, energy-efficient power distribution, emergency backup systems, and integrated building management capabilities. The project was completed on time and within budget, exceeding client expectations."
+      },
+      "specifications": {
+        "title": "Technical Specifications",
+        "power": {
+          "title": "Power System",
+          "item1": "2.5MW total capacity",
+          "item2": "Redundant power feeds",
+          "item3": "UPS backup system",
+          "item4": "Emergency generators"
+        },
+        "lighting": {
+          "title": "Lighting System",
+          "item1": "LED lighting throughout",
+          "item2": "Smart controls & sensors",
+          "item3": "Daylight harvesting",
+          "item4": "Emergency lighting"
+        },
+        "safety": {
+          "title": "Safety Systems",
+          "item1": "Fire alarm integration",
+          "item2": "Emergency shutdown",
+          "item3": "Ground fault protection",
+          "item4": "Arc fault detection"
+        },
+        "automation": {
+          "title": "Building Automation",
+          "item1": "BMS integration",
+          "item2": "Energy monitoring",
+          "item3": "Remote control",
+          "item4": "Predictive maintenance"
+        }
+      },
+      "timeline": {
+        "title": "Project Timeline",
+        "phase1": {
+          "title": "Phase 1: Planning & Design",
+          "date": "Month 1-2",
+          "description": "Initial site survey, electrical load calculations, system design, and permit applications."
+        },
+        "phase2": {
+          "title": "Phase 2: Infrastructure Installation",
+          "date": "Month 2-4",
+          "description": "Main electrical panels, conduit systems, cable trays, and primary power distribution."
+        },
+        "phase3": {
+          "title": "Phase 3: Systems Integration",
+          "date": "Month 4-5",
+          "description": "Lighting controls, building automation, fire safety systems, and smart building features."
+        },
+        "phase4": {
+          "title": "Phase 4: Testing & Commissioning",
+          "date": "Month 5-6",
+          "description": "System testing, performance verification, staff training, and final documentation."
+        }
+      }
+    },
+    "testimonial": {
+      "text": "OmegaLight exceeded our expectations in every aspect of this project. Their technical expertise, attention to detail, and commitment to quality resulted in a world-class electrical system that will serve our building for decades to come. The project was completed on time and within budget.",
+      "name": "Michael Chen",
+      "position": "Project Director",
+      "company": "Jakarta Business Center"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Let us help you create a modern, efficient electrical system for your building. Contact our team for a free consultation and project quote.",
+      "getQuote": "Get Free Quote",
+      "viewMore": "View More Projects"
+    },
+    "sidebar": {
+      "projectInfo": {
+        "title": "Project Information",
+        "client": {
+          "label": "Client:",
+          "value": "Jakarta Business Center"
+        },
+        "location": {
+          "label": "Location:",
+          "value": "Jakarta, Indonesia"
+        },
+        "type": {
+          "label": "Project Type:",
+          "value": "Commercial Building"
+        },
+        "size": {
+          "label": "Building Size:",
+          "value": "45,000 m²"
+        },
+        "budget": {
+          "label": "Project Value:",
+          "value": "$2.8M USD"
+        }
+      },
+      "services": {
+        "title": "Services Provided",
+        "service1": "Electrical Design & Engineering",
+        "service2": "Power Distribution Systems",
+        "service3": "Smart Lighting Controls",
+        "service4": "Building Automation",
+        "service5": "Emergency Systems",
+        "service6": "Testing & Commissioning"
+      },
+      "contact": {
+        "title": "Project Manager",
+        "name": "Ahmad Electrical Expert",
+        "position": "Senior Project Manager",
+        "phone": "Call",
+        "email": "Email"
+      },
+      "related": {
+        "title": "Related Projects",
+        "project1": {
+          "title": "Shopping Mall Electrical System",
+          "type": "Commercial"
+        },
+        "project2": {
+          "title": "Hospital Emergency Power",
+          "type": "Healthcare"
+        },
+        "project3": {
+          "title": "Manufacturing Plant Upgrade",
+          "type": "Industrial"
+        }
+      },
+      "socialShare": {
+        "title": "Share This Project",
+        "facebook": "Share on Facebook",
+        "twitter": "Share on Twitter",
+        "linkedin": "Share on LinkedIn",
+        "whatsapp": "Share on WhatsApp"
+      }
+    }
+  },
+  "archivePortfolio": {
+    "breadcrumb": {
+      "current": "Portfolio Archive"
+    },
+    "header": {
+      "badge": "Complete Projects",
+      "title": "Portfolio Archive",
+      "subtitle": "Browse Our Complete Collection of Electrical Projects",
+      "description": "Explore our extensive portfolio of completed electrical projects, installations, and case studies. Use our advanced filters to find projects similar to your needs and see our expertise in action.",
+      "imageAlt": "Electrical Projects Portfolio"
+    },
+    "stats": {
+      "projects": "Projects",
+      "categories": "Categories",
+      "clients": "Clients"
+    },
+    "search": {
+      "placeholder": "Search projects..."
+    },
+    "filters": {
+      "toggle": "Filters",
+      "title": "Filters",
+      "clear": "Clear All",
+      "apply": "Apply Filters",
+      "active": "Active filters:",
+      "projectType": "Project Type",
+      "serviceCategory": "Service Category",
+      "projectScale": "Project Scale",
+      "completionYear": "Completion Year",
+      "types": {
+        "residential": "Residential",
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "healthcare": "Healthcare",
+        "education": "Education",
+        "hospitality": "Hospitality"
+      },
+      "services": {
+        "installation": "Electrical Installation",
+        "lighting": "Lighting Systems",
+        "panel": "Panel Upgrades",
+        "smart": "Smart Systems",
+        "maintenance": "Maintenance",
+        "emergency": "Emergency Systems"
+      },
+      "scale": {
+        "small": "Small Scale",
+        "medium": "Medium Scale",
+        "large": "Large Scale"
+      },
+      "year": {
+        "older": "2020 & Earlier"
+      }
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "popular": "Most Popular",
+      "titleAsc": "Title A-Z",
+      "titleDesc": "Title Z-A"
+    },
+    "results": {
+      "showing": "Showing",
+      "of": "of",
+      "projects": "projects"
+    },
+    "quickView": "Quick View",
+    "viewProject": "View Project",
+    "loadMore": "Load More Projects",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "types": {
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "industrial": "Industrial",
+      "healthcare": "Healthcare",
+      "education": "Education",
+      "hospitality": "Hospitality"
+    },
+    "categories": {
+      "installation": "Electrical Installation",
+      "lighting": "Lighting Systems",
+      "panel": "Panel Upgrades",
+      "smart": "Smart Systems",
+      "maintenance": "Maintenance",
+      "emergency": "Emergency Systems",
+      "upgrade": "Panel Upgrades"
+    },
+    "sampleDates": {
+      "date1": "December 2024",
+      "date2": "November 2024",
+      "date3": "October 2024",
+      "date4": "September 2024",
+      "date5": "August 2024",
+      "date6": "July 2024"
+    },
+    "durations": {
+      "twoMonths": "2 months",
+      "threeMonths": "3 months",
+      "fourMonths": "4 months",
+      "fiveMonths": "5 months",
+      "sixMonths": "6 months",
+      "eightMonths": "8 months"
+    },
+    "sampleProjects": {
+      "office": {
+        "title": "Modern Office Building Electrical Installation",
+        "excerpt": "Complete electrical system installation for a 15-story modern office building including smart lighting and power distribution."
+      },
+      "smartHome": {
+        "title": "Luxury Smart Home Electrical System",
+        "excerpt": "Complete smart home automation system with intelligent lighting, security, and energy management for luxury residence."
+      },
+      "manufacturing": {
+        "title": "Manufacturing Plant Electrical Upgrade",
+        "excerpt": "Major electrical infrastructure upgrade for textile manufacturing plant including power distribution and safety systems."
+      },
+      "hospital": {
+        "title": "Hospital Emergency Power System",
+        "excerpt": "Critical emergency power system installation for regional hospital ensuring uninterrupted power supply for medical equipment."
+      },
+      "mall": {
+        "title": "Shopping Mall LED Lighting System",
+        "excerpt": "Complete LED lighting retrofit for major shopping mall with energy-efficient solutions and smart controls."
+      },
+      "university": {
+        "title": "University Campus Electrical Infrastructure",
+        "excerpt": "Comprehensive electrical infrastructure development for new university campus including classrooms, laboratories, and dormitories."
+      }
+    },
+    "tags": {
+      "smartLighting": "Smart Lighting",
+      "powerDistribution": "Power Distribution",
+      "automation": "Automation",
+      "homeAutomation": "Home Automation",
+      "security": "Security",
+      "energyManagement": "Energy Management",
+      "powerUpgrade": "Power Upgrade",
+      "safety": "Safety Systems",
+      "industrial": "Industrial",
+      "emergencyPower": "Emergency Power",
+      "backup": "Backup Systems",
+      "critical": "Critical Systems",
+      "ledRetrofit": "LED Retrofit",
+      "energyEfficient": "Energy Efficient",
+      "smartControls": "Smart Controls",
+      "campus": "Campus",
+      "infrastructure": "Infrastructure",
+      "education": "Education"
+    }
+  },
+  "team": {
+    "badge": "Professional Team",
+    "title": "Our Expert Team",
+    "subtitle": "Experienced & Certified Technicians",
+    "description": "Our professional team consists of experienced and certified technicians who are ready to provide the best electrical solutions for your needs.",
+    "members": {
+      "member1": {
+        "name": "Ahmad Electrical Expert",
+        "position": "Senior Electrical Engineer",
+        "experience": "15+ Years Experience",
+        "description": "Specialist in industrial electrical systems and complex installations. Experienced in handling large projects across various sectors.",
+        "specialty1": "Industrial Installation",
+        "specialty2": "Electrical Panels"
+      },
+      "member2": {
+        "name": "Sari Engineer",
+        "position": "Smart Home Specialist",
+        "experience": "10+ Years Experience",
+        "description": "Expert in smart home automation and modern electrical systems. Experienced in integrating modern technology with traditional electrical systems.",
+        "specialty1": "Smart Home",
+        "specialty2": "Automation"
+      },
+      "member3": {
+        "name": "Budi Technician",
+        "position": "LED Lighting Specialist",
+        "experience": "8+ Years Experience",
+        "description": "Specialist in LED lighting systems and energy-saving solutions. Experienced in designing and installing modern lighting systems.",
+        "specialty1": "LED Systems",
+        "specialty2": "Energy Saving"
+      },
+      "member4": {
+        "name": "Andi Project Manager",
+        "position": "Senior Project Manager",
+        "experience": "12+ Years Experience",
+        "description": "Experienced project manager in managing large-scale electrical projects. Ensures every project is completed on time and meets quality standards.",
+        "specialty1": "Project Management",
+        "specialty2": "Quality Control"
+      }
+    },
+    "stats": {
+      "experience": "Years Experience",
+      "technicians": "Expert Technicians",
+      "projects": "Completed Projects",
+      "certified": "Certified"
+    },
+    "cta": {
+      "title": "Need Expert Consultation?",
+      "description": "Our professional team is ready to help you find the best electrical solutions",
+      "viewAll": "View All Team",
+      "contact": "Contact Us"
+    },
+    "filters": {
+      "all": "All Team",
+      "engineer": "Engineer",
+      "specialist": "Specialist",
+      "manager": "Manager"
+    }
+  },
+  "archiveTeam": {
+    "breadcrumb": {
+      "current": "Team Archive"
+    },
+    "header": {
+      "badge": "Professional Team",
+      "title": "Team Archive",
+      "subtitle": "Meet Our Complete Team of Electrical Professionals",
+      "description": "Discover our experienced team of electrical engineers, technicians, and specialists. Use our filters to find team members by expertise, experience level, and specialization.",
+      "imageAlt": "Professional Team"
+    },
+    "stats": {
+      "members": "Team Members",
+      "departments": "Departments",
+      "experience": "Years Experience"
+    },
+    "search": {
+      "placeholder": "Search team members..."
+    },
+    "filters": {
+      "toggle": "Filters",
+      "title": "Filters",
+      "clear": "Clear All",
+      "apply": "Apply Filters",
+      "active": "Active filters:",
+      "department": "Department",
+      "experience": "Experience Level",
+      "specialization": "Specialization",
+      "certification": "Certifications",
+      "departments": {
+        "engineering": "Engineering",
+        "technical": "Technical",
+        "management": "Management",
+        "support": "Support"
+      },
+      "levels": {
+        "senior": "Senior (10+ years)",
+        "mid": "Mid-level (5-10 years)",
+        "junior": "Junior (2-5 years)"
+      },
+      "specializations": {
+        "industrial": "Industrial Systems",
+        "smartHome": "Smart Home",
+        "ledLighting": "LED Lighting",
+        "projectManagement": "Project Management"
+      },
+      "certifications": {
+        "licensed": "Licensed Electrician",
+        "safety": "Safety Certified",
+        "pmp": "PMP Certified"
+      }
+    },
+    "sort": {
+      "nameAsc": "Name A-Z",
+      "nameDesc": "Name Z-A",
+      "experience": "Most Experience",
+      "department": "Department"
+    },
+    "results": {
+      "showing": "Showing",
+      "of": "of",
+      "members": "team members"
+    },
+    "departments": {
+      "engineering": "Engineering",
+      "technical": "Technical",
+      "management": "Management",
+      "support": "Support"
+    },
+    "specialties": {
+      "industrial": "Industrial Systems",
+      "panels": "Panel Design",
+      "smartHome": "Smart Home",
+      "automation": "Automation",
+      "ledLighting": "LED Lighting",
+      "energySaving": "Energy Saving",
+      "projectManagement": "Project Management",
+      "qualityControl": "Quality Control"
+    },
+    "status": {
+      "available": "Available",
+      "busy": "On Project"
+    },
+    "sampleMembers": {
+      "ahmad": {
+        "name": "Ahmad Electrical Expert",
+        "position": "Senior Electrical Engineer",
+        "experience": "15+ Years Experience",
+        "excerpt": "Specialist in industrial electrical systems and complex installations."
+      },
+      "sari": {
+        "name": "Sari Engineer",
+        "position": "Smart Home Specialist",
+        "experience": "10+ Years Experience",
+        "excerpt": "Expert in smart home automation and modern electrical systems."
+      },
+      "budi": {
+        "name": "Budi Technician",
+        "position": "LED Lighting Specialist",
+        "experience": "8+ Years Experience",
+        "excerpt": "Specialist in LED lighting systems and energy-efficient solutions."
+      },
+      "andi": {
+        "name": "Andi Project Manager",
+        "position": "Senior Project Manager",
+        "experience": "12+ Years Experience",
+        "excerpt": "Experienced in managing large-scale electrical installation projects."
+      },
+      "dina": {
+        "name": "Dina Engineer",
+        "position": "Electrical Engineer",
+        "experience": "7+ Years Experience",
+        "excerpt": "Experienced electrical engineer specializing in industrial automation and control systems with focus on efficiency and reliability."
+      },
+      "rudi": {
+        "name": "Rudi Technician",
+        "position": "Senior Technician",
+        "experience": "11+ Years Experience",
+        "excerpt": "Senior technician with expertise in industrial electrical maintenance and troubleshooting complex electrical systems."
+      }
+    },
+    "additionalMembers": {
+      "dina": {
+        "name": "Dina Engineer",
+        "position": "Electrical Engineer",
+        "experience": "7+ Years Experience",
+        "excerpt": "Experienced electrical engineer specializing in industrial automation and control systems with focus on efficiency and reliability."
+      },
+      "rudi": {
+        "name": "Rudi Technician",
+        "position": "Senior Technician",
+        "experience": "11+ Years Experience",
+        "excerpt": "Senior technician with expertise in industrial electrical maintenance and troubleshooting complex electrical systems."
+      }
+    },
+    "viewProfile": "View Profile",
+    "loadMore": "Load More Team Members",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "detailTeam": {
+    "breadcrumb": {
+      "team": "Team",
+      "current": "Team Member"
+    },
+    "meta": {
+      "department": "Engineering Department",
+      "experience": "15+ Years Experience",
+      "status": "Available"
+    },
+    "member": {
+      "name": "Ahmad Electrical Expert",
+      "position": "Senior Electrical Engineer",
+      "excerpt": "Specialist in industrial electrical systems and complex installations with over 15 years of experience in the electrical industry. Expert in panel design, power distribution, and safety compliance."
+    },
+    "actions": {
+      "email": "Send Email",
+      "call": "Call Now",
+      "share": "Share Profile"
+    },
+    "sections": {
+      "about": {
+        "title": "About",
+        "text1": "Ahmad is a highly experienced electrical engineer with over 15 years of expertise in industrial electrical systems. He has successfully managed and executed numerous complex electrical installation projects across various industries including manufacturing, commercial buildings, and infrastructure development.",
+        "text2": "His deep understanding of electrical codes, safety regulations, and modern electrical technologies makes him an invaluable asset to our team. Ahmad is known for his meticulous attention to detail and commitment to delivering projects on time and within budget."
+      },
+      "specializations": {
+        "title": "Specializations"
+      },
+      "experience": {
+        "title": "Experience & Notable Projects"
+      },
+      "certifications": {
+        "title": "Certifications & Qualifications"
+      }
+    },
+    "specializations": {
+      "industrial": {
+        "title": "Industrial Systems",
+        "description": "Expert in designing and implementing electrical systems for industrial facilities, including motor control centers, power distribution, and automation systems."
+      },
+      "panels": {
+        "title": "Panel Design & Installation",
+        "description": "Specialized in electrical panel design, installation, and upgrades. Experienced with various panel types including main distribution panels, sub-panels, and control panels."
+      },
+      "safety": {
+        "title": "Safety & Compliance",
+        "description": "Ensures all electrical installations meet safety standards and regulatory compliance. Expert in electrical code interpretation and safety protocol implementation."
+      }
+    },
+    "timeline": {
+      "project1": {
+        "date": "2023 - Present",
+        "title": "Senior Electrical Engineer - OmegaLight",
+        "description": "Leading electrical engineering projects for commercial and industrial clients. Responsible for system design, project management, and team coordination."
+      },
+      "project2": {
+        "date": "2020 - 2023",
+        "title": "Manufacturing Plant Electrical Upgrade",
+        "description": "Led a major electrical infrastructure upgrade for a textile manufacturing plant, including power distribution modernization and safety system implementation."
+      },
+      "project3": {
+        "date": "2018 - 2020",
+        "title": "Commercial Building Electrical Systems",
+        "description": "Designed and supervised electrical installations for multiple commercial buildings, including office complexes and retail centers."
+      }
+    },
+    "certifications": {
+      "license": {
+        "title": "Licensed Professional Electrician",
+        "description": "Licensed electrical contractor with full authorization for commercial and industrial electrical work."
+      },
+      "safety": {
+        "title": "Electrical Safety Certification",
+        "description": "Certified in electrical safety protocols and workplace safety management systems."
+      },
+      "code": {
+        "title": "Electrical Code Specialist",
+        "description": "Expert in national and local electrical codes, ensuring all installations meet regulatory requirements."
+      }
+    },
+    "sidebar": {
+      "quickInfo": {
+        "title": "Quick Information",
+        "department": {
+          "label": "Department:",
+          "value": "Engineering"
+        },
+        "experience": {
+          "label": "Experience:",
+          "value": "15+ Years"
+        },
+        "status": {
+          "label": "Status:",
+          "value": "Available"
+        },
+        "location": {
+          "label": "Location:",
+          "value": "Jakarta, Indonesia"
+        }
+      },
+      "contact": {
+        "title": "Contact Information",
+        "email": {
+          "label": "Email"
+        },
+        "phone": {
+          "label": "Phone"
+        },
+        "linkedin": {
+          "label": "LinkedIn",
+          "value": "View Profile"
+        }
+      },
+      "skills": {
+        "title": "Key Skills",
+        "skill1": "Industrial Systems",
+        "skill2": "Panel Design",
+        "skill3": "Safety Compliance",
+        "skill4": "Project Management",
+        "skill5": "Code Interpretation",
+        "skill6": "System Design"
+      },
+      "related": {
+        "title": "Related Team Members",
+        "member1": {
+          "name": "Sari Engineer",
+          "position": "Smart Home Specialist"
+        },
+        "member2": {
+          "name": "Budi Technician",
+          "position": "LED Lighting Specialist"
+        }
+      }
+    },
+    "cta": {
+      "title": "Need Expert Consultation?",
+      "description": "Contact Ahmad directly for professional electrical consultation and project planning.",
+      "email": "Send Email",
+      "call": "Call Now",
+      "viewTeam": "View All Team"
+    }
+  },
+  "faqs": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to Commonly Asked Questions",
+    "description": "Find answers to frequently asked questions about our products, services, and store policies.",
+    "filter": {
+      "all": "All",
+      "general": "General",
+      "products": "Products",
+      "services": "Services",
+      "warranty": "Warranty",
+      "shipping": "Shipping",
+      "installation": "Installation",
+      "payment": "Payment"
+    },
+    "items": {
+      "q1": {
+        "question": "Are all products sold original?",
+        "preview": "Yes, all products we sell are original products with official warranty from manufacturers...",
+        "answer": {
+          "p1": "Yes, all products we sell are original products with official warranty from manufacturers. We partner directly with official distributors of leading brands such as Schneider Electric, Panasonic, Philips, ABB, and others.",
+          "p2": "Every product comes with authenticity certificate and official warranty that can be claimed at official service centers throughout Indonesia. We also provide additional warranty for customer satisfaction."
+        },
+        "details": {
+          "1": "All products have hologram and serial numbers that can be verified",
+          "2": "We provide authenticity certificate for bulk purchases",
+          "3": "Our team can help verify product authenticity before purchase"
+        }
+      },
+      "q2": {
+        "question": "How to know the right product specifications?",
+        "preview": "Our technician team is ready to provide free consultation to help you choose the right product...",
+        "answer": {
+          "p1": "Our technician team is ready to provide free consultation to help you choose the right product. You can contact us via WhatsApp, phone, or come directly to the store for consultation."
+        }
+      },
+      "q3": {
+        "question": "Do you provide electrical installation services?",
+        "preview": "Yes, we provide electrical installation services with experienced and certified technicians...",
+        "answer": {
+          "p1": "Yes, we provide electrical installation services with experienced and certified technicians. Installation services include residential, building, factory, and various other electrical projects."
+        }
+      },
+      "q4": {
+        "question": "How long does the electrical installation process take?",
+        "preview": "The working time depends on the complexity of the project. For residential it usually takes 1-3 days...",
+        "answer": {
+          "p1": "The working time depends on the complexity of the project. For residential it usually takes 1-3 days, while large projects can take several weeks. Our team will provide accurate time estimates after the survey."
+        }
+      },
+      "q5": {
+        "question": "Is there delivery service to other cities?",
+        "preview": "Yes, we serve deliveries throughout Indonesia through trusted expeditions...",
+        "answer": {
+          "p1": "Yes, we serve deliveries throughout Indonesia through trusted expeditions such as JNE, J&T, and TIKI. For Jakarta and surrounding areas, we also provide delivery services with our own fleet."
+        }
+      },
+      "q6": {
+        "question": "What are the shipping costs for large purchases?",
+        "preview": "For large purchases, we provide special discounts including free shipping...",
+        "answer": {
+          "p1": "For large purchases, we provide special discounts including free shipping for Jakarta, Bogor, Depok, Tangerang, and Bekasi areas. Please contact our sales team for the best offer."
+        }
+      },
+      "q7": {
+        "question": "What payment methods are accepted?",
+        "preview": "We accept various payment methods: cash, bank transfer, e-wallet, and credit cards...",
+        "answer": {
+          "p1": "We accept various payment methods: cash, bank transfer (BCA, Mandiri, BNI, BRI), e-wallet (OVO, GoPay, Dana), and credit cards. For large purchases, credit system is also available with certain conditions."
+        }
+      },
+      "q8": {
+        "question": "Is it possible to buy on credit or installments?",
+        "preview": "Yes, we provide credit payment system for regular customers and large projects...",
+        "answer": {
+          "p1": "Yes, we provide credit payment system for regular customers and large projects. We also work with several leasing companies for installment convenience. Contact our sales team for more information."
+        }
+      },
+      "q9": {
+        "question": "What is the product warranty policy?",
+        "preview": "Each product has warranty according to manufacturer policy, ranging from 6 months to 5 years...",
+        "answer": {
+          "p1": "Each product has warranty according to manufacturer policy, ranging from 6 months to 5 years. Warranty covers manufacturing defects and we will help the warranty claim process to official service centers."
+        }
+      },
+      "q10": {
+        "question": "How to claim warranty if the product has problems?",
+        "preview": "Contact us by bringing the purchase receipt and the problematic product...",
+        "answer": {
+          "p1": "Contact us by bringing the purchase receipt and the problematic product. Our team will help with initial checking and direct you to the official service center if needed. The claim process usually takes 7-14 working days."
+        }
+      }
+    },
+    "actions": {
+      "title": "Can't find the answer you're looking for?",
+      "description": "Our customer service team is ready to help you 24/7",
+      "contact": "Contact Us",
+      "viewAll": "View All FAQ"
+    },
+    "archive": {
+      "breadcrumb": "FAQ Archive",
+      "badge": "Help & Support",
+      "title": "FAQ Help Center",
+      "subtitle": "Find quick answers to all your questions",
+      "description": "Complete collection of frequently asked questions and answers, organized by category for easy searching.",
+      "stats": {
+        "totalFaqs": "Total FAQ",
+        "categories": "Categories",
+        "lastUpdated": "Last Updated",
+        "lastUpdatedValue": "2 days ago"
+      },
+      "search": {
+        "placeholder": "Search FAQ..."
+      },
+      "filters": {
+        "all": "All Categories",
+        "general": "General",
+        "products": "Products", 
+        "services": "Services",
+        "warranty": "Warranty",
+        "shipping": "Shipping",
+        "installation": "Installation",
+        "payment": "Payment"
+      },
+      "sort": {
+        "relevance": "Most Relevant",
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "alphabetical": "A-Z"
+      },
+      "results": {
+        "showing": "Showing",
+        "of": "of",
+        "faqs": "FAQ"
+      },
+      "quickActions": {
+        "bookmark": "Bookmark",
+        "share": "Share",
+        "helpful": "Helpful?"
+      },
+      "loadMore": "Load More",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page"
+      },
+      "popular": {
+        "title": "Popular Categories"
+      }
+    },
+    "detail": {
+      "breadcrumb": {
+        "current": "FAQ Detail"
+      },
+      "meta": {
+        "category": "Category",
+        "lastUpdated": "Updated",
+        "views": "times viewed",
+        "helpful": "found helpful"
+      },
+      "actions": {
+        "bookmark": "Bookmark This FAQ",
+        "share": "Share",
+        "print": "Print"
+      },
+      "feedback": {
+        "title": "Was this answer helpful?",
+        "helpful": "Yes, helpful",
+        "notHelpful": "Not helpful",
+        "thanks": "Thank you for your feedback!",
+        "improve": "How can we improve this answer?",
+        "placeholder": "Write your suggestions here...",
+        "submit": "Send Feedback",
+        "cancel": "Cancel"
+      },
+      "rating": {
+        "title": "Rate this answer",
+        "submit": "Submit Rating"
+      },
+      "related": {
+        "title": "Related FAQ",
+        "viewAll": "View All"
+      },
+      "contact": {
+        "title": "Still Need Help?",
+        "description": "If you can't find the answer you're looking for, don't hesitate to contact our support team.",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp", 
+        "email": "Email",
+        "visit": "Visit Store"
+      },
+      "sidebar": {
+        "categories": {
+          "title": "FAQ Categories"
+        },
+        "popular": {
+          "title": "Popular Questions"
+        },
+        "contact": {
+          "title": "Need More Help?",
+          "description": "Our support team is ready to help you",
+          "hours": "Operating Hours: Mon - Sat, 8:00 - 18:00"
+        }
+      }
+    }
+  }
+}

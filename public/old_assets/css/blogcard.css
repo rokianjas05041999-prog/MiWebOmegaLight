@@ -1,0 +1,160 @@
+@import "tailwindcss";
+/* Blog Section Container */
+.blog-section {
+    @apply py-16 md:py-24 bg-neutral-50;
+}
+
+.blog-section .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Section Header */
+.blog-section .section-header {
+    @apply text-center mb-12 md:mb-16;
+}
+
+.blog-section .section-title-wrapper {
+    @apply flex items-center justify-center gap-3 mb-4;
+}
+
+.blog-section .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900;
+}
+
+.blog-section .section-subtitle {
+    @apply text-xl md:text-2xl text-neutral-600 mb-6;
+}
+
+.blog-section .section-description {
+    @apply text-lg text-neutral-500 max-w-3xl mx-auto;
+}
+
+/* Blog Grid */
+.blog-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* Blog Card Container */
+.blog-card {
+    @apply bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden;
+}
+
+/* Blog Card Image Container */
+.blog-card .card-image {
+    @apply relative overflow-hidden h-56;
+}
+
+.blog-card .card-image img {
+    @apply w-full h-full object-cover transition-transform duration-500;
+}
+
+.blog-card:hover .card-image img {
+    @apply scale-110;
+}
+
+/* Category Badge */
+.blog-card .category-badge {
+    @apply absolute top-4 left-4;
+}
+
+.blog-card .category-badge span {
+    @apply inline-flex items-center px-3 py-1 text-white text-xs font-semibold rounded-full;
+}
+
+/* Category Badge Variants */
+.blog-card .badge-tips {
+    @apply bg-amber-600;
+}
+
+.blog-card .badge-guide {
+    @apply bg-green-600;
+}
+
+.blog-card .badge-tech {
+    @apply bg-blue-600;
+}
+
+.blog-card .badge-smart {
+    @apply bg-purple-600;
+}
+
+.blog-card .badge-maintenance {
+    @apply bg-secondary-600;
+}
+
+.blog-card .badge-regulation {
+    @apply bg-orange-600;
+}
+
+/* Blog Card Content */
+.blog-card .card-content {
+    @apply p-6;
+}
+
+/* Date */
+.blog-card .card-date {
+    @apply flex items-center text-sm text-neutral-500 mb-3;
+}
+
+.blog-card .card-date iconify-icon {
+    @apply mr-2;
+}
+
+/* Title */
+.blog-card .card-title {
+    @apply text-xl font-bold text-neutral-900 mb-3 line-clamp-2 transition-colors;
+}
+
+.blog-card:hover .card-title {
+    @apply text-primary-600;
+}
+
+/* Description */
+.blog-card .card-description {
+    @apply text-neutral-600 mb-4 line-clamp-3;
+}
+
+/* Tags Container */
+.blog-card .card-tags {
+    @apply flex flex-wrap gap-2 mb-4;
+}
+
+.blog-card .tag {
+    @apply bg-neutral-100 text-neutral-600 text-xs px-2 py-1 rounded;
+}
+
+/* CTA Link */
+.blog-card .card-cta {
+    @apply inline-flex items-center text-primary-600 hover:text-primary-700 font-medium transition-colors;
+}
+
+.blog-card .card-cta iconify-icon {
+    @apply ml-2 text-lg transition-transform;
+}
+
+.blog-card:hover .card-cta iconify-icon {
+    @apply translate-x-1;
+}
+
+/* See All Button */
+.blog-cta-wrapper {
+    @apply text-center mt-12;
+}
+
+.blog-cta-all {
+    @apply inline-flex items-center px-8 py-3 bg-primary-600 text-white font-semibold rounded-lg;
+    @apply hover:bg-primary-700 transform hover:scale-105 transition-all duration-300;
+    @apply shadow-lg hover:shadow-xl;
+}
+
+.blog-cta-all iconify-icon:first-child {
+    @apply text-xl mr-2;
+}
+
+.blog-cta-all iconify-icon:last-child {
+    @apply text-xl ml-2;
+}
+
+.blog-cta-all:hover iconify-icon:last-child {
+    @apply translate-x-1;
+}

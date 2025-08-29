@@ -1,0 +1,81 @@
+/* ===========================================
+   BUTTON UTILITIES
+   =========================================== */
+
+@layer components {
+  /* Primary Button Styles */
+  .btn-primary {
+    @apply inline-flex items-center px-8 py-4 font-semibold transition-all duration-300 rounded-xl;
+    background: var(--primary-gradient);
+    color: white;
+    box-shadow: var(--shadow-md);
+  }
+
+  .btn-primary:hover {
+    @apply transform -translate-y-1;
+    background: var(--primary-gradient-hover);
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* Secondary Button Styles */
+  .btn-secondary {
+    @apply inline-flex items-center px-8 py-4 font-semibold transition-all duration-300 border-2 rounded-xl;
+    color: var(--color-primary-600);
+    border-color: var(--color-primary-600);
+    background-color: transparent;
+  }
+
+  .btn-secondary:hover {
+    @apply transform -translate-y-1;
+    background-color: var(--color-primary-600);
+    color: white;
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* Outline Button Styles */
+  .btn-outline {
+    @apply inline-flex items-center px-6 py-3 font-semibold transition-all duration-300 border-2 rounded-lg;
+    color: var(--text-primary);
+    border-color: var(--border-color);
+    background-color: transparent;
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-primary-600);
+    border-color: var(--color-primary-600);
+    color: white;
+  }
+
+  /* Ghost Button Styles */
+  .btn-ghost {
+    @apply inline-flex items-center px-6 py-3 font-semibold transition-all duration-300 rounded-lg;
+    color: var(--text-primary);
+    background-color: transparent;
+  }
+
+  .btn-ghost:hover {
+    background-color: var(--color-gray-100);
+  }
+
+  /* Button Size Variations */
+  .btn-sm {
+    @apply px-4 py-2 text-sm;
+  }
+
+  .btn-lg {
+    @apply px-10 py-5 text-lg;
+  }
+
+  .btn-xl {
+    @apply px-12 py-6 text-xl;
+  }
+
+  /* Button Icon Spacing */
+  .btn-icon-left {
+    @apply space-x-2;
+  }
+
+  .btn-icon-right {
+    @apply space-x-reverse space-x-2;
+  }
+}

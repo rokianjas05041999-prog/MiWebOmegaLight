@@ -1,0 +1,66 @@
+/* ===========================================
+   STATS COMPONENT STYLES
+   Mini statistics cards section
+   =========================================== */
+
+@layer components {
+  .stats-section {
+    @apply py-16 md:py-24;
+    background-color: var(--bg-primary);
+  }
+
+  .stats-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .stats-header {
+    @apply text-center mb-12;
+  }
+
+  .stats-title {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+    color: var(--text-primary);
+  }
+
+  .stats-subtitle {
+    @apply text-xl mb-6;
+    color: var(--text-secondary);
+  }
+
+  .stats-description {
+    @apply text-lg max-w-3xl mx-auto;
+    color: var(--text-secondary);
+  }
+
+  .stats-grid {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-6;
+  }
+
+  .stats-card {
+    @apply bg-white p-6 rounded-lg shadow-sm text-center;
+    @apply hover:shadow-md transition-shadow duration-300;
+  }
+
+  .stats-card-icon {
+    @apply mb-3;
+  }
+
+  .stats-icon {
+    @apply text-4xl mx-auto;
+    color: var(--color-primary-500);
+  }
+
+  .stats-card-content {
+    @apply space-y-1;
+  }
+
+  .stats-number {
+    @apply text-3xl font-bold;
+    color: var(--text-primary);
+  }
+
+  .stats-label {
+    @apply text-sm;
+    color: var(--text-secondary);
+  }
+}

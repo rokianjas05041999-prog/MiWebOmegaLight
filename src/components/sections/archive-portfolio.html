@@ -1,0 +1,480 @@
+    <!-- ===== ARCHIVE PORTFOLIO SECTION ===== -->
+    <section id="archive-portfolio" class="archive-portfolio-section">
+        <div class="archive-portfolio-container">
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="archive-portfolio-breadcrumb">
+                <ol class="archive-portfolio-breadcrumb-list">
+                    <li class="archive-portfolio-breadcrumb-item">
+                        <a href="/" class="archive-portfolio-breadcrumb-link">
+                            <iconify-icon icon="heroicons:home" class="archive-portfolio-breadcrumb-icon"></iconify-icon>
+                            <span data-translate="common.home">Home</span>
+                        </a>
+                    </li>
+                    <li class="archive-portfolio-breadcrumb-separator">
+                        <iconify-icon icon="heroicons:chevron-right" class="archive-portfolio-breadcrumb-separator-icon"></iconify-icon>
+                    </li>
+                    <li class="archive-portfolio-breadcrumb-item archive-portfolio-breadcrumb-current">
+                        <span data-translate="archivePortfolio.breadcrumb.current">Portfolio Archive</span>
+                    </li>
+                </ol>
+            </nav>
+
+            <!-- Page Header -->
+            <div class="archive-portfolio-header">
+                <div class="archive-portfolio-header-content">
+                    <div class="archive-portfolio-badge">
+                        <span data-translate="archivePortfolio.header.badge">Complete Projects</span>
+                    </div>
+                    <h1 class="archive-portfolio-title" data-translate="archivePortfolio.header.title">
+                        Portfolio Archive
+                    </h1>
+                    <p class="archive-portfolio-subtitle" data-translate="archivePortfolio.header.subtitle">
+                        Browse Our Complete Collection of Electrical Projects
+                    </p>
+                    <p class="archive-portfolio-description" data-translate="archivePortfolio.header.description">
+                        Explore our extensive portfolio of completed electrical projects, installations, and case studies. Use our advanced filters to find projects similar to your needs and see our expertise in action.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="archive-portfolio-stats">
+                        <div class="archive-portfolio-stat">
+                            <span class="archive-portfolio-stat-number">85+</span>
+                            <span class="archive-portfolio-stat-label" data-translate="archivePortfolio.stats.projects">Projects</span>
+                        </div>
+                        <div class="archive-portfolio-stat">
+                            <span class="archive-portfolio-stat-number">12</span>
+                            <span class="archive-portfolio-stat-label" data-translate="archivePortfolio.stats.categories">Categories</span>
+                        </div>
+                        <div class="archive-portfolio-stat">
+                            <span class="archive-portfolio-stat-number">50+</span>
+                            <span class="archive-portfolio-stat-label" data-translate="archivePortfolio.stats.clients">Clients</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Header Image -->
+                <div class="archive-portfolio-header-image">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop" 
+                         alt="Electrical Projects Portfolio" 
+                         class="archive-portfolio-hero-image"
+                         data-translate-attr="alt:archivePortfolio.header.imageAlt">
+                </div>
+            </div>
+
+            <!-- Search and Filter Bar -->
+            <div class="archive-portfolio-toolbar">
+                <!-- Search -->
+                <div class="archive-portfolio-search">
+                    <div class="archive-portfolio-search-wrapper">
+                        <iconify-icon icon="heroicons:magnifying-glass" class="archive-portfolio-search-icon"></iconify-icon>
+                        <input type="text" 
+                               class="archive-portfolio-search-input" 
+                               placeholder="Search projects..."
+                               data-translate-attr="placeholder:archivePortfolio.search.placeholder">
+                        <button class="archive-portfolio-search-clear" style="display: none;">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-portfolio-search-clear-icon"></iconify-icon>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Filter Toggle -->
+                <button class="archive-portfolio-filter-toggle">
+                    <iconify-icon icon="heroicons:funnel" class="archive-portfolio-filter-icon"></iconify-icon>
+                    <span data-translate="archivePortfolio.filters.toggle">Filters</span>
+                    <span class="archive-portfolio-filter-count" style="display: none;">0</span>
+                </button>
+                
+                <!-- View Toggle -->
+                <div class="archive-portfolio-view-toggle">
+                    <button class="archive-portfolio-view-btn active" data-view="grid">
+                        <iconify-icon icon="heroicons:squares-2x2" class="archive-portfolio-view-icon"></iconify-icon>
+                    </button>
+                    <button class="archive-portfolio-view-btn" data-view="list">
+                        <iconify-icon icon="heroicons:bars-3" class="archive-portfolio-view-icon"></iconify-icon>
+                    </button>
+                </div>
+                
+                <!-- Sort -->
+                <div class="archive-portfolio-sort">
+                    <select class="archive-portfolio-sort-select">
+                        <option value="newest" data-translate="archivePortfolio.sort.newest">Newest First</option>
+                        <option value="oldest" data-translate="archivePortfolio.sort.oldest">Oldest First</option>
+                        <option value="popular" data-translate="archivePortfolio.sort.popular">Most Popular</option>
+                        <option value="title-asc" data-translate="archivePortfolio.sort.titleAsc">Title A-Z</option>
+                        <option value="title-desc" data-translate="archivePortfolio.sort.titleDesc">Title Z-A</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="archive-portfolio-main">
+                
+                <!-- Sidebar Filters -->
+                <aside class="archive-portfolio-sidebar">
+                    <div class="archive-portfolio-filters">
+                        <div class="archive-portfolio-filters-header">
+                            <h3 class="archive-portfolio-filters-title" data-translate="archivePortfolio.filters.title">Filters</h3>
+                            <button class="archive-portfolio-filters-clear" data-translate="archivePortfolio.filters.clear">Clear All</button>
+                        </div>
+                        
+                        <!-- Project Type Filter -->
+                        <div class="archive-portfolio-filter-group">
+                            <h4 class="archive-portfolio-filter-title" data-translate="archivePortfolio.filters.projectType">Project Type</h4>
+                            <div class="archive-portfolio-filter-options">
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="residential" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.types.residential">Residential</span>
+                                    <span class="archive-portfolio-filter-count">(28)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="commercial" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.types.commercial">Commercial</span>
+                                    <span class="archive-portfolio-filter-count">(32)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="industrial" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.types.industrial">Industrial</span>
+                                    <span class="archive-portfolio-filter-count">(18)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="healthcare" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.types.healthcare">Healthcare</span>
+                                    <span class="archive-portfolio-filter-count">(12)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="education" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.types.education">Education</span>
+                                    <span class="archive-portfolio-filter-count">(8)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="hospitality" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.types.hospitality">Hospitality</span>
+                                    <span class="archive-portfolio-filter-count">(6)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Category Filter -->
+                        <div class="archive-portfolio-filter-group">
+                            <h4 class="archive-portfolio-filter-title" data-translate="archivePortfolio.filters.serviceCategory">Service Category</h4>
+                            <div class="archive-portfolio-filter-options">
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="installation" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.services.installation">Electrical Installation</span>
+                                    <span class="archive-portfolio-filter-count">(45)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="lighting" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.services.lighting">Lighting Systems</span>
+                                    <span class="archive-portfolio-filter-count">(38)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="panel" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.services.panel">Panel Upgrades</span>
+                                    <span class="archive-portfolio-filter-count">(25)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="smart" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.services.smart">Smart Systems</span>
+                                    <span class="archive-portfolio-filter-count">(22)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="maintenance" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.services.maintenance">Maintenance</span>
+                                    <span class="archive-portfolio-filter-count">(15)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="emergency" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.services.emergency">Emergency Systems</span>
+                                    <span class="archive-portfolio-filter-count">(12)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Project Scale Filter -->
+                        <div class="archive-portfolio-filter-group">
+                            <h4 class="archive-portfolio-filter-title" data-translate="archivePortfolio.filters.projectScale">Project Scale</h4>
+                            <div class="archive-portfolio-filter-options">
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="small" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.scale.small">Small Scale</span>
+                                    <span class="archive-portfolio-filter-count">(35)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="medium" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.scale.medium">Medium Scale</span>
+                                    <span class="archive-portfolio-filter-count">(28)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="large" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.scale.large">Large Scale</span>
+                                    <span class="archive-portfolio-filter-count">(22)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Completion Year Filter -->
+                        <div class="archive-portfolio-filter-group">
+                            <h4 class="archive-portfolio-filter-title" data-translate="archivePortfolio.filters.completionYear">Completion Year</h4>
+                            <div class="archive-portfolio-filter-options">
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="2024" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label">2024</span>
+                                    <span class="archive-portfolio-filter-count">(15)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="2023" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label">2023</span>
+                                    <span class="archive-portfolio-filter-count">(22)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="2022" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label">2022</span>
+                                    <span class="archive-portfolio-filter-count">(18)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="2021" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label">2021</span>
+                                    <span class="archive-portfolio-filter-count">(16)</span>
+                                </label>
+                                <label class="archive-portfolio-filter-option">
+                                    <input type="checkbox" value="older" class="archive-portfolio-filter-checkbox">
+                                    <span class="archive-portfolio-filter-label" data-translate="archivePortfolio.filters.year.older">2020 & Earlier</span>
+                                    <span class="archive-portfolio-filter-count">(14)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Projects Grid -->
+                <main class="archive-portfolio-content">
+                    <!-- Results Header -->
+                    <div class="archive-portfolio-results-header">
+                        <div class="archive-portfolio-results-info">
+                            <span class="archive-portfolio-results-count">
+                                <span data-translate="archivePortfolio.results.showing">Showing</span>
+                                <strong class="archive-portfolio-results-current">1-12</strong>
+                                <span data-translate="archivePortfolio.results.of">of</span>
+                                <strong class="archive-portfolio-results-total">85</strong>
+                                <span data-translate="archivePortfolio.results.projects">projects</span>
+                            </span>
+                        </div>
+                        
+                        <!-- Active Filters -->
+                        <div class="archive-portfolio-active-filters" style="display: none;">
+                            <span class="archive-portfolio-active-filters-label" data-translate="archivePortfolio.filters.active">Active filters:</span>
+                            <div class="archive-portfolio-active-filters-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- Projects Grid -->
+                    <div class="archive-portfolio-grid" data-view="grid">
+                        <!-- Project cards will be dynamically loaded here -->
+                        <!-- Sample Project Card 1 -->
+                        <article class="portfolio-card">
+                            <div class="portfolio-image-wrapper">
+                                <div class="portfolio-type-badge">
+                                    <span data-translate="archivePortfolio.types.commercial">Commercial</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=250&fit=crop"
+                                     alt="Modern Office Building Electrical Installation"
+                                     class="portfolio-image" loading="lazy">
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="portfolio-meta">
+                                    <span class="portfolio-category" data-translate="archivePortfolio.categories.installation">Electrical Installation</span>
+                                    <span class="portfolio-date" data-translate="archivePortfolio.sampleDates.date1">December 2024</span>
+                                    <span class="portfolio-duration" data-translate="archivePortfolio.durations.sixMonths">6 months</span>
+                                </div>
+                                <h3 class="portfolio-title" data-translate="archivePortfolio.sampleProjects.office.title">Modern Office Building Electrical Installation</h3>
+                                <p class="portfolio-excerpt" data-translate="archivePortfolio.sampleProjects.office.excerpt">Complete electrical system installation for a 15-story modern office building including smart lighting and power distribution.</p>
+                                <a href="detail-portfolio.html" class="portfolio-cta">
+                                    <span data-translate="archivePortfolio.viewProject">View Project</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="portfolio-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Project Card 2 -->
+                        <article class="portfolio-card">
+                            <div class="portfolio-image-wrapper">
+                                <div class="portfolio-type-badge portfolio-type-residential">
+                                    <span data-translate="archivePortfolio.types.residential">Residential</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=250&fit=crop"
+                                     alt="Smart Home Electrical System"
+                                     class="portfolio-image" loading="lazy">
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="portfolio-meta">
+                                    <span class="portfolio-category" data-translate="archivePortfolio.categories.smart">Smart Systems</span>
+                                    <span class="portfolio-date" data-translate="archivePortfolio.sampleDates.date2">November 2024</span>
+                                    <span class="portfolio-duration" data-translate="archivePortfolio.durations.twoMonths">2 months</span>
+                                </div>
+                                <h3 class="portfolio-title" data-translate="archivePortfolio.sampleProjects.smartHome.title">Luxury Smart Home Electrical System</h3>
+                                <p class="portfolio-excerpt" data-translate="archivePortfolio.sampleProjects.smartHome.excerpt">Complete smart home automation system with intelligent lighting, security, and energy management for luxury residence.</p>
+                                <a href="detail-portfolio.html" class="portfolio-cta">
+                                    <span data-translate="archivePortfolio.viewProject">View Project</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="portfolio-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Project Card 3 -->
+                        <article class="portfolio-card">
+                            <div class="portfolio-image-wrapper">
+                                <div class="portfolio-type-badge portfolio-type-industrial">
+                                    <span data-translate="archivePortfolio.types.industrial">Industrial</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=400&h=250&fit=crop"
+                                     alt="Manufacturing Plant Electrical Upgrade"
+                                     class="portfolio-image" loading="lazy">
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="portfolio-meta">
+                                    <span class="portfolio-category" data-translate="archivePortfolio.categories.upgrade">Panel Upgrades</span>
+                                    <span class="portfolio-date" data-translate="archivePortfolio.sampleDates.date3">October 2024</span>
+                                    <span class="portfolio-duration" data-translate="archivePortfolio.durations.fourMonths">4 months</span>
+                                </div>
+                                <h3 class="portfolio-title" data-translate="archivePortfolio.sampleProjects.manufacturing.title">Manufacturing Plant Electrical Upgrade</h3>
+                                <p class="portfolio-excerpt" data-translate="archivePortfolio.sampleProjects.manufacturing.excerpt">Major electrical infrastructure upgrade for textile manufacturing plant including power distribution and safety systems.</p>
+                                <a href="detail-portfolio.html" class="portfolio-cta">
+                                    <span data-translate="archivePortfolio.viewProject">View Project</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="portfolio-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Project Card 4 -->
+                        <article class="portfolio-card">
+                            <div class="portfolio-image-wrapper">
+                                <div class="portfolio-type-badge portfolio-type-healthcare">
+                                    <span data-translate="archivePortfolio.types.healthcare">Healthcare</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=400&h=250&fit=crop"
+                                     alt="Hospital Emergency Power System"
+                                     class="portfolio-image" loading="lazy">
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="portfolio-meta">
+                                    <span class="portfolio-category" data-translate="archivePortfolio.categories.emergency">Emergency Systems</span>
+                                    <span class="portfolio-date" data-translate="archivePortfolio.sampleDates.date4">September 2024</span>
+                                    <span class="portfolio-duration" data-translate="archivePortfolio.durations.threeMonths">3 months</span>
+                                </div>
+                                <h3 class="portfolio-title" data-translate="archivePortfolio.sampleProjects.hospital.title">Hospital Emergency Power System</h3>
+                                <p class="portfolio-excerpt" data-translate="archivePortfolio.sampleProjects.hospital.excerpt">Critical emergency power system installation for regional hospital ensuring uninterrupted power supply for medical equipment.</p>
+                                <a href="detail-portfolio.html" class="portfolio-cta">
+                                    <span data-translate="archivePortfolio.viewProject">View Project</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="portfolio-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Project Card 5 -->
+                        <article class="portfolio-card">
+                            <div class="portfolio-image-wrapper">
+                                <div class="portfolio-type-badge portfolio-type-commercial">
+                                    <span data-translate="archivePortfolio.types.commercial">Commercial</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=250&fit=crop"
+                                     alt="Shopping Mall Lighting System"
+                                     class="portfolio-image" loading="lazy">
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="portfolio-meta">
+                                    <span class="portfolio-category" data-translate="archivePortfolio.categories.lighting">Lighting Systems</span>
+                                    <span class="portfolio-date" data-translate="archivePortfolio.sampleDates.date5">August 2024</span>
+                                    <span class="portfolio-duration" data-translate="archivePortfolio.durations.fiveMonths">5 months</span>
+                                </div>
+                                <h3 class="portfolio-title" data-translate="archivePortfolio.sampleProjects.mall.title">Shopping Mall LED Lighting System</h3>
+                                <p class="portfolio-excerpt" data-translate="archivePortfolio.sampleProjects.mall.excerpt">Complete LED lighting retrofit for major shopping mall with energy-efficient solutions and smart controls.</p>
+                                <a href="detail-portfolio.html" class="portfolio-cta">
+                                    <span data-translate="archivePortfolio.viewProject">View Project</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="portfolio-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Project Card 6 -->
+                        <article class="portfolio-card">
+                            <div class="portfolio-image-wrapper">
+                                <div class="portfolio-type-badge portfolio-type-education">
+                                    <span data-translate="archivePortfolio.types.education">Education</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9d1?w=400&h=250&fit=crop"
+                                     alt="University Campus Electrical Infrastructure"
+                                     class="portfolio-image" loading="lazy">
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="portfolio-meta">
+                                    <span class="portfolio-category" data-translate="archivePortfolio.categories.installation">Electrical Installation</span>
+                                    <span class="portfolio-date" data-translate="archivePortfolio.sampleDates.date6">July 2024</span>
+                                    <span class="portfolio-duration" data-translate="archivePortfolio.durations.eightMonths">8 months</span>
+                                </div>
+                                <h3 class="portfolio-title" data-translate="archivePortfolio.sampleProjects.university.title">University Campus Electrical Infrastructure</h3>
+                                <p class="portfolio-excerpt" data-translate="archivePortfolio.sampleProjects.university.excerpt">Comprehensive electrical infrastructure development for new university campus including classrooms, laboratories, and dormitories.</p>
+                                <a href="detail-portfolio.html" class="portfolio-cta">
+                                    <span data-translate="archivePortfolio.viewProject">View Project</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="portfolio-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Load More / Pagination -->
+                    <div class="archive-portfolio-pagination">
+                        <div class="archive-portfolio-load-more">
+                            <button class="archive-portfolio-load-more-btn">
+                                <span data-translate="archivePortfolio.loadMore">Load More Projects</span>
+                                <iconify-icon icon="heroicons:chevron-down" class="archive-portfolio-load-more-icon"></iconify-icon>
+                            </button>
+                        </div>
+                        
+                        <!-- Alternative: Traditional Pagination -->
+                        <nav class="archive-portfolio-pagination-nav" style="display: none;">
+                            <button class="archive-portfolio-pagination-btn archive-portfolio-pagination-prev" disabled>
+                                <iconify-icon icon="heroicons:chevron-left" class="archive-portfolio-pagination-icon"></iconify-icon>
+                                <span data-translate="archivePortfolio.pagination.previous">Previous</span>
+                            </button>
+                            
+                            <div class="archive-portfolio-pagination-pages">
+                                <button class="archive-portfolio-pagination-page active">1</button>
+                                <button class="archive-portfolio-pagination-page">2</button>
+                                <button class="archive-portfolio-pagination-page">3</button>
+                                <span class="archive-portfolio-pagination-dots">...</span>
+                                <button class="archive-portfolio-pagination-page">8</button>
+                            </div>
+                            
+                            <button class="archive-portfolio-pagination-btn archive-portfolio-pagination-next">
+                                <span data-translate="archivePortfolio.pagination.next">Next</span>
+                                <iconify-icon icon="heroicons:chevron-right" class="archive-portfolio-pagination-icon"></iconify-icon>
+                            </button>
+                        </nav>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Mobile Filter Overlay -->
+            <div class="archive-portfolio-mobile-overlay" style="display: none;">
+                <div class="archive-portfolio-mobile-filters">
+                    <div class="archive-portfolio-mobile-filters-header">
+                        <h3 class="archive-portfolio-mobile-filters-title" data-translate="archivePortfolio.filters.title">Filters</h3>
+                        <button class="archive-portfolio-mobile-filters-close">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-portfolio-mobile-filters-close-icon"></iconify-icon>
+                        </button>
+                    </div>
+                    
+                    <div class="archive-portfolio-mobile-filters-content">
+                        <!-- Mobile filters content will be cloned from sidebar -->
+                    </div>
+                    
+                    <div class="archive-portfolio-mobile-filters-actions">
+                        <button class="archive-portfolio-mobile-filters-clear" data-translate="archivePortfolio.filters.clear">Clear All</button>
+                        <button class="archive-portfolio-mobile-filters-apply" data-translate="archivePortfolio.filters.apply">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

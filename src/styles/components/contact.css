@@ -1,0 +1,165 @@
+/* ===========================================
+   CONTACT SECTION COMPONENTS
+   =========================================== */
+
+@layer components {
+  /* Contact Simple - Form with contact information cards */
+  .contact-simple {
+    @apply py-16 lg:py-24;
+    background-color: var(--bg-primary);
+  }
+
+  .contact-simple-container {
+    @apply max-w-7xl px-4 mx-auto;
+  }
+
+  .contact-simple-header {
+    @apply mb-16 text-center;
+  }
+
+  .contact-simple-grid {
+    @apply grid grid-cols-1 gap-12 lg:grid-cols-2;
+  }
+
+  .contact-simple-form-section {
+    @apply space-y-8;
+  }
+
+  .contact-simple-form {
+    @apply space-y-6;
+  }
+
+  .contact-simple-form-row {
+    @apply grid grid-cols-1 gap-6 md:grid-cols-2;
+  }
+
+  .contact-simple-form-group {
+    @apply space-y-2;
+  }
+
+  .contact-simple-form-label {
+    @apply block text-sm font-semibold;
+    color: var(--text-secondary);
+  }
+
+  .contact-simple-form-input {
+    @apply w-full px-4 py-3 transition-colors border rounded-lg;
+    border-color: var(--border-color);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  .contact-simple-form-input:focus {
+    outline: none;
+    border-color: var(--color-accent-500);
+    box-shadow: 0 0 0 3px rgba(var(--color-accent-500), 0.1);
+  }
+
+  .contact-simple-form-textarea {
+    @apply w-full h-32 px-4 py-3 transition-colors border rounded-lg resize-none;
+    border-color: var(--border-color);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  .contact-simple-form-textarea:focus {
+    outline: none;
+    border-color: var(--color-accent-500);
+    box-shadow: 0 0 0 3px rgba(var(--color-accent-500), 0.1);
+  }
+
+  .contact-simple-form-submit {
+    @apply w-full px-6 py-3 font-semibold transition-all duration-300 rounded-xl;
+    @apply shadow-lg hover:shadow-xl;
+    background: linear-gradient(135deg, 
+      var(--color-primary-600) 0%, 
+      var(--color-primary-700) 50%,
+      var(--color-secondary-600) 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .contact-simple-form-submit::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.2) 0%, 
+      transparent 50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .contact-simple-form-submit:hover::before {
+    opacity: 1;
+  }
+
+  .contact-simple-form-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-simple-form-error {
+    @apply hidden mt-1 text-sm text-red-600;
+  }
+
+  .contact-simple-info-cards {
+    @apply space-y-4;
+  }
+
+  .contact-simple-info-card {
+    @apply flex items-start gap-4 p-6 rounded-xl;
+    @apply transition-all duration-300 hover:shadow-lg;
+    background: linear-gradient(135deg, 
+      var(--bg-secondary) 0%, 
+      var(--color-primary-50) 100%);
+    border: 1px solid var(--color-primary-100);
+  }
+
+  .contact-simple-info-card:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+  }
+
+  .contact-simple-info-icon {
+    @apply flex-shrink-0 mt-1;
+    color: var(--color-primary-500);
+    font-size: 1.5rem;
+    /* 24px - safe iconify size */
+  }
+
+  .contact-simple-info-content {
+    @apply flex flex-col;
+  }
+
+  .contact-simple-info-title {
+    @apply mb-1 font-semibold;
+    color: var(--text-primary);
+  }
+
+  .contact-simple-info-details {
+    @apply text-sm;
+    color: var(--text-secondary);
+    /* Support for multi-line text using CSS */
+    white-space: pre-line;
+  }
+
+  .contact-simple-map-placeholder {
+    @apply flex items-center justify-center h-64 bg-gray-200 rounded-lg;
+  }
+
+  .contact-simple-map-content {
+    @apply text-center text-gray-500;
+  }
+
+  .contact-simple-map-icon {
+    @apply mx-auto mb-2 text-5xl;
+  }
+
+  .contact-simple-map-location {
+    @apply text-sm;
+  }
+}

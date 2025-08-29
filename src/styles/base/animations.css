@@ -1,0 +1,33 @@
+/* ===========================================
+   ANIMATION & MOTION UTILITIES
+   =========================================== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Accent Animation Classes */
+.accent-pulse {
+  animation: accent-pulse 2s infinite;
+}
+
+@keyframes accent-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(var(--color-accent-500), 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(var(--color-accent-500), 0);
+  }
+}

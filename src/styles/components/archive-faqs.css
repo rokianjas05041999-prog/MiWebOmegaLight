@@ -1,0 +1,536 @@
+/* ===========================================
+   ARCHIVE FAQ COMPONENT STYLES
+   Archive FAQ page with search and filtering
+   =========================================== */
+
+@layer components {
+  /* ===== ARCHIVE FAQ SECTION ===== */
+  .archive-faqs-section {
+    @apply min-h-screen py-8 bg-white;
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-section {
+      @apply py-12;
+    }
+  }
+
+  .archive-faqs-container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  @media (min-width: 640px) {
+    .archive-faqs-container {
+      @apply px-6;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-container {
+      @apply px-8;
+    }
+  }
+
+  /* ===== PAGE HEADER ===== */
+  .archive-faqs-page-header {
+    @apply mb-12;
+  }
+
+  .archive-faqs-breadcrumb {
+    @apply flex items-center gap-2 text-sm mb-6;
+    color: var(--color-neutral-500);
+  }
+
+  .archive-faqs-breadcrumb a {
+    @apply transition-colors duration-300;
+  }
+
+  .archive-faqs-breadcrumb a:hover {
+    color: var(--color-primary-500);
+  }
+
+  .archive-faqs-breadcrumb iconify-icon {
+    @apply text-xs;
+  }
+
+  .archive-faqs-header {
+    @apply text-center;
+  }
+
+  .archive-faqs-badge {
+    @apply inline-block px-4 py-2 text-sm font-medium rounded-full mb-4;
+    @apply transition-all duration-200;
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+    color: var(--color-primary-600);
+    border: 1px solid var(--color-primary-200);
+  }
+
+  .archive-faqs-badge:hover {
+    @apply transform -translate-y-1;
+    background: linear-gradient(135deg, 
+      var(--color-primary-100) 0%, 
+      var(--color-primary-200) 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .archive-faqs-title {
+    @apply text-3xl font-bold mb-4;
+    color: var(--color-neutral-900);
+  }
+
+  @media (min-width: 640px) {
+    .archive-faqs-title {
+      @apply text-4xl;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-title {
+      @apply text-5xl;
+    }
+  }
+
+  .archive-faqs-subtitle {
+    @apply text-xl mb-4;
+    color: var(--color-neutral-600);
+  }
+
+  .archive-faqs-description {
+    @apply max-w-3xl mx-auto leading-relaxed;
+    color: var(--color-neutral-600);
+  }
+
+  /* ===== STATS SECTION ===== */
+  .archive-faqs-stats {
+    @apply flex justify-center items-center gap-8 mt-12 mb-4;
+  }
+
+  @media (max-width: 768px) {
+    .archive-faqs-stats {
+      @apply flex-col gap-6;
+    }
+  }
+
+  .archive-faqs-stat {
+    @apply flex flex-col items-center text-center;
+  }
+
+  .archive-faqs-stat-number {
+    @apply text-3xl font-bold mb-2;
+    color: var(--color-primary-600);
+  }
+
+  @media (max-width: 768px) {
+    .archive-faqs-stat-number {
+      @apply text-2xl;
+    }
+  }
+
+  .archive-faqs-stat-label {
+    @apply text-sm font-medium uppercase tracking-wide;
+    color: var(--color-neutral-600);
+  }
+
+  /* ===== SEARCH AND CONTROLS ===== */
+  .archive-faqs-controls {
+    @apply mb-12;
+  }
+
+  .archive-faqs-controls-container {
+    @apply flex flex-col gap-6;
+  }
+
+  /* Search Bar */
+  .archive-faqs-search {
+    @apply flex justify-center;
+  }
+
+  .archive-faqs-search-container {
+    @apply relative w-full max-w-2xl;
+  }
+
+  .archive-faqs-search-icon {
+    @apply absolute left-4 top-1/2 transform -translate-y-1/2 text-xl;
+    color: var(--color-neutral-400);
+  }
+
+  .archive-faqs-search-input {
+    @apply w-full py-4 rounded-2xl border transition-all duration-300;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: var(--color-neutral-50);
+    border-color: var(--color-neutral-200);
+    color: var(--color-neutral-900);
+  }
+
+  .archive-faqs-search-input::placeholder {
+    color: var(--color-neutral-500);
+  }
+
+  .archive-faqs-search-input:focus {
+    @apply outline-none;
+    border-color: var(--color-primary-500);
+    box-shadow: 0 0 0 3px rgba(var(--color-primary-500), 0.1);
+  }
+
+  .archive-faqs-search-clear {
+    @apply absolute right-4 top-1/2 transform -translate-y-1/2 p-1;
+    @apply transition-colors duration-300;
+    color: var(--color-neutral-400);
+  }
+
+  .archive-faqs-search-clear:hover {
+    color: var(--color-neutral-600);
+  }
+
+  /* Controls Row */
+  .archive-faqs-controls-row {
+    @apply flex flex-col gap-6;
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-controls-row {
+      @apply flex-row justify-between items-center;
+    }
+  }
+
+  /* Filters */
+  .archive-faqs-filters-container {
+    @apply flex flex-wrap gap-2 justify-center;
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-filters-container {
+      @apply justify-start;
+    }
+  }
+
+  .archive-faqs-filter-btn {
+    @apply px-4 py-2 text-sm font-medium rounded-xl transition-all duration-300;
+    @apply bg-white border;
+    color: var(--color-neutral-600);
+    border-color: var(--color-neutral-200);
+  }
+
+  .archive-faqs-filter-btn:hover {
+    color: var(--color-neutral-900);
+    background: var(--color-neutral-100);
+  }
+
+  .archive-faqs-filter-btn.active {
+    @apply text-white shadow-md;
+    background: linear-gradient(135deg, 
+      var(--color-primary-500) 0%, 
+      var(--color-primary-600) 100%);
+    border-color: var(--color-primary-500);
+    box-shadow: 0 4px 12px rgba(var(--color-primary-500), 0.3);
+  }
+
+  /* View Controls */
+  .archive-faqs-view-controls {
+    @apply flex flex-col gap-4;
+  }
+
+  @media (min-width: 640px) {
+    .archive-faqs-view-controls {
+      @apply flex-row items-center justify-between;
+    }
+  }
+
+  .archive-faqs-sort-select {
+    @apply px-4 py-2 bg-white border rounded-xl text-sm;
+    @apply focus:outline-none focus:ring-2;
+    border-color: var(--color-neutral-200);
+    color: var(--color-neutral-700);
+  }
+
+  .archive-faqs-sort-select:focus {
+    border-color: var(--color-primary-500);
+    box-shadow: 0 0 0 3px rgba(var(--color-primary-500), 0.1);
+  }
+
+  .archive-faqs-results-info {
+    @apply text-sm;
+    color: var(--color-neutral-500);
+  }
+
+  /* ===== FAQ GRID ===== */
+  .archive-faqs-content {
+    @apply flex flex-col gap-12;
+  }
+
+  .archive-faqs-grid {
+    @apply grid gap-6;
+  }
+
+  @media (min-width: 768px) {
+    .archive-faqs-grid {
+      @apply grid-cols-2;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-grid {
+      @apply grid-cols-3;
+    }
+  }
+
+  /* ===== FAQ ITEMS ===== */
+  .archive-faqs-item {
+    @apply bg-white border rounded-2xl overflow-hidden transition-all duration-300 shadow-sm;
+    border-color: var(--color-neutral-200);
+  }
+
+  .archive-faqs-item:hover {
+    @apply shadow-lg -translate-y-1;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: var(--color-primary-200);
+  }
+
+  .archive-faqs-item-content {
+    @apply p-6;
+  }
+
+  .archive-faqs-item-header {
+    @apply flex justify-between items-start mb-4;
+  }
+
+  .archive-faqs-item-category {
+    @apply px-3 py-1 text-xs font-medium rounded-full;
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+    color: var(--color-primary-600);
+  }
+
+  .archive-faqs-item-bookmark {
+    @apply p-2 transition-colors duration-300;
+    color: var(--color-neutral-400);
+  }
+
+  .archive-faqs-item-bookmark:hover {
+    color: var(--color-primary-500);
+  }
+
+  .archive-faqs-item-question {
+    @apply mb-3;
+  }
+
+    .archive-faq-item h3 {
+    @apply font-semibold mb-3 overflow-hidden;
+    color: var(--color-neutral-900);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 3.6em;
+    line-height: 1.8;
+  }
+
+  .archive-faqs-item-question a:hover {
+    color: var(--color-primary-500);
+  }
+
+    .archive-faq-excerpt {
+    @apply text-sm leading-relaxed overflow-hidden;
+    color: var(--color-neutral-600);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 5.4em;
+  }
+
+  .archive-faqs-item-meta {
+    @apply flex justify-between items-center pt-4 border-t;
+    border-color: var(--color-neutral-100);
+  }
+
+  .archive-faqs-item-stats {
+    @apply flex items-center gap-4 text-xs;
+    color: var(--color-neutral-500);
+  }
+
+  .archive-faqs-item-stats span {
+    @apply flex items-center gap-1;
+  }
+
+  .archive-faqs-item-date {
+    @apply text-xs;
+    color: var(--color-neutral-400);
+  }
+
+  /* ===== LOAD MORE ===== */
+  .archive-faqs-load-more {
+    @apply text-center;
+  }
+
+  .archive-faqs-load-more-btn {
+    @apply inline-flex items-center gap-2 px-8 py-3 bg-white border-2 rounded-xl font-semibold transition-all duration-300;
+    border-color: var(--color-primary-500);
+    color: var(--color-primary-500);
+  }
+
+  .archive-faqs-load-more-btn:hover {
+    @apply -translate-y-0.5;
+    background: var(--color-primary-500);
+    color: white;
+  }
+
+  /* ===== POPULAR CATEGORIES ===== */
+  .archive-faqs-popular {
+    @apply mt-16 p-8 rounded-3xl;
+    background: linear-gradient(135deg, 
+      var(--color-neutral-50) 0%, 
+      var(--color-neutral-100) 100%);
+  }
+
+  @media (min-width: 768px) {
+    .archive-faqs-popular {
+      @apply p-12;
+    }
+  }
+
+  .archive-faqs-popular-title {
+    @apply text-2xl font-bold mb-8 text-center;
+    color: var(--color-neutral-900);
+  }
+
+  .archive-faqs-popular-grid {
+    @apply grid gap-4;
+  }
+
+  @media (min-width: 640px) {
+    .archive-faqs-popular-grid {
+      @apply grid-cols-2;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .archive-faqs-popular-grid {
+      @apply grid-cols-4;
+    }
+  }
+
+  .archive-faqs-popular-item {
+    @apply flex flex-col items-center text-center p-6 bg-white rounded-2xl border transition-all duration-300 no-underline;
+    border-color: var(--color-neutral-100);
+  }
+
+  .archive-faqs-popular-item:hover {
+    @apply shadow-lg -translate-y-0.5 scale-105;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary-200);
+  }
+
+  .archive-faqs-popular-item iconify-icon {
+    @apply text-3xl mb-3;
+    color: var(--color-primary-500);
+  }
+
+  .archive-faqs-popular-item span:first-of-type {
+    @apply font-semibold mb-1;
+    color: var(--color-neutral-900);
+  }
+
+  .archive-faqs-popular-count {
+    @apply text-sm;
+    color: var(--color-neutral-500);
+  }
+
+  /* ===== DARK MODE SUPPORT ===== */
+  :root.dark .archive-faqs-section {
+    background: var(--color-neutral-900);
+  }
+
+  :root.dark .archive-faqs-title {
+    color: white;
+  }
+
+  :root.dark .archive-faqs-subtitle,
+  :root.dark .archive-faqs-description {
+    color: var(--color-neutral-300);
+  }
+
+  :root.dark .archive-faqs-search-input {
+    background: var(--color-neutral-800);
+    border-color: var(--color-neutral-700);
+    color: white;
+  }
+
+  :root.dark .archive-faqs-search-input::placeholder {
+    color: var(--color-neutral-400);
+  }
+
+  :root.dark .archive-faqs-filter-btn {
+    background: var(--color-neutral-800);
+    border-color: var(--color-neutral-700);
+    color: var(--color-neutral-300);
+  }
+
+  :root.dark .archive-faqs-item {
+    background: var(--color-neutral-800);
+    border-color: var(--color-neutral-700);
+  }
+
+  :root.dark .archive-faqs-item-question a {
+    color: white;
+  }
+
+  :root.dark .archive-faqs-item-preview {
+    color: var(--color-neutral-400);
+  }
+
+  :root.dark .archive-faqs-popular {
+    background: linear-gradient(135deg, 
+      var(--color-neutral-800) 0%, 
+      var(--color-neutral-900) 100%);
+  }
+
+  :root.dark .archive-faqs-popular-title {
+    color: white;
+  }
+
+  :root.dark .archive-faqs-popular-item {
+    background: var(--color-neutral-800);
+    border-color: var(--color-neutral-700);
+  }
+
+  /* ===== RESPONSIVE DESIGN ===== */
+  @media (max-width: 640px) {
+    .archive-faqs-item-content {
+      @apply p-4;
+    }
+    
+    .archive-faqs-item-question a {
+      @apply text-sm;
+    }
+    
+    .archive-faqs-item-preview {
+      @apply text-xs;
+    }
+  }
+
+  /* ===== ANIMATION ===== */
+  .archive-faqs-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .archive-faqs-item:nth-child(1) { animation-delay: 0.1s; }
+  .archive-faqs-item:nth-child(2) { animation-delay: 0.2s; }
+  .archive-faqs-item:nth-child(3) { animation-delay: 0.3s; }
+  .archive-faqs-item:nth-child(4) { animation-delay: 0.4s; }
+  .archive-faqs-item:nth-child(5) { animation-delay: 0.5s; }
+  .archive-faqs-item:nth-child(6) { animation-delay: 0.6s; }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

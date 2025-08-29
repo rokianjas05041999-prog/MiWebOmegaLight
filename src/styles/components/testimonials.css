@@ -1,0 +1,214 @@
+/* ===========================================
+   TESTIMONIALS COMPONENT STYLES
+   Customer testimonials slider
+   =========================================== */
+
+@layer components {
+  .testimonials-section {
+    @apply py-16 md:py-24;
+    background-color: var(--bg-primary);
+  }
+
+  .testimonials-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .testimonials-header {
+    @apply text-center mb-12;
+  }
+
+  .testimonials-title {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+    color: var(--text-primary);
+  }
+
+  .testimonials-subtitle {
+    @apply text-xl mb-6;
+    color: var(--text-secondary);
+  }
+
+  .testimonials-description {
+    @apply text-lg max-w-3xl mx-auto;
+    color: var(--text-secondary);
+  }
+
+  /* ===== TWO COLUMN LAYOUT ===== */
+  .testimonials-layout {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center;
+    margin-top: 3rem;
+  }
+
+  /* ===== LEFT COLUMN - IMAGE ===== */
+  .testimonials-image-column {
+    @apply order-2 lg:order-1;
+  }
+
+  .testimonials-image-wrapper {
+    @apply relative rounded-2xl overflow-hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonials-main-image {
+    @apply w-full h-96 lg:h-[500px] object-cover;
+  }
+
+  .testimonials-image-overlay {
+    @apply absolute inset-0 flex items-end p-6;
+    background: linear-gradient(to top, 
+      rgba(0, 0, 0, 0.8) 0%, 
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.1) 70%,
+      transparent 100%);
+  }
+
+  .testimonials-stats {
+    @apply flex gap-6 text-white;
+  }
+
+  .testimonials-stat-item {
+    @apply text-center;
+  }
+
+  .testimonials-stat-number {
+    @apply block text-2xl lg:text-3xl font-bold mb-1;
+  }
+
+  .testimonials-stat-label {
+    @apply text-sm text-white/90;
+  }
+
+  /* ===== RIGHT COLUMN - SLIDER ===== */
+  .testimonials-slider-column {
+    @apply order-1 lg:order-2;
+    @apply px-4 lg:px-8; /* Add horizontal padding for arrow shadows */
+  }
+
+  .testimonials-slider {
+    @apply relative overflow-hidden;
+    @apply mx-4; /* Additional margin to prevent shadow clipping */
+  }
+
+  .testimonials-track {
+    @apply flex transition-transform duration-500 ease-in-out;
+  }
+
+  .testimonial-card {
+    @apply flex-shrink-0 w-full bg-white rounded-xl p-8 shadow-lg;
+    @apply transform transition-all duration-300;
+  }
+
+  .testimonial-content {
+    @apply mb-6;
+  }
+
+  .testimonial-quote {
+    @apply mb-4;
+  }
+
+  .testimonial-quote-icon {
+    @apply text-4xl;
+    color: var(--color-primary-500);
+  }
+
+  .testimonial-text {
+    @apply text-lg leading-relaxed mb-4;
+    color: var(--text-primary);
+  }
+
+  .testimonial-rating {
+    @apply flex gap-1;
+  }
+
+  .testimonial-star {
+    @apply w-5 h-5 text-yellow-400;
+  }
+
+  .testimonial-author {
+    @apply flex items-center gap-4;
+  }
+
+  .testimonial-avatar {
+    @apply flex-shrink-0;
+  }
+
+  .testimonial-avatar-image {
+    @apply w-12 h-12 rounded-full object-cover;
+  }
+
+  .testimonial-info {
+    @apply flex-grow;
+  }
+
+  .testimonial-name {
+    @apply font-semibold mb-1;
+    color: var(--text-primary);
+  }
+
+  .testimonial-position {
+    @apply text-sm;
+    color: var(--text-secondary);
+  }
+
+  .testimonial-location {
+    @apply text-sm;
+    color: var(--color-primary-600);
+  }
+
+  .testimonials-dots {
+    @apply flex justify-center gap-2 mt-8;
+  }
+
+  .testimonial-dot {
+    @apply w-3 h-3 rounded-full bg-gray-300;
+    @apply transition-colors duration-200;
+  }
+
+  .testimonial-dot:hover {
+    background-color: var(--color-primary-400);
+  }
+
+  .testimonial-dot-active {
+    background-color: var(--color-primary-600);
+  }
+
+  .testimonials-nav {
+    @apply absolute top-1/2 -translate-y-1/2 z-20;
+    @apply w-14 h-14 bg-white rounded-full shadow-xl;
+    @apply flex items-center justify-center;
+    @apply hover:shadow-2xl hover:scale-105;
+    @apply transition-all duration-300 cursor-pointer;
+    border: 2px solid var(--color-primary-100);
+  }
+
+  .testimonials-nav:hover {
+    background-color: var(--color-primary-600);
+    border-color: var(--color-primary-600);
+  }
+
+  .testimonials-prev {
+    @apply -left-16;
+  }
+
+  .testimonials-next {
+    @apply -right-16;
+  }
+
+  @media (min-width: 1024px) {
+    .testimonials-prev {
+      @apply -left-20;
+    }
+    
+    .testimonials-next {
+      @apply -right-20;
+    }
+  }
+
+  .testimonials-nav-icon {
+    @apply w-6 h-6 transition-colors duration-300;
+    color: var(--color-primary-600);
+  }
+
+  .testimonials-nav:hover .testimonials-nav-icon {
+    @apply text-white;
+  }
+}

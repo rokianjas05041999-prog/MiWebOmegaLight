@@ -1,0 +1,461 @@
+/* ===========================================
+   PRODUCT QUICK VIEW MODAL COMPONENT STYLES
+   Professional and clean modal design using global CSS variables
+   =========================================== */
+
+@layer components {
+  /* ========== MODAL OVERLAY ========== */
+  .quick-view-overlay {
+    @apply fixed inset-0 z-50 opacity-0 invisible;
+    @apply transition-all duration-300 ease-in-out;
+    @apply flex items-center justify-center p-4;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+  }
+
+  .quick-view-overlay.active {
+    @apply opacity-100 visible;
+  }
+
+  /* ========== MODAL CONTAINER ========== */
+  .quick-view-container {
+    @apply relative rounded-2xl shadow-2xl;
+    @apply max-w-5xl w-full max-h-[90vh] overflow-hidden;
+    @apply transform scale-95 transition-transform duration-300;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--color-neutral-200);
+  }
+
+  .quick-view-overlay.active .quick-view-container {
+    @apply scale-100;
+  }
+
+  /* ========== CLOSE BUTTON ========== */
+  .quick-view-close {
+    @apply absolute top-6 right-6 z-20;
+    @apply w-12 h-12 rounded-full flex items-center justify-center;
+    @apply transition-all duration-200;
+    @apply text-lg;
+    background-color: var(--bg-primary);
+    border: 2px solid var(--color-neutral-200);
+    color: var(--color-neutral-600);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .quick-view-close:hover {
+    @apply transform scale-105;
+    background-color: var(--color-neutral-50);
+    border-color: var(--color-neutral-300);
+    color: var(--color-neutral-800);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  /* ========== MODAL CONTENT GRID ========== */
+  .quick-view-content {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-0;
+    @apply min-h-[550px] max-h-[90vh] overflow-y-auto;
+  }
+
+  /* ========== IMAGE SECTION ========== */
+  .quick-view-image-section {
+    @apply relative flex items-center justify-center;
+    @apply p-8 lg:p-12;
+    background: linear-gradient(135deg, var(--color-neutral-50) 0%, var(--color-neutral-100) 100%);
+  }
+
+  /* Badge Wrapper - More subtle */
+  .quick-view-badge-wrapper {
+    @apply absolute top-6 left-6 z-10;
+  }
+
+  .quick-view-badge {
+    @apply text-white text-xs font-semibold px-3 py-1.5 rounded-full;
+    @apply shadow-lg backdrop-blur-sm;
+    letter-spacing: 0.05em;
+  }
+
+  /* Professional Badge Colors */
+  .quick-view-badge-sale {
+    background: linear-gradient(135deg, var(--color-neutral-600) 0%, var(--color-neutral-500) 100%);
+  }
+
+  .quick-view-badge-new {
+    background: linear-gradient(135deg, var(--color-accent-600) 0%, var(--color-accent-500) 100%);
+  }
+
+  .quick-view-badge-hot {
+    background: linear-gradient(135deg, var(--color-secondary-600) 0%, var(--color-secondary-500) 100%);
+  }
+
+  .quick-view-badge-bestseller {
+    background: linear-gradient(135deg, var(--color-primary-700) 0%, var(--color-primary-600) 100%);
+  }
+
+  .quick-view-badge-limited {
+    background: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-primary-500) 100%);
+  }
+
+  /* Product Image */
+  .quick-view-image {
+    @apply w-full h-auto max-w-md max-h-80 object-contain;
+    @apply rounded-xl;
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+  }
+
+  /* ========== INFO SECTION ========== */
+  .quick-view-info-section {
+    @apply p-8 lg:p-12 flex flex-col justify-between;
+    background-color: var(--bg-primary);
+  }
+
+  /* Brand */
+  .quick-view-brand {
+    @apply text-sm uppercase tracking-wide;
+    @apply font-semibold mb-2;
+    color: var(--color-primary-600);
+  }
+
+  /* Product Title */
+  .quick-view-title {
+    @apply text-2xl lg:text-3xl font-bold mb-4;
+    @apply leading-tight;
+    color: var(--text-primary);
+  }
+
+  /* Product Description */
+  .quick-view-description {
+    @apply mb-8 leading-relaxed;
+    @apply text-base;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  /* ========== PRICE SECTION ========== */
+  .quick-view-price-section {
+    @apply mb-6 flex items-baseline gap-3;
+  }
+
+  .quick-view-price-current {
+    @apply text-3xl lg:text-4xl font-bold;
+    color: var(--color-primary-600);
+  }
+
+  .quick-view-price-original {
+    @apply text-lg line-through;
+    color: var(--color-neutral-400);
+  }
+
+  /* ========== STOCK STATUS ========== */
+  .quick-view-stock {
+    @apply flex items-center gap-3 mb-8;
+    @apply px-4 py-3 rounded-xl;
+    @apply border-2;
+    background-color: var(--color-accent-50);
+    color: var(--color-accent-700);
+    border-color: var(--color-accent-200);
+  }
+
+  .quick-view-stock.out-of-stock {
+    background-color: var(--color-neutral-50);
+    color: var(--color-neutral-600);
+    border-color: var(--color-neutral-200);
+  }
+
+  .quick-view-stock-icon {
+    @apply text-lg;
+  }
+
+  .quick-view-stock-text {
+    @apply font-semibold text-sm;
+  }
+
+  /* ========== SHOP LINKS ========== */
+  .quick-view-shop-links {
+    @apply mb-8;
+  }
+
+  .quick-view-shop-text {
+    @apply text-sm mb-4 font-medium;
+    color: var(--text-secondary);
+  }
+
+  .quick-view-shop-buttons {
+    @apply grid grid-cols-3 gap-3;
+  }
+
+  .quick-view-shop-btn {
+    @apply flex items-center justify-center gap-2 px-4 py-3;
+    @apply text-sm font-medium rounded-xl;
+    @apply border-2 transition-all duration-200;
+    @apply hover:shadow-lg hover:transform hover:scale-105;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  /* Professional Shop Button Colors */
+  .quick-view-shop-tokopedia {
+    background: linear-gradient(135deg, #00AA5B 0%, #00C86F 100%);
+    color: white;
+    border-color: #00AA5B;
+    box-shadow: 0 2px 4px rgba(0, 170, 91, 0.2);
+  }
+
+  .quick-view-shop-tokopedia:hover {
+    background: linear-gradient(135deg, #009951 0%, #00B865 100%);
+    border-color: #009951;
+    box-shadow: 0 4px 8px rgba(0, 170, 91, 0.3);
+  }
+
+  .quick-view-shop-tokopedia:focus {
+    ring-color: #00AA5B;
+  }
+
+  .quick-view-shop-shopee {
+    background: linear-gradient(135deg, #EE4D2D 0%, #FF6441 100%);
+    color: white;
+    border-color: #EE4D2D;
+    box-shadow: 0 2px 4px rgba(238, 77, 45, 0.2);
+  }
+
+  .quick-view-shop-shopee:hover {
+    background: linear-gradient(135deg, #D43D1F 0%, #EE4D2D 100%);
+    border-color: #D43D1F;
+    box-shadow: 0 4px 8px rgba(238, 77, 45, 0.3);
+  }
+
+  .quick-view-shop-shopee:focus {
+    ring-color: #EE4D2D;
+  }
+
+  .quick-view-shop-tiktok {
+    background: linear-gradient(135deg, #000000 0%, #333333 100%);
+    color: white;
+    border-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .quick-view-shop-tiktok:hover {
+    background: linear-gradient(135deg, #1a1a1a 0%, #404040 100%);
+    border-color: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .quick-view-shop-tiktok:focus {
+    ring-color: #333333;
+  }
+
+  /* Shop button icons */
+  .quick-view-shop-btn iconify-icon {
+    @apply text-base;
+  }
+
+  /* ========== ACTION BUTTONS ========== */
+  .quick-view-actions {
+    @apply flex flex-col sm:flex-row gap-4;
+  }
+
+  .quick-view-btn {
+    @apply flex items-center justify-center gap-3;
+    @apply px-6 py-4 rounded-xl font-semibold;
+    @apply transition-all duration-200;
+    @apply border-2 flex-1;
+    @apply hover:transform hover:scale-105 hover:shadow-lg;
+  }
+
+  /* Detail Button */
+  .quick-view-btn-detail {
+    border-color: var(--color-neutral-300);
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+  }
+
+  .quick-view-btn-detail:hover {
+    border-color: var(--color-primary-400);
+    background-color: var(--color-primary-50);
+    color: var(--color-primary-700);
+  }
+
+  /* WhatsApp Button */
+  .quick-view-btn-whatsapp {
+    @apply text-white border-2 flex-1;
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    border-color: #059669;
+    box-shadow: 0 4px 6px -1px rgba(5, 150, 105, 0.25);
+  }
+
+  .quick-view-btn-whatsapp:hover {
+    background: linear-gradient(135deg, #047857 0%, #059669 100%);
+    border-color: #047857;
+    box-shadow: 0 10px 15px -3px rgba(5, 150, 105, 0.35);
+  }
+
+  /* Action button icons */
+  .quick-view-btn-icon {
+    @apply text-lg;
+  }
+
+  /* ========== DARK MODE SUPPORT ========== */
+  [data-theme="dark"] .quick-view-container {
+    background-color: var(--color-neutral-800);
+    border-color: var(--color-neutral-600);
+  }
+
+  [data-theme="dark"] .quick-view-close {
+    background-color: var(--color-neutral-700);
+    border-color: var(--color-neutral-500);
+    color: var(--color-neutral-300);
+  }
+
+  [data-theme="dark"] .quick-view-close:hover {
+    background-color: var(--color-neutral-600);
+    border-color: var(--color-neutral-400);
+    color: var(--color-neutral-100);
+  }
+
+  [data-theme="dark"] .quick-view-image-section {
+    background: linear-gradient(135deg, var(--color-neutral-700) 0%, var(--color-neutral-800) 100%);
+  }
+
+  [data-theme="dark"] .quick-view-info-section {
+    background-color: var(--color-neutral-800);
+  }
+
+  [data-theme="dark"] .quick-view-title {
+    color: var(--color-neutral-100);
+  }
+
+  [data-theme="dark"] .quick-view-description {
+    color: var(--color-neutral-300);
+  }
+
+  [data-theme="dark"] .quick-view-shop-text {
+    color: var(--color-neutral-400);
+  }
+
+  [data-theme="dark"] .quick-view-btn-detail {
+    background-color: var(--color-neutral-700);
+    border-color: var(--color-neutral-500);
+    color: var(--color-neutral-200);
+  }
+
+  [data-theme="dark"] .quick-view-btn-detail:hover {
+    background-color: var(--color-neutral-600);
+    border-color: var(--color-primary-400);
+    color: var(--color-primary-300);
+  }
+
+  /* ========== MOBILE RESPONSIVE ========== */
+  @media (max-width: 1024px) {
+    .quick-view-content {
+      @apply grid-cols-1;
+    }
+
+    .quick-view-image-section {
+      @apply min-h-[350px] p-6;
+    }
+
+    .quick-view-image {
+      @apply max-h-64;
+    }
+
+    .quick-view-info-section {
+      @apply p-6;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .quick-view-container {
+      @apply m-2 max-h-[95vh] rounded-xl;
+    }
+
+    .quick-view-close {
+      @apply w-10 h-10 top-4 right-4 text-base;
+    }
+
+    .quick-view-info-section {
+      @apply p-5;
+    }
+
+    .quick-view-image-section {
+      @apply p-5 min-h-[280px];
+    }
+
+    .quick-view-title {
+      @apply text-xl;
+    }
+
+    .quick-view-price-current {
+      @apply text-2xl;
+    }
+
+    .quick-view-actions {
+      @apply flex-col gap-3;
+    }
+
+    .quick-view-btn {
+      @apply py-3 px-5 text-sm;
+    }
+
+    .quick-view-shop-buttons {
+      @apply grid-cols-1 gap-2;
+    }
+
+    .quick-view-shop-btn {
+      @apply justify-start px-4 py-2.5;
+    }
+  }
+
+  /* ========== ANIMATIONS ========== */
+  @keyframes quickViewSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .quick-view-overlay.active .quick-view-container {
+    animation: quickViewSlideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  /* ========== UTILITY STATES ========== */
+  .quick-view-image.loading {
+    @apply opacity-50;
+    filter: blur(2px);
+  }
+
+  /* ========== ACCESSIBILITY FOCUS STATES ========== */
+  .quick-view-close:focus,
+  .quick-view-btn:focus,
+  .quick-view-shop-btn:focus {
+    @apply outline-none ring-4 ring-offset-2;
+    ring-color: var(--color-primary-400);
+  }
+
+  /* ========== HOVER EFFECTS ========== */
+  .quick-view-btn:hover {
+    transform: translateY(-1px) scale(1.02);
+  }
+
+  .quick-view-shop-btn:hover {
+    transform: translateY(-1px) scale(1.02);
+  }
+
+  /* ========== REDUCED MOTION SUPPORT ========== */
+  @media (prefers-reduced-motion: reduce) {
+    .quick-view-overlay {
+      @apply transition-none;
+    }
+    
+    .quick-view-container {
+      @apply transition-none transform-none;
+    }
+    
+    .quick-view-btn:hover,
+    .quick-view-shop-btn:hover {
+      transform: none;
+    }
+  }
+}

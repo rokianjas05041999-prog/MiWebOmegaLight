@@ -1,0 +1,224 @@
+/* ===========================================
+   RELATED CONTENT COMPONENT STYLES
+   Related articles and content recommendations
+   =========================================== */
+
+@layer components {
+  /* ========== MAIN SECTION ========== */
+  .related-content-section {
+    @apply py-16 md:py-20;
+    background-color: var(--bg-secondary);
+  }
+
+  .related-content-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* ========== SECTION HEADER ========== */
+  .related-content-header {
+    @apply text-center mb-12;
+  }
+
+  .related-content-title {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+    color: var(--text-primary);
+  }
+
+  .related-content-subtitle {
+    @apply text-lg md:text-xl max-w-2xl mx-auto;
+    color: var(--text-secondary);
+  }
+
+  /* ========== CONTENT GRID ========== */
+  .related-content-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+
+  /* ========== CONTENT CARDS ========== */
+  .related-content-card {
+    @apply rounded-xl shadow-sm border overflow-hidden;
+    @apply transition-all duration-300;
+    @apply hover:shadow-lg hover:transform hover:scale-105;
+    @apply flex flex-col h-full;
+    background-color: var(--bg-primary);
+    border-color: var(--color-neutral-200);
+  }
+
+  .related-content-image-wrapper {
+    @apply relative overflow-hidden;
+    height: 200px;
+  }
+
+  .related-content-image {
+    @apply w-full h-full object-cover;
+    @apply transition-transform duration-500;
+  }
+
+  .related-content-card:hover .related-content-image {
+    transform: scale(1.1);
+  }
+
+  .related-content-category {
+    @apply absolute top-4 left-4;
+  }
+
+  .related-content-category span {
+    @apply px-3 py-1 text-xs font-semibold rounded-full text-white;
+    background: linear-gradient(135deg, 
+      var(--color-primary-600) 0%, 
+      var(--color-primary-500) 100%);
+    backdrop-filter: blur(4px);
+  }
+
+  /* ========== CARD BODY ========== */
+  .related-content-body {
+    @apply p-6 flex flex-col flex-1;
+  }
+
+  .related-content-item-title {
+    @apply text-xl font-bold mb-3 leading-tight;
+    color: var(--text-primary);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .related-content-excerpt {
+    @apply text-sm mb-4 leading-relaxed flex-1;
+    color: var(--text-secondary);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 4.5rem; /* Ensure consistent height for 3 lines */
+  }
+
+  .related-content-link {
+    @apply inline-flex items-center gap-2 font-semibold;
+    @apply transition-all duration-200;
+    @apply hover:gap-3 mt-auto;
+    color: var(--color-primary-600);
+  }
+
+  .related-content-link:hover {
+    color: var(--color-primary-700);
+  }
+
+  .related-content-link-icon {
+    @apply w-4 h-4 transition-transform duration-200;
+  }
+
+  .related-content-link:hover .related-content-link-icon {
+    transform: translateX(4px);
+  }
+
+  /* ========== CTA SECTION ========== */
+  .related-content-cta {
+    @apply text-center mt-12;
+  }
+
+  .related-content-cta-button {
+    @apply inline-flex items-center gap-2 px-8 py-4;
+    @apply font-semibold rounded-xl;
+    @apply transition-all duration-300;
+    @apply hover:shadow-lg hover:transform hover:scale-105;
+    background: linear-gradient(135deg, 
+      var(--color-primary-600) 0%, 
+      var(--color-secondary-600) 100%);
+    color: white;
+  }
+
+  .related-content-cta-button:hover {
+    background: linear-gradient(135deg, 
+      var(--color-primary-700) 0%, 
+      var(--color-secondary-700) 100%);
+  }
+
+  .related-content-cta-icon {
+    @apply w-5 h-5 transition-transform duration-200;
+  }
+
+  .related-content-cta-button:hover .related-content-cta-icon {
+    transform: translateX(4px);
+  }
+
+  /* ========== RESPONSIVE DESIGN ========== */
+  @media (max-width: 768px) {
+    .related-content-grid {
+      @apply grid-cols-1 gap-6;
+    }
+    
+    .related-content-title {
+      @apply text-2xl;
+    }
+    
+    .related-content-subtitle {
+      @apply text-base;
+    }
+    
+    .related-content-image-wrapper {
+      height: 180px;
+    }
+    
+    .related-content-body {
+      @apply p-5;
+    }
+    
+    .related-content-item-title {
+      @apply text-lg;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .related-content-grid {
+      @apply grid-cols-2 gap-6;
+    }
+  }
+
+  /* ========== DARK MODE SUPPORT ========== */
+  [data-theme="dark"] .related-content-section {
+    background-color: var(--color-neutral-800);
+  }
+
+  [data-theme="dark"] .related-content-card {
+    background-color: var(--color-neutral-900);
+    border-color: var(--color-neutral-700);
+  }
+
+  [data-theme="dark"] .related-content-card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* ========== ACCESSIBILITY ========== */
+  .related-content-card:focus-within,
+  .related-content-link:focus,
+  .related-content-cta-button:focus {
+    @apply outline-none ring-2 ring-offset-2;
+    ring-color: var(--color-primary-400);
+  }
+
+  /* ========== REDUCED MOTION SUPPORT ========== */
+  @media (prefers-reduced-motion: reduce) {
+    .related-content-card,
+    .related-content-image,
+    .related-content-link,
+    .related-content-cta-button {
+      @apply transition-none;
+    }
+    
+    .related-content-card:hover,
+    .related-content-cta-button:hover {
+      transform: none;
+    }
+    
+    .related-content-card:hover .related-content-image {
+      transform: none;
+    }
+    
+    .related-content-link:hover .related-content-link-icon,
+    .related-content-cta-button:hover .related-content-cta-icon {
+      transform: none;
+    }
+  }
+}

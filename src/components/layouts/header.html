@@ -1,0 +1,145 @@
+    <!-- ===== HEADER COMPONENT ===== -->
+    <nav class="header-navbar">
+        <div class="header-container">
+            <div class="header-content">
+                
+                <!-- Logo/Brand -->
+                <div class="header-brand">
+                    <a href="/" class="header-brand-link">
+                        <iconify-icon icon="heroicons:bolt" class="header-brand-icon"></iconify-icon>
+                        <span class="header-brand-text" data-translate="brand.name">OmegaLight</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="header-desktop-menu">
+                    <!-- Navigation Links -->
+                    <a href="#" class="header-nav-link" data-translate="nav.home">Home</a>
+                    <a href="#categories" class="header-nav-link" data-translate="nav.categories">Kategori</a>
+                    <a href="#gallery" class="header-nav-link" data-translate="nav.gallery">Galeri</a>
+                    <a href="#products" class="header-nav-link" data-translate="nav.products">Produk</a>
+                    <a href="#blog" class="header-nav-link" data-translate="nav.blog">Blog</a>
+                    <a href="#about" class="header-nav-link" data-translate="nav.about">Tentang Kami</a>
+                    
+                    <!-- Search Bar -->
+                    <div class="header-search">
+                        <!-- Search Toggle Button -->
+                        <button type="button" class="header-search-toggle" data-search-toggle>
+                            <iconify-icon icon="heroicons:magnifying-glass" class="header-search-toggle-icon"></iconify-icon>
+                        </button>
+                        
+                        <!-- Expandable Search Form -->
+                        <div class="header-search-expandable" data-search-form>
+                            <form action="/search" method="GET" class="header-search-form">
+                                <input type="text"
+                                    name="q"
+                                    placeholder="Cari..."
+                                    data-translate-placeholder="nav.search"
+                                    class="header-search-input"
+                                    data-search-input>
+                                <button type="submit" class="header-search-button">
+                                    <iconify-icon icon="heroicons:magnifying-glass" class="header-search-icon"></iconify-icon>
+                                </button>
+                                <button type="button" class="header-search-close" data-search-close>
+                                    <iconify-icon icon="heroicons:x-mark" class="header-search-close-icon"></iconify-icon>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Button -->
+                    <a href="#contact" class="header-cta-button">
+                        <iconify-icon icon="heroicons:phone" class="header-cta-icon"></iconify-icon>
+                        <span data-translate="nav.contact">Hubungi Kami</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="header-mobile-toggle">
+                    <button data-mobile-menu-toggle class="header-mobile-button">
+                        <iconify-icon icon="heroicons:bars-3" class="header-mobile-icon"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div data-mobile-menu class="header-mobile-menu">
+        <!-- Overlay -->
+        <div class="header-mobile-overlay"></div>
+        
+        <!-- Mobile Menu Panel -->
+        <div class="header-mobile-panel">
+            
+            <!-- Mobile Menu Header -->
+            <div class="header-mobile-header">
+                <div class="header-mobile-brand">
+                    <iconify-icon icon="heroicons:bolt" class="header-mobile-brand-icon"></iconify-icon>
+                    <span class="header-mobile-brand-text" data-translate="brand.name">MiWebLogistic</span>
+                </div>
+                <button data-mobile-menu-close class="header-mobile-close">
+                    <iconify-icon icon="heroicons:x-mark" class="header-mobile-close-icon"></iconify-icon>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu Items -->
+            <div class="header-mobile-content">
+                <ul class="header-mobile-list">
+                    <li>
+                        <a href="#" class="header-mobile-item">
+                            <div class="header-mobile-item-left">
+                                <iconify-icon icon="heroicons:home" class="header-mobile-item-icon"></iconify-icon>
+                                <span data-translate="nav.home">Beranda</span>
+                            </div>
+                            <iconify-icon icon="heroicons:chevron-right" class="header-mobile-item-arrow"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#categories" class="header-mobile-item">
+                            <div class="header-mobile-item-left">
+                                <iconify-icon icon="heroicons:squares-2x2" class="header-mobile-item-icon"></iconify-icon>
+                                <span data-translate="nav.categories">Layanan</span>
+                            </div>
+                            <iconify-icon icon="heroicons:chevron-right" class="header-mobile-item-arrow"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gallery" class="header-mobile-item">
+                            <div class="header-mobile-item-left">
+                                <iconify-icon icon="heroicons:map-pin" class="header-mobile-item-icon"></iconify-icon>
+                                <span data-translate="nav.gallery">Tracking</span>
+                            </div>
+                            <iconify-icon icon="heroicons:chevron-right" class="header-mobile-item-arrow"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="header-mobile-item">
+                            <div class="header-mobile-item-left">
+                                <iconify-icon icon="heroicons:information-circle" class="header-mobile-item-icon"></iconify-icon>
+                                <span data-translate="nav.about">Tentang</span>
+                            </div>
+                            <iconify-icon icon="heroicons:chevron-right" class="header-mobile-item-arrow"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="header-mobile-item">
+                            <div class="header-mobile-item-left">
+                                <iconify-icon icon="heroicons:envelope" class="header-mobile-item-icon"></iconify-icon>
+                                <span data-translate="nav.contact">Kontak</span>
+                            </div>
+                            <iconify-icon icon="heroicons:chevron-right" class="header-mobile-item-arrow"></iconify-icon>
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile CTA Button -->
+                <div class="header-mobile-cta-container">
+                    <a href="#contact" class="header-mobile-cta">
+                        <iconify-icon icon="heroicons:phone" class="header-mobile-cta-icon"></iconify-icon>
+                        <span data-translate="nav.contact">Hubungi Kami</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>

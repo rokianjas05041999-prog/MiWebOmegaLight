@@ -1,0 +1,113 @@
+    /* Animation Styles */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes scaleIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    .gallery-item {
+        animation: fadeInUp 0.6s ease-out forwards;
+        opacity: 0;
+    }
+    
+    .gallery-item:nth-child(1) { animation-delay: 0.1s; }
+    .gallery-item:nth-child(2) { animation-delay: 0.2s; }
+    .gallery-item:nth-child(3) { animation-delay: 0.3s; }
+    .gallery-item:nth-child(4) { animation-delay: 0.4s; }
+    .gallery-item:nth-child(5) { animation-delay: 0.5s; }
+    .gallery-item:nth-child(6) { animation-delay: 0.6s; }
+    
+    /* Lightbox Centering */
+    #lightbox {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    #lightbox.hidden {
+        display: none !important;
+    }
+    
+    /* Lightbox Animation */
+    .lightbox-fade-in {
+        animation: fadeIn 0.3s ease-out;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .lightbox-scale-in {
+        animation: scaleIn 0.3s ease-out;
+    }
+    
+    /* Image Hover Effect */
+    .gallery-image {
+        transition: transform 0.4s ease;
+    }
+    
+    .gallery-item:hover .gallery-image {
+        transform: scale(1.05);
+    }
+    
+    /* Smooth image loading */
+    #lightbox-image {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    #lightbox-image.loaded {
+        opacity: 1;
+    }
+    
+    /* Centered Gallery Grid */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    @media (min-width: 768px) {
+        .gallery-grid {
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+    }
+    
+    /* Mobile responsive adjustments */
+    @media (max-width: 768px) {
+        #lightbox {
+            padding: 1rem;
+        }
+        
+        #lightbox-caption {
+            padding: 1rem;
+        }
+        
+        /* Move nav buttons inside on mobile */
+        button[onclick*="prevImage"] {
+            left: 1rem !important;
+        }
+        
+        button[onclick*="nextImage"] {
+            right: 1rem !important;
+        }
+    }

@@ -1,0 +1,41 @@
+{
+  "name": "company-profile-onepage",
+  "version": "1.0.0",
+  "description": "One Page Company Profile with Tailwind CSS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run copy-assets && vite build",
+    "preview": "vite preview",
+    "copy-assets": "npm run copy-iconify",
+    "copy-iconify": "mkdir -p ./public/js && cp ./node_modules/iconify-icon/dist/iconify-icon.min.js ./public/js/iconify-icon.min.js"
+  },
+  "keywords": [
+    "tailwind",
+    "company-profile",
+    "onepage"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.6",
+    "@fontsource/jetbrains-mono": "^5.2.6",
+    "@fontsource/montserrat": "^5.2.6",
+    "@fontsource/nunito": "^5.2.6",
+    "@fontsource/oswald": "^5.2.6",
+    "@fontsource/playfair-display": "^5.2.6",
+    "@fontsource/poppins": "^5.2.6",
+    "@fontsource/roboto": "^5.2.6",
+    "@fontsource/roboto-slab": "^5.2.6",
+    "@fontsource/source-sans-pro": "^5.2.5",
+    "@fontsource/space-grotesk": "^5.2.8",
+    "@iconify/iconify": "^3.1.1",
+    "iconify-icon": "^3.0.0"
+  }
+}

@@ -1,0 +1,150 @@
+/* ===========================================
+   BRANDS COMPONENT STYLES
+   Brand partner carousel and logo display
+   =========================================== */
+
+@layer components {
+  /* ===== BRANDS SECTION ===== */
+  .brands-section {
+    @apply py-16;
+    background-color: var(--color-neutral-50);
+  }
+
+  @media (min-width: 1024px) {
+    .brands-section {
+      @apply py-20;
+    }
+  }
+
+  .brands-container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  @media (min-width: 640px) {
+    .brands-container {
+      @apply px-6;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .brands-container {
+      @apply px-8;
+    }
+  }
+
+  /* ===== SECTION HEADER ===== */
+  .brands-header {
+    @apply text-center mb-12;
+  }
+
+  @media (min-width: 1024px) {
+    .brands-header {
+      @apply mb-16;
+    }
+  }
+
+  .brands-title {
+    @apply text-2xl font-bold mb-4;
+    color: var(--color-neutral-900);
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight);
+  }
+
+  @media (min-width: 640px) {
+    .brands-title {
+      @apply text-3xl;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .brands-title {
+      @apply text-4xl;
+    }
+  }
+
+  .brands-subtitle {
+    @apply text-lg max-w-2xl mx-auto;
+    color: var(--color-neutral-600);
+  }
+
+  /* ===== BRANDS CAROUSEL ===== */
+  .brands-carousel {
+    @apply relative overflow-hidden;
+  }
+
+  .brands-track {
+    @apply flex;
+    animation: scroll-infinite 30s linear infinite;
+    width: calc(200% + 2rem); /* Ensure enough width for seamless loop */
+  }
+
+  .brands-track:hover {
+    animation-play-state: paused;
+  }
+
+  /* ===== BRAND ITEMS ===== */
+  .brands-item {
+    @apply flex-shrink-0 flex items-center justify-center;
+    @apply w-32 h-20 mx-4;
+    padding: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .brands-item {
+      @apply w-40 h-24 mx-6;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .brands-item {
+      @apply w-48 h-28 mx-8;
+    }
+  }
+
+  .brands-logo {
+    @apply max-w-full max-h-full object-contain;
+    @apply transition-all duration-300;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    border-radius: var(--border-radius-md);
+  }
+
+  .brands-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  /* ===== ANIMATIONS ===== */
+  @keyframes scroll-infinite {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* ===== RESPONSIVE ADJUSTMENTS ===== */
+
+  /* ===== DARK MODE SUPPORT ===== */
+  .dark .brands-section {
+    background-color: var(--color-neutral-800);
+  }
+
+  .dark .brands-title {
+    color: var(--color-neutral-100);
+  }
+
+  .dark .brands-subtitle {
+    color: var(--color-neutral-300);
+  }
+
+  .dark .brands-logo {
+    opacity: 0.5;
+  }
+
+  .dark .brands-logo:hover {
+    opacity: 0.9;
+  }
+}

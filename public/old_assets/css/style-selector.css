@@ -1,0 +1,121 @@
+@import "tailwindcss";
+/* style-selector.css */
+
+/* Floating Container - Middle Left Position */
+.floating-container {
+    @apply fixed left-5 top-40 -translate-y-1/2 z-[1000];
+}
+
+/* Main Floating Button */
+.floating-button {
+    @apply w-[50px] h-[50px] rounded-full bg-blue-500 text-white border-0 cursor-pointer flex items-center justify-center transition-all duration-300 ease-in-out relative;
+    @apply shadow-[0_4px_12px_rgba(0,123,255,0.4)] hover:scale-110 hover:shadow-[0_6px_20px_rgba(0,123,255,0.5)];
+}
+
+.floating-button.active {
+    @apply rotate-180;
+}
+
+.floating-button iconify-icon {
+    @apply transition-transform duration-300 ease-in-out text-white text-2xl;
+}
+
+/* Style Selector Panel - Opens to the Right */
+.style-selector-panel {
+    @apply absolute left-[70px] top-1/2 bg-white rounded-xl p-5 min-w-[220px] opacity-0 invisible transition-all duration-300;
+    @apply shadow-[0_8px_32px_rgba(0,0,0,0.15)];
+    transform: translateY(-50%) translateX(-20px) scale(0.9);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.style-selector-panel.show {
+    @apply opacity-100 visible;
+    transform: translateY(-50%) translateX(0) scale(1);
+}
+
+.style-selector-panel h4 {
+    @apply m-0 mb-[15px] text-base font-semibold text-gray-800 pb-2.5 border-b-2 border-gray-100;
+}
+
+/* Style Options */
+.style-option {
+    @apply block mb-2.5 cursor-pointer transition-all duration-200 ease-in-out;
+}
+
+.style-option:hover {
+    @apply translate-x-[5px];
+}
+
+.style-option input[type="radio"] {
+    @apply hidden;
+}
+
+.option-content {
+    @apply flex items-center gap-2.5 px-4 py-3 bg-gray-50 rounded-lg text-sm font-medium text-gray-600 transition-all duration-200 ease-in-out border-2 border-transparent;
+}
+
+.option-content iconify-icon {
+    @apply text-xl transition-all duration-200 ease-in-out;
+}
+
+/* Selected State */
+.style-option input[type="radio"]:checked + .option-content {
+    @apply bg-blue-500 text-white border-blue-700;
+}
+
+.style-option input[type="radio"]:checked + .option-content iconify-icon {
+    @apply text-white scale-[1.2];
+}
+
+/* Hover State */
+.style-option:hover .option-content {
+    @apply bg-gray-200 border-gray-300;
+}
+
+.style-option input[type="radio"]:checked:hover + .option-content {
+    @apply bg-blue-700 border-blue-900;
+}
+
+/* Arrow indicator pointing left */
+.style-selector-panel::before {
+    content: '';
+    @apply absolute -left-2 top-1/2 -translate-y-1/2 w-0 h-0;
+    @apply border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .floating-container {
+        @apply left-2.5;
+    }
+    
+    .floating-button {
+        @apply w-[45px] h-[45px];
+    }
+    
+    .floating-button iconify-icon {
+        @apply text-xl;
+    }
+    
+    .style-selector-panel {
+        @apply left-[60px] min-w-[180px];
+    }
+}
+
+/* Smooth transitions for theme changes */
+* {
+    @apply transition-[background-color,color,border-color] duration-300 ease-in-out;
+}
+
+/* Skip transitions for certain elements */
+.style-selector-panel *,
+.style-notification *,
+img,
+video {
+    transition: none !important;
+}
+
+/* Remove old styles */
+.style-selector {
+    @apply hidden;
+}

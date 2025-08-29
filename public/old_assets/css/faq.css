@@ -1,0 +1,228 @@
+/**
+ * FAQ Section CSS
+ * Styles for expandable FAQ component
+ */
+
+/* ===== BASE STYLES ===== */
+.faq-container {
+    position: relative;
+}
+
+/* ===== FAQ CATEGORIES ===== */
+.faq-category {
+    border-bottom: 1px solid var(--color-neutral-200);
+    padding-bottom: 2rem;
+}
+
+.faq-category:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* ===== FAQ ITEMS ===== */
+.faq-item {
+    margin-bottom: 1rem;
+    background: var(--color-neutral-50);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item.active {
+    background: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== FAQ QUESTION ===== */
+.faq-question {
+    width: 100%;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+    background: var(--color-primary-50);
+}
+
+.faq-item.active .faq-question {
+    background: var(--color-primary-50);
+}
+
+.question-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-neutral-900);
+    flex: 1;
+    padding-right: 1rem;
+}
+
+/* ===== FAQ ICON ===== */
+.faq-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary-100);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.faq-icon svg {
+    transition: transform 0.3s ease;
+    color: var(--color-primary-600);
+}
+
+.faq-item.active .faq-icon {
+    background: var(--color-primary-600);
+}
+
+.faq-item.active .faq-icon svg {
+    transform: rotate(180deg);
+    color: white;
+}
+
+/* ===== FAQ ANSWER ===== */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in;
+}
+
+.answer-content {
+    padding: 0 1.5rem 1.5rem;
+    color: var(--color-neutral-700);
+    line-height: 1.75;
+}
+
+.answer-content p {
+    margin-bottom: 0.5rem;
+}
+
+.answer-content p:last-child {
+    margin-bottom: 0;
+}
+
+.answer-content ul,
+.answer-content ol {
+    margin-left: 0.5rem;
+}
+
+.answer-content li {
+    margin-bottom: 0.5rem;
+}
+
+.answer-content table {
+    border-collapse: collapse;
+}
+
+.answer-content table th {
+    font-weight: 600;
+    color: var(--color-neutral-900);
+}
+
+.answer-content table td,
+.answer-content table th {
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+/* ===== CONTACT CARD ===== */
+.sticky {
+    position: sticky;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .faq-container .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .sticky {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-question {
+        padding: 1rem;
+    }
+    
+    .answer-content {
+        padding: 0 1rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    .question-text {
+        font-size: 0.875rem;
+    }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes expandIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.faq-item.active .answer-content {
+    animation: expandIn 0.3s ease-out;
+}
+
+/* ===== LOADING STATE ===== */
+.faq-loading {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.faq-loading::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--color-neutral-200);
+    border-top-color: var(--color-primary-600);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .faq-item {
+        break-inside: avoid;
+    }
+    
+    .faq-item .faq-answer {
+        max-height: none !important;
+    }
+    
+    .faq-icon {
+        display: none;
+    }
+}

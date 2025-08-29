@@ -1,0 +1,292 @@
+    <!-- ===== ARCHIVE FAQ SECTION ===== -->
+    <section id="archive-faqs" class="archive-faqs-section">
+        <div class="archive-faqs-container">
+            
+            <!-- Page Header -->
+            <div class="archive-faqs-page-header">
+                <div class="archive-faqs-breadcrumb">
+                    <a href="/" data-translate="common.home">Home</a>
+                    <iconify-icon icon="heroicons:chevron-right"></iconify-icon>
+                    <span data-translate="faqs.archive.breadcrumb">FAQ Archive</span>
+                </div>
+                
+                <div class="archive-faqs-header">
+                    <div class="archive-faqs-badge" data-translate="faqs.archive.badge">Help & Support</div>
+                    <h1 class="archive-faqs-title" data-translate="faqs.archive.title">FAQ Help Center</h1>
+                    <p class="archive-faqs-subtitle" data-translate="faqs.archive.subtitle">
+                        Find quick answers to all your questions
+                    </p>
+                    <p class="archive-faqs-description" data-translate="faqs.archive.description">
+                        Complete collection of frequently asked questions and answers, 
+                        organized by category for easy searching.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="archive-faqs-stats">
+                        <div class="archive-faqs-stat">
+                            <span class="archive-faqs-stat-number">48</span>
+                            <span class="archive-faqs-stat-label" data-translate="faqs.archive.stats.totalFaqs">Total FAQ</span>
+                        </div>
+                        <div class="archive-faqs-stat">
+                            <span class="archive-faqs-stat-number">7</span>
+                            <span class="archive-faqs-stat-label" data-translate="faqs.archive.stats.categories">Categories</span>
+                        </div>
+                        <div class="archive-faqs-stat">
+                            <span class="archive-faqs-stat-number" data-translate="faqs.archive.stats.lastUpdatedValue">2 days ago</span>
+                            <span class="archive-faqs-stat-label" data-translate="faqs.archive.stats.lastUpdated">Last Updated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Search and Filters -->
+            <div class="archive-faqs-controls">
+                <div class="archive-faqs-controls-container">
+                    
+                    <!-- Search Bar -->
+                    <div class="archive-faqs-search">
+                        <div class="archive-faqs-search-container">
+                            <iconify-icon icon="heroicons:magnifying-glass" class="archive-faqs-search-icon"></iconify-icon>
+                            <input 
+                                type="text" 
+                                data-faq-search 
+                                class="archive-faqs-search-input" 
+                                placeholder=""
+                                data-translate-placeholder="faqs.archive.search.placeholder"
+                            >
+                            <button data-faq-search-clear class="archive-faqs-search-clear hidden">
+                                <iconify-icon icon="heroicons:x-mark"></iconify-icon>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Filters and View Controls -->
+                    <div class="archive-faqs-controls-row">
+                        
+                        <!-- Category Filters -->
+                        <div class="archive-faqs-filters">
+                            <div class="archive-faqs-filters-container">
+                                <button data-faq-filter="all" class="archive-faqs-filter-btn active" data-translate="faqs.filter.all">
+                                    Semua
+                                </button>
+                                <button data-faq-filter="general" class="archive-faqs-filter-btn" data-translate="faqs.filter.general">
+                                    Umum
+                                </button>
+                                <button data-faq-filter="products" class="archive-faqs-filter-btn" data-translate="faqs.filter.products">
+                                    Produk
+                                </button>
+                                <button data-faq-filter="services" class="archive-faqs-filter-btn" data-translate="faqs.filter.services">
+                                    Layanan
+                                </button>
+                                <button data-faq-filter="shipping" class="archive-faqs-filter-btn" data-translate="faqs.filter.shipping">
+                                    Pengiriman
+                                </button>
+                                <button data-faq-filter="installation" class="archive-faqs-filter-btn" data-translate="faqs.filter.installation">
+                                    Instalasi
+                                </button>
+                                <button data-faq-filter="payment" class="archive-faqs-filter-btn" data-translate="faqs.filter.payment">
+                                    Pembayaran
+                                </button>
+                                <button data-faq-filter="warranty" class="archive-faqs-filter-btn" data-translate="faqs.filter.warranty">
+                                    Garansi
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- View Controls -->
+                        <div class="archive-faqs-view-controls">
+                            <div class="archive-faqs-sort">
+                                <select data-faq-sort class="archive-faqs-sort-select">
+                                    <option value="relevance" data-translate="faqs.archive.sort.relevance">Relevansi</option>
+                                    <option value="newest" data-translate="faqs.archive.sort.newest">Terbaru</option>
+                                    <option value="oldest" data-translate="faqs.archive.sort.oldest">Terlama</option>
+                                    <option value="popular" data-translate="faqs.archive.sort.popular">Populer</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Results Info -->
+                            <div class="archive-faqs-results-info">
+                                <span data-faq-results-text data-translate="faqs.archive.results">
+                                    Menampilkan <span data-faq-showing>24</span> dari <span data-faq-total>48</span> FAQ
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- FAQ Grid -->
+            <div class="archive-faqs-content">
+                <div class="archive-faqs-grid" data-faq-grid>
+                    
+                    <!-- FAQ Item 1 -->
+                    <!-- FAQ Item 1 -->
+                    <article class="archive-faqs-item" data-faq-category="products" data-faq-id="1">
+                        <div class="archive-faqs-item-content">
+                            <div class="archive-faqs-item-header">
+                                <span class="archive-faqs-item-category" data-translate="faqs.filter.products">Produk</span>
+                                <div class="archive-faqs-item-stats">
+                                    <span class="archive-faqs-item-views">1,234 <span data-translate="faqs.detail.meta.views">kali dilihat</span></span>
+                                </div>
+                            </div>
+                            
+                            <h3 class="archive-faqs-item-question">
+                                <a href="/detail-faq.html?id=1" data-translate="faqs.items.q1.question">
+                                    Apakah semua produk yang dijual adalah produk original?
+                                </a>
+                            </h3>
+                            
+                            <p class="archive-faqs-item-preview" data-translate="faqs.items.q1.preview">
+                                Ya, semua produk yang kami jual adalah produk original dengan garansi resmi...
+                            </p>
+                            
+                            <div class="archive-faqs-item-meta">
+                                <div class="archive-faqs-item-actions">
+                                    <button class="archive-faqs-bookmark" data-faq-bookmark="1" data-translate="faqs.archive.quickActions.bookmark">
+                                        <iconify-icon icon="heroicons:bookmark"></iconify-icon>
+                                        Bookmark
+                                    </button>
+                                    <button class="archive-faqs-share" data-faq-share="1" data-translate="faqs.archive.quickActions.share">
+                                        <iconify-icon icon="heroicons:share"></iconify-icon>
+                                        Bagikan
+                                    </button>
+                                </div>
+                                <span class="archive-faqs-item-helpful" data-translate="faqs.archive.quickActions.helpful">
+                                    <iconify-icon icon="heroicons:hand-thumb-up"></iconify-icon>
+                                    89% merasa terbantu
+                                </span>
+                            </div>
+                        </div>
+                    </article>                    <!-- FAQ Item 2 -->
+                    <article class="archive-faqs-item" data-faq-category="products" data-faq-id="2">
+                        <div class="archive-faqs-item-content">
+                            <div class="archive-faqs-item-header">
+                                <div class="archive-faqs-item-category" data-translate="faqs.filter.products">Produk</div>
+                                <button class="archive-faqs-item-bookmark" data-faq-bookmark="2">
+                                    <iconify-icon icon="heroicons:bookmark"></iconify-icon>
+                                </button>
+                            </div>
+                            
+                            <h3 class="archive-faqs-item-question">
+                                <a href="/detail-faq.html?id=2" data-translate="faqs.items.q2.question">
+                                    Bagaimana cara mengetahui spesifikasi produk yang tepat?
+                                </a>
+                            </h3>
+                            
+                            <p class="archive-faqs-item-preview" data-translate="faqs.items.q2.preview">
+                                Tim teknisi kami siap memberikan konsultasi gratis untuk membantu Anda memilih produk yang tepat...
+                            </p>
+                            
+                            <div class="archive-faqs-item-meta">
+                                <div class="archive-faqs-item-stats">
+                                    <span class="archive-faqs-item-views">
+                                        <iconify-icon icon="heroicons:eye"></iconify-icon>
+                                        956
+                                    </span>
+                                    <span class="archive-faqs-item-helpful">
+                                        <iconify-icon icon="heroicons:hand-thumb-up"></iconify-icon>
+                                        92%
+                                    </span>
+                                </div>
+                                <time class="archive-faqs-item-date">Diperbarui 1 minggu lalu</time>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Continue with more FAQ items... -->
+                    <!-- FAQ Item 3 -->
+                    <article class="archive-faqs-item" data-faq-category="services" data-faq-id="3">
+                        <div class="archive-faqs-item-content">
+                            <div class="archive-faqs-item-header">
+                                <div class="archive-faqs-item-category" data-translate="faqs.filter.services">Layanan</div>
+                                <button class="archive-faqs-item-bookmark" data-faq-bookmark="3">
+                                    <iconify-icon icon="heroicons:bookmark"></iconify-icon>
+                                </button>
+                            </div>
+                            
+                            <h3 class="archive-faqs-item-question">
+                                <a href="/detail-faq.html?id=3" data-translate="faqs.items.q3.question">
+                                    Apakah menyediakan jasa instalasi listrik?
+                                </a>
+                            </h3>
+                            
+                            <p class="archive-faqs-item-preview" data-translate="faqs.items.q3.preview">
+                                Ya, kami menyediakan jasa instalasi listrik dengan teknisi berpengalaman dan bersertifikat...
+                            </p>
+                            
+                            <div class="archive-faqs-item-meta">
+                                <div class="archive-faqs-item-stats">
+                                    <span class="archive-faqs-item-views">
+                                        <iconify-icon icon="heroicons:eye"></iconify-icon>
+                                        2,145
+                                    </span>
+                                    <span class="archive-faqs-item-helpful">
+                                        <iconify-icon icon="heroicons:hand-thumb-up"></iconify-icon>
+                                        95%
+                                    </span>
+                                </div>
+                                <time class="archive-faqs-item-date">Diperbarui 3 hari lalu</time>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- More items can be added here -->
+                    <!-- Total items would be populated dynamically -->
+                    
+                </div>
+                
+                <!-- Load More Button -->
+                <div class="archive-faqs-load-more">
+                    <button data-faq-load-more class="archive-faqs-load-more-btn">
+                        <span data-translate="faqs.archive.loadMore">Muat Lebih Banyak</span>
+                        <iconify-icon icon="heroicons:arrow-down"></iconify-icon>
+                    </button>
+                </div>
+                
+            </div>
+            
+            <!-- Popular Categories -->
+            <div class="archive-faqs-popular">
+                <div class="archive-faqs-popular-content">
+                    <h3 class="archive-faqs-popular-title" data-translate="faqs.archive.popular.title">
+                        Kategori Populer
+                    </h3>
+                    <div class="archive-faqs-popular-grid">
+                        <a href="?filter=general" class="archive-faqs-popular-item">
+                            <iconify-icon icon="heroicons:home"></iconify-icon>
+                            <span data-translate="faqs.filter.general">Umum</span>
+                            <span class="archive-faqs-popular-count">10 FAQ</span>
+                        </a>
+                        <a href="?filter=products" class="archive-faqs-popular-item">
+                            <iconify-icon icon="heroicons:cube"></iconify-icon>
+                            <span data-translate="faqs.filter.products">Produk</span>
+                            <span class="archive-faqs-popular-count">15 FAQ</span>
+                        </a>
+                        <a href="?filter=services" class="archive-faqs-popular-item">
+                            <iconify-icon icon="heroicons:wrench-screwdriver"></iconify-icon>
+                            <span data-translate="faqs.filter.services">Layanan</span>
+                            <span class="archive-faqs-popular-count">12 FAQ</span>
+                        </a>
+                        <a href="?filter=installation" class="archive-faqs-popular-item">
+                            <iconify-icon icon="heroicons:cog-6-tooth"></iconify-icon>
+                            <span data-translate="faqs.filter.installation">Instalasi</span>
+                            <span class="archive-faqs-popular-count">9 FAQ</span>
+                        </a>
+                        <a href="?filter=warranty" class="archive-faqs-popular-item">
+                            <iconify-icon icon="heroicons:shield-check"></iconify-icon>
+                            <span data-translate="faqs.filter.warranty">Garansi</span>
+                            <span class="archive-faqs-popular-count">8 FAQ</span>
+                        </a>
+                        <a href="?filter=shipping" class="archive-faqs-popular-item">
+                            <iconify-icon icon="heroicons:truck"></iconify-icon>
+                            <span data-translate="faqs.filter.shipping">Pengiriman</span>
+                            <span class="archive-faqs-popular-count">7 FAQ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>

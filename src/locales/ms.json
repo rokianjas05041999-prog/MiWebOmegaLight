@@ -1,0 +1,1867 @@
+{
+  "common": {
+    "home": "Laman Utama",
+    "chooseLanguage": "Pilih Bahasa",
+    "chooseTheme": "Pilih Tema"
+  },
+  "brand": {
+    "name": "OmegaLight"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "categories": "Kategori",
+    "gallery": "Galeri",
+    "products": "Produk",
+    "blog": "Blog",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "search": "Cari...",
+    "searchAnything": "Cari apa sahaja......",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "Penyelesaian Dipercayai Sejak 1995",
+    "title": "Penyelesaian Elektrik Dipercayai",
+    "subtitle": "Kedai Elektrik Lengkap untuk Keperluan Anda",
+    "description": "Melayani keperluan elektrik rumah dan industri sejak 1995. Kami menyediakan produk berkualiti daripada jenama terkenal dengan harga kompetitif dan perkhidmatan pemasangan profesional oleh juruteknik berpengalaman.",
+    "cta": {
+      "primary": "Lihat Produk",
+      "secondary": "Perundingan Percuma"
+    }
+  },
+  "category": {
+    "badge": "Produk Terlengkap",
+    "title": "Kategori Produk",
+    "subtitle": "Cari Keperluan Elektrik Anda",
+    "description": "Pelbagai peralatan elektrik berkualiti daripada jenama terkenal untuk keperluan rumah tangga hingga industri.",
+    "items": {
+      "led": {
+        "title": "Lampu LED",
+        "description": "Jimat tenaga hingga 80% dengan jangka hayat panjang"
+      },
+      "cable": {
+        "title": "Kabel Elektrik",
+        "description": "Kabel SNI pelbagai saiz dan jenis"
+      },
+      "panel": {
+        "title": "MCB & Panel",
+        "description": "Perlindungan maksimum untuk pemasangan elektrik"
+      },
+      "outlet": {
+        "title": "Soket",
+        "description": "Pelbagai model untuk semua keperluan"
+      },
+      "spotlight": {
+        "title": "Lampu Sorot",
+        "description": "Dalaman & luaran dengan ketahanan tinggi"
+      },
+      "fitting": {
+        "title": "Fitting Lampu",
+        "description": "Fitting berkualiti untuk pelbagai jenis lampu"
+      },
+      "switch": {
+        "title": "Suis",
+        "description": "Reka bentuk moden dengan fungsi optimum"
+      },
+      "tools": {
+        "title": "Alat Elektrik",
+        "description": "Peralatan kerja untuk profesional"
+      }
+    },
+    "loadMore": "Lihat Kategori Lain"
+  },
+  "about": {
+    "badge": "Tentang OmegaLight",
+    "title": "Tentang Kami",
+    "subtitle": "Kedai Elektrik Dipercayai Sejak 1995",
+    "description": "Melayani keperluan peralatan elektrik untuk rumah tangga dan industri dengan produk berkualiti dan harga kompetitif.",
+    "company": {
+      "name": "CV. Elektro Jaya Abadi",
+      "tagline": "Pakar Peralatan Elektrik & Pemasangan",
+      "text1": "Bermula dari kedai kecil di Jakarta Barat, CV. Elektro Jaya Abadi kini telah berkembang menjadi salah satu pengedar peralatan elektrik terkemuka di Indonesia. Dengan pengalaman lebih dari 25 tahun, kami memahami keperluan pelanggan.",
+      "text2": "Kami menyediakan pelbagai peralatan elektrik daripada jenama terkenal seperti Schneider Electric, Panasonic, Philips, dan ABB. Semua produk yang kami jual adalah produk asli dengan jaminan rasmi daripada pengilang.",
+      "text3": "Selain menjual produk, kami juga menyediakan perkhidmatan pemasangan dan perundingan elektrik. Pasukan juruteknik kami yang berpengalaman dan bertauliah sedia membantu anda menyelesaikan pelbagai projek elektrik."
+    },
+    "features": {
+      "quality": "Produk Berkualiti Terjamin",
+      "price": "Harga Kompetitif",
+      "service": "Perkhidmatan Profesional",
+      "warranty": "Jaminan Rasmi"
+    }
+  },
+  "stats": {
+    "title": "OmegaLight dalam Angka",
+    "subtitle": "Melayani Keperluan Elektrik Sejak 1995",
+    "description": "Kepercayaan dan kepuasan pelanggan adalah bukti kualiti perkhidmatan kami.",
+    "items": {
+      "products": "Produk Tersedia",
+      "customers": "Pelanggan Berpuas Hati",
+      "experience": "Tahun Pengalaman",
+      "brands": "Rakan Kongsi Jenama"
+    }
+  },
+  "gallery": {
+    "title": "Galeri Projek",
+    "subtitle": "Dokumentasi Hasil Kerja Kami",
+    "description": "Lihat pelbagai projek pemasangan elektrik yang telah kami selesaikan dengan standard kualiti tinggi.",
+    "items": {
+      "panel": {
+        "title": "Pemasangan Panel Elektrik",
+        "location": "Bangunan Pejabat Jakarta"
+      },
+      "industrial": {
+        "title": "Pemasangan Lampu Industri",
+        "location": "Kilang Tekstil Bandung"
+      },
+      "cable": {
+        "title": "Pemasangan Kabel Tray",
+        "location": "Mall Thamrin City"
+      },
+      "smart": {
+        "title": "Pemasangan Rumah Pintar",
+        "location": "Perumahan Elit BSD"
+      },
+      "solar": {
+        "title": "Pemasangan Panel Solar",
+        "location": "Hotel Grand Indonesia"
+      },
+      "maintenance": {
+        "title": "Penyelenggaraan Rutin",
+        "location": "Apartmen Sudirman Park"
+      }
+    },
+    "cta": "Lihat Semua Projek"
+  },
+  "products": {
+    "title": "Produk Unggulan",
+    "subtitle": "Peralatan Elektrik Berkualiti Terbaik",
+    "description": "Cari pelbagai produk elektrik asli dengan harga kompetitif. Semua produk bergaransi rasmi daripada pengedar.",
+    "badges": {
+      "sale": "JUALAN",
+      "new": "BARU",
+      "hot": "POPULAR",
+      "bestseller": "TERLARIS",
+      "limited": "TERHAD"
+    },
+    "quickView": {
+      "button": "Lihat Pantas",
+      "inStock": "Ada Stok",
+      "outOfStock": "Kehabisan Stok",
+      "findAt": "Cari produk kami di:",
+      "detail": "Butiran",
+      "whatsapp": "WhatsApp"
+    },
+    "cta": "Butiran",
+    "outOfStock": "Kehabisan Stok",
+    "loadMore": "Lihat Produk Lain",
+    "items": {
+      "led": {
+        "name": "Lampu LED Philips 9W Cool Daylight",
+        "description": "Jimat tenaga hingga 85%, tahan hingga 15,000 jam"
+      },
+      "cable": {
+        "name": "Kabel NYM 2x1.5 Supreme (50 Meter)",
+        "description": "Kabel pemasangan elektrik SNI, tembaga tulen"
+      },
+      "mcb": {
+        "name": "MCB Schneider Domae 1 Fasa 16A",
+        "description": "Pemutus litar untuk perlindungan pemasangan elektrik"
+      },
+      "outlet": {
+        "name": "Soket Panasonic Wide Series Putih",
+        "description": "Soket dinding dengan perlindungan kanak-kanak"
+      },
+      "spotlight": {
+        "name": "Lampu Sorot LED Osram 50W Daylight",
+        "description": "IP65 Kalis Air, sesuai untuk luar"
+      },
+      "fitting": {
+        "name": "Fitting Lampu Gantung E27 Broco",
+        "description": "Bahan seramik tahan haba, kabel 1.5m"
+      },
+      "dimmer": {
+        "name": "Suis Dimmer LED Legrand Niloe",
+        "description": "Kawalan kecerahan lampu LED 10-300W"
+      },
+      "solar": {
+        "name": "Panel Solar Monocrystalline 100W",
+        "description": "Panel solar kecekapan tinggi dengan jaminan 25 tahun"
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog & Artikel",
+    "subtitle": "Tips dan Maklumat Seputar Elektrik",
+    "description": "Baca artikel menarik tentang tips pemasangan, penyelenggaraan, dan trend terbaru di dunia elektrik.",
+    "categories": {
+      "tips": "Tips",
+      "guide": "Panduan",
+      "tech": "Teknologi"
+    },
+    "readTime": "5 minit baca",
+    "readMore": "Baca Selanjutnya",
+    "viewAll": "Lihat Semua Artikel",
+    "items": {
+      "tips": {
+        "title": "5 Tips Pemasangan Elektrik yang Selamat dan Betul",
+        "excerpt": "Panduan lengkap untuk melakukan pemasangan elektrik rumah dengan standard keselamatan yang tepat."
+      },
+      "led": {
+        "title": "Menjimatkan Bil Elektrik dengan Lampu LED",
+        "excerpt": "Simak cara menjimat hingga 80% bil elektrik dengan beralih ke teknologi LED terbaru."
+      },
+      "smart": {
+        "title": "Trend Rumah Pintar 2025: Masa Depan Rumah Pintar",
+        "excerpt": "Eksplorasi teknologi rumah pintar terbaru yang dapat meningkatkan keselesaan dan kecekapan tenaga."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Testimoni Pelanggan",
+    "subtitle": "Apa kata mereka tentang perkhidmatan kami",
+    "description": "Kepuasan pelanggan adalah keutamaan kami. Simak pengalaman mereka yang telah mempercayai produk dan perkhidmatan OmegaLight.",
+    "stats": {
+      "customers": "Pelanggan Berpuas Hati",
+      "rating": "Penilaian"
+    },
+    "items": {
+      "client1": {
+        "text": "Sangat berpuas hati dengan produk dan perkhidmatan OmegaLight. Kualiti produk bagus, harga kompetitif, dan pelayanan sangat responsif. Pasukan jurutekniknya juga profesional dalam pemasangan.",
+        "name": "Budi Santoso",
+        "position": "Pemilik Rumah",
+        "location": "Jakarta Barat"
+      },
+      "client2": {
+        "text": "Sudah berlangganan di OmegaLight selama 5 tahun untuk keperluan kedai. Produknya sentiasa asli, jaminan jelas, dan perkhidmatan selepas jualan memuaskan. Sangat disyorkan!",
+        "name": "Sari Wijaya",
+        "position": "Pemilik Kedai",
+        "location": "Tangerang"
+      },
+      "client3": {
+        "text": "Pasukan OmegaLight sangat membantu projek pemasangan bangunan kami. Perundingan percuma, pengiraan keperluan tepat, dan pelaksanaan mengikut jadual. Rakan kongsi dipercayai untuk projek besar.",
+        "name": "Ahmad Firdaus",
+        "position": "Pengurus Projek",
+        "location": "Bekasi"
+      }
+    }
+  },
+  "brands": {
+    "title": "Rakan Kongsi Jenama Dipercayai",
+    "subtitle": "Bekerjasama dengan jenama-jenama terkemuka dunia"
+  },
+  "contact": {
+    "badge": "Hubungi Kami",
+    "title": "Hubungan & Lokasi",
+    "subtitle": "Sedia Melayani Keperluan Elektrik Anda",
+    "description": "Hubungi kami untuk perundingan percuma, tempahan produk, atau perkhidmatan pemasangan. Pasukan profesional kami sedia membantu anda 24/7.",
+    "form": {
+      "title": "Hantar Mesej",
+      "subtitle": "Isi borang di bawah ini dan kami akan menghubungi anda segera",
+      "name": "Nama Penuh *",
+      "namePlaceholder": "Masukkan nama penuh anda",
+      "email": "Emel *",
+      "emailPlaceholder": "nama@emel.com",
+      "phone": "Nombor Telefon",
+      "phonePlaceholder": "08xx-xxxx-xxxx",
+      "company": "Syarikat",
+      "companyPlaceholder": "Nama syarikat (pilihan)",
+      "message": "Mesej *",
+      "messagePlaceholder": "Ceritakan keperluan elektrik anda atau soalan yang ingin disampaikan...",
+      "submit": "Hantar Mesej"
+    },
+    "info": {
+      "title": "Maklumat Hubungan",
+      "address": {
+        "title": "Alamat Kedai",
+        "details": "Jl. Raya Industri No. 88\nKawasan Perindustrian Jababeka\nCikarang, Bekasi 17530"
+      },
+      "phone": {
+        "title": "Telefon & WhatsApp",
+        "details": "(021) 8934-5678\n+62 812-3456-7890\n+62 856-7890-1234"
+      },
+      "email": {
+        "title": "Emel",
+        "details": "info@omegalight.co.id\nsales@omegalight.co.id\nsupport@omegalight.co.id"
+      },
+      "hours": {
+        "title": "Waktu Operasi",
+        "details": "Isnin - Jumaat: 08:00 - 17:00\nSabtu: 08:00 - 15:00\nAhad: Tutup"
+      },
+      "map": "Peta Lokasi Kedai"
+    }
+  },
+  "detail": {
+    "breadcrumb": {
+      "category": "Kategori",
+      "currentPage": "Halaman Semasa"
+    },
+    "meta": {
+      "category": "Kategori",
+      "publishedDate": "15 Januari 2025"
+    },
+    "header": {
+      "title": "Penyelesaian Elektrik Profesional untuk Perniagaan Anda",
+      "subtitle": "Perkhidmatan dan penyelesaian elektrik komprehensif yang direka untuk memenuhi keperluan perniagaan khusus anda dengan kualiti dan kebolehpercayaan profesional."
+    },
+    "actions": {
+      "contactUs": "Hubungi Kami",
+      "share": "Kongsi",
+      "bookmark": "Simpan"
+    },
+    "image": {
+      "alt": "Penyelesaian Elektrik Profesional",
+      "zoomTitle": "Klik untuk membesarkan gambar"
+    },
+    "sections": {
+      "introduction": {
+        "title": "Pengenalan",
+        "text1": "Di OmegaLight, kami menyediakan penyelesaian elektrik komprehensif yang direka untuk memenuhi keperluan pelbagai hartanah perniagaan moden dan kediaman. Pasukan profesional bertauliah kami membawa pengalaman bertahun-tahun dan teknologi terdepan untuk setiap projek.",
+        "text2": "Daripada pemasangan elektrik asas hingga sistem industri yang kompleks, kami memastikan keselamatan, kebolehpercayaan, dan kecekapan dalam semua perkhidmatan kami. Komitmen kami terhadap kualiti dan kepuasan pelanggan telah menjadikan kami rakan kongsi dipercayai untuk penyelesaian elektrik."
+      },
+      "features": {
+        "title": "Ciri Utama",
+        "feature1": {
+          "title": "Keselamatan Utama",
+          "description": "Semua pemasangan kami memenuhi standard keselamatan tertinggi dan mematuhi kod elektrik tempatan."
+        },
+        "feature2": {
+          "title": "Perkhidmatan Profesional",
+          "description": "Juruteknik elektrik bertauliah kami menyediakan perkhidmatan pemasangan dan penyelenggaraan pakar."
+        },
+        "feature3": {
+          "title": "Sokongan 24/7",
+          "description": "Sokongan kecemasan sepanjang masa untuk isu elektrik kritikal."
+        },
+        "feature4": {
+          "title": "Harga Kompetitif",
+          "description": "Harga yang adil dan telus tanpa kos tersembunyi atau kejutan."
+        }
+      },
+      "detailed": {
+        "title": "Maklumat Terperinci",
+        "text1": "Perkhidmatan elektrik kami merangkumi pelbagai penyelesaian, daripada pemasangan wayar dan pencahayaan kediaman hingga sistem elektrik komersial dan industri yang kompleks. Kami hanya menggunakan bahan berkualiti tinggi dan teknologi terbaru untuk memastikan hasil yang tahan lama dan boleh dipercayai.",
+        "servicesTitle": "Perkhidmatan yang Ditawarkan",
+        "services": {
+          "service1": "Pemasangan & Pengwayaran Elektrik",
+          "service2": "Reka Bentuk & Pemasangan Pencahayaan",
+          "service3": "Naik Taraf & Penyelenggaraan Panel",
+          "service4": "Pembaikan Elektrik Kecemasan",
+          "service5": "Perundingan Kecekapan Tenaga",
+          "service6": "Integrasi Rumah Pintar"
+        },
+        "text2": "Kami berbangga dapat menyelesaikan projek tepat pada masa dan dalam bajet, sambil mengekalkan standard kerja tertinggi. Pasukan kami sentiasa mengikuti trend dan teknologi industri terbaru untuk menyediakan penyelesaian inovatif yang memenuhi keperluan pelanggan yang berkembang."
+      }
+    },
+    "cta": {
+      "title": "Sedia untuk Bermula?",
+      "description": "Hubungi pasukan kami hari ini untuk perundingan percuma dan sebut harga untuk projek elektrik anda.",
+      "getQuote": "Dapatkan Sebut Harga Percuma",
+      "callNow": "Hubungi Sekarang"
+    },
+    "sidebar": {
+      "quickInfo": {
+        "title": "Maklumat Pantas",
+        "category": {
+          "label": "Kategori:",
+          "value": "Perkhidmatan Elektrik"
+        },
+        "serviceArea": {
+          "label": "Kawasan Perkhidmatan:",
+          "value": "Seluruh Malaysia"
+        },
+        "availability": {
+          "label": "Ketersediaan:",
+          "value": "24/7"
+        },
+        "experience": {
+          "label": "Pengalaman:",
+          "value": "15+ Tahun"
+        }
+      },
+      "contact": {
+        "title": "Maklumat Hubungan",
+        "phone": {
+          "label": "Telefon"
+        },
+        "email": {
+          "label": "Emel"
+        },
+        "address": {
+          "label": "Alamat",
+          "value": "123 Jalan Elektrik, Bandar, Negeri 12345"
+        }
+      },
+      "relatedLinks": {
+        "title": "Pautan Berkaitan",
+        "link1": "Perkhidmatan Kami",
+        "link2": "Katalog Produk",
+        "link3": "Kajian Kes",
+        "link4": "Ulasan Pelanggan"
+      },
+      "socialShare": {
+        "title": "Kongsi Halaman Ini",
+        "facebook": "Kongsi di Facebook",
+        "twitter": "Kongsi di Twitter",
+        "linkedin": "Kongsi di LinkedIn",
+        "whatsapp": "Kongsi di WhatsApp"
+      }
+    }
+  },
+  "detail": {
+    "product": {
+      "breadcrumb": {
+        "catalog": "Katalog Produk",
+        "category": "Lampu LED",
+        "currentProduct": "Lampu LED Philips 9W"
+      },
+      "badges": {
+        "sale": "JUALAN 30%"
+      },
+      "image": {
+        "alt": "Lampu LED Philips 9W Cool Daylight",
+        "zoomTitle": "Klik untuk membesarkan gambar"
+      },
+      "title": "Lampu LED Philips 9W Cool Daylight",
+      "reviews": "ulasan",
+      "sku": {
+        "label": "SKU:"
+      },
+      "availability": {
+        "label": "Ketersediaan:",
+        "inStock": "Ada Stok (25 unit)"
+      },
+      "price": {
+        "note": "Harga boleh berubah pada bila-bila masa. Hubungi kami untuk maklumat harga terkini."
+      },
+      "variants": {
+        "wattage": "Kuasa:",
+        "color": "Warna Cahaya:"
+      },
+      "contact": {
+        "title": "Berminat dengan produk ini?",
+        "subtitle": "Hubungi kami untuk maklumat lanjut dan tawaran terbaik"
+      },
+      "actions": {
+        "whatsapp": "Hubungi melalui WhatsApp",
+        "phone": "Telefon Sekarang",
+        "inquiry": "Hantar Pertanyaan",
+        "compare": "Bandingkan",
+        "share": "Kongsi"
+      },
+      "features": {
+        "title": "Ciri Utama",
+        "feature1": "Jimat tenaga hingga 85%",
+        "feature2": "Tahan hingga 15,000 jam",
+        "feature3": "Cahaya stabil tanpa berkelip",
+        "feature4": "Jaminan rasmi 2 tahun"
+      },
+      "tabs": {
+        "description": "Penerangan",
+        "specifications": "Spesifikasi",
+        "reviews": "Ulasan (128)",
+        "contact": "Hubungan"
+      },
+      "description": {
+        "title": "Tentang Produk",
+        "text1": "Lampu LED Philips 9W Cool Daylight adalah penyelesaian pencahayaan moden yang menggabungkan kecekapan tenaga tinggi dengan kualiti cahaya unggul. Dengan teknologi LED terdepan dari Philips, lampu ini memberikan pencahayaan terang dan sekata untuk pelbagai keperluan rumah tangga dan komersial.",
+        "text2": "Direka untuk menggantikan lampu pijar 60W tradisional, lampu LED ini menjimat hingga 85% penggunaan elektrik sambil memberikan output cahaya yang setara. Dengan jangka hayat hingga 15,000 jam, pelaburan anda akan berbaloi dalam jangka panjang.",
+        "benefits": {
+          "title": "Kelebihan Produk",
+          "benefit1": "Teknologi LED berkualiti tinggi dari Philips",
+          "benefit2": "Kecekapan tenaga tinggi dengan penjimatan hingga 85%",
+          "benefit3": "Cahaya putih terang ideal untuk ruang kerja dan belajar",
+          "benefit4": "Tidak menghasilkan haba berlebihan",
+          "benefit5": "Mesra alam tanpa merkuri",
+          "benefit6": "Jaminan rasmi dari pengedar Philips Indonesia"
+        }
+      },
+      "specifications": {
+        "title": "Spesifikasi Teknikal",
+        "brand": "Jenama:",
+        "wattage": "Kuasa:",
+        "voltage": "Voltan:",
+        "lumens": "Lumens:",
+        "colorTemp": "Suhu Warna:",
+        "lifespan": "Jangka Hayat:",
+        "base": "Fitting:",
+        "dimmable": "Dimmer:",
+        "no": "Tidak",
+        "warranty": "Jaminan:",
+        "years": "Tahun",
+        "certification": "Pensijilan:"
+      },
+      "reviews": {
+        "title": "Ulasan Pelanggan",
+        "count": "ulasan",
+        "date1": "2 hari lalu",
+        "date2": "1 minggu lalu",
+        "date3": "2 minggu lalu",
+        "review1": "Lampu LED Philips ini sangat bagus! Cahayanya terang dan tidak menyilaukan. Sudah guna 6 bulan dan masih tahan. Sangat disyorkan untuk yang mahu tukar lampu rumah.",
+        "review2": "Kualiti bagus seperti yang dijangkakan. Penghantaran pantas dan pembungkusan selamat. Harga juga kompetitif berbanding kedai lain. Akan tempah lagi untuk bilik lain.",
+        "review3": "Produk asli Philips dengan harga berpatutan. Elektrik rumah jadi lebih jimat selepas tukar semua lampu ke LED. Terima kasih OmegaLight!",
+        "loadMore": "Lihat Ulasan Lain"
+      },
+      "contact": {
+        "tab": {
+          "title": "Hubungi Kami"
+        },
+        "phone": {
+          "title": "Telefon",
+          "hours": "Isnin - Jumaat: 08:00 - 17:00 WIB"
+        },
+        "whatsapp": {
+          "hours": "24 Jam (Respons pantas)"
+        },
+        "email": {
+          "response": "Respons dalam 24 jam"
+        },
+        "address": {
+          "title": "Alamat",
+          "text": "Jl. Raya Listrik No. 123, Jakarta Selatan 12345",
+          "hours": "Buka: Isnin - Sabtu 08:00 - 18:00"
+        }
+      },
+      "related": {
+        "title": "Produk Berkaitan"
+      }
+    }
+  },
+  "categoryDetail": {
+    "breadcrumb": {
+      "categories": "Kategori",
+      "currentCategory": "Lampu LED"
+    },
+    "header": {
+      "badge": "Kategori Produk",
+      "productCount": "24 Produk",
+      "rating": "Penilaian 4.8",
+      "title": "Lampu LED & Pencahayaan Jimat Tenaga",
+      "description": "Temui koleksi lengkap lampu LED dan penyelesaian pencahayaan jimat tenaga kami. Dari aplikasi kediaman hingga komersial, cari pencahayaan yang sempurna untuk setiap keperluan dengan penjimatan tenaga hingga 80%.",
+      "imageAlt": "Koleksi Lampu LED",
+      "energySaving": "Jimat Tenaga Hingga 80%"
+    },
+    "actions": {
+      "filter": "Tapis Produk",
+      "sort": "Susun",
+      "view": "Paparan Grid"
+    },
+    "filters": {
+      "priceRange": "Julat Harga:",
+      "allPrices": "Semua Harga",
+      "under50": "Di bawah RM 200",
+      "50to100": "RM 200 - RM 400",
+      "over100": "Di atas RM 400",
+      "brand": "Jenama:",
+      "allBrands": "Semua Jenama",
+      "wattage": "Kuasa:",
+      "allWattage": "Semua Kuasa"
+    },
+    "results": {
+      "showing": "Menunjukkan",
+      "products": "produk"
+    },
+    "sort": {
+      "sortBy": "Susun mengikut:",
+      "featured": "Pilihan",
+      "priceLowHigh": "Harga: Rendah ke Tinggi",
+      "priceHighLow": "Harga: Tinggi ke Rendah",
+      "newest": "Terbaru",
+      "rating": "Penilaian Tertinggi"
+    },
+    "products": {
+      "badges": {
+        "bestseller": "TERLARIS",
+        "new": "BARU",
+        "sale": "JUALAN",
+        "hot": "POPULAR",
+        "limited": "TERHAD"
+      },
+      "quickView": "Lihat Pantas",
+      "cta": "Butiran",
+      "outOfStock": "Kehabisan Stok",
+      "product1": {
+        "brand": "Philips",
+        "name": "Lampu LED 9W Cool Daylight",
+        "description": "Lampu LED jimat tenaga dengan jangka hayat 15,000 jam"
+      },
+      "product2": {
+        "brand": "Osram",
+        "name": "Lampu Sorot LED 50W Daylight",
+        "description": "Lampu sorot IP65 kalis air untuk aplikasi luar"
+      },
+      "product3": {
+        "brand": "Panasonic",
+        "name": "Panel LED 36W",
+        "description": "Panel LED ultra-nipis untuk aplikasi siling moden"
+      },
+      "product4": {
+        "brand": "Schneider",
+        "name": "Strip LED 5M RGB",
+        "description": "Strip LED RGB fleksibel dengan kawalan jauh"
+      },
+      "product5": {
+        "brand": "Philips",
+        "name": "Lampu TL LED 18W T8",
+        "description": "Pengganti terus untuk lampu pendarfluor"
+      },
+      "product6": {
+        "brand": "TP-Link",
+        "name": "Lampu LED Pintar WiFi 10W",
+        "description": "Lampu pintar dengan kawalan suara dan aplikasi"
+      },
+      "product7": {
+        "brand": "Osram",
+        "name": "Downlight LED 12W Recessed",
+        "description": "Downlight LED siling untuk dalaman moden"
+      },
+      "product8": {
+        "brand": "Schneider",
+        "name": "Pengawal Strip LED RGB",
+        "description": "Kawalan jauh untuk strip LED RGB"
+      }
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    },
+    "info": {
+      "title": "Tentang Lampu LED",
+      "text1": "Teknologi LED (Light Emitting Diode) mewakili masa depan pencahayaan. Lampu LED kami menawarkan kecekapan tenaga yang unggul, jangka hayat yang lebih panjang, dan kualiti cahaya yang lebih baik berbanding dengan lampu pijar dan pendarfluor tradisional.",
+      "text2": "Dengan penjimatan tenaga hingga 80% dan jangka hayat 15,000+ jam, lampu LED adalah pilihan bijak untuk aplikasi kediaman mahupun komersial. Jelajahi koleksi lengkap kami untuk mencari penyelesaian pencahayaan yang sempurna untuk keperluan anda.",
+      "features": {
+        "energy": {
+          "title": "Jimat Tenaga",
+          "description": "Penggunaan tenaga hingga 80% lebih rendah"
+        },
+        "lifespan": {
+          "title": "Jangka Hayat Panjang",
+          "description": "15,000+ jam operasi"
+        },
+        "quality": {
+          "title": "Kualiti Unggul",
+          "description": "Kualiti cahaya dan rendering warna yang lebih baik"
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "Penyelesaian dipercayai untuk keperluan elektrik anda. Pengedar rasmi produk elektrik berkualiti dengan perkhidmatan pemasangan profesional.",
+    "followUs": "Ikuti Kami",
+    "mainMenu": "Menu Utama",
+    "menu": {
+      "home": "Laman Utama",
+      "about": "Tentang Kami",
+      "products": "Produk",
+      "gallery": "Galeri",
+      "blog": "Blog",
+      "contact": "Hubungan"
+    },
+    "information": "Maklumat",
+    "info": {
+      "howToOrder": "Cara Tempahan",
+      "payment": "Kaedah Pembayaran",
+      "shipping": "Penghantaran",
+      "faq": "Soalan Lazim"
+    },
+    "legal": "Undang-undang",
+    "contactUs": "Hubungi Kami",
+    "contact": {
+      "address": "Jl. Raya Industri No. 88\nKawasan Perindustrian Jababeka\nCikarang, Bekasi 17530"
+    },
+    "newsletter": {
+      "title": "Surat Berita",
+      "description": "Dapatkan maklumat promosi dan produk terbaru",
+      "placeholder": "Emel Anda",
+      "submit": "Daftar"
+    },
+    "copyright": "Semua hak terpelihara.",
+    "poweredBy": "Dikuasakan oleh Pasukan OmegaLight"
+  },
+  "article": {
+    "currentTitle": "Butiran Artikel",
+    "category": "Tips Elektrik",
+    "publishDate": "15 Januari 2024",
+    "readingTime": "5 minit baca",
+    "title": "Panduan Lengkap Pemasangan Elektrik Moden: Tips Keselamatan dan Amalan Terbaik",
+    "excerpt": "Pelajari prinsip asas pemasangan elektrik yang selamat, dari perancangan hingga pelaksanaan. Panduan komprehensif ini merangkumi semua yang perlu anda ketahui tentang sistem elektrik moden dan protokol keselamatan.",
+    "authorName": "Ahmad Pakar Elektrik",
+    "authorRole": "Jurutera Elektrik Kanan",
+    "imageCaption": "Pemasangan elektrik moden dengan peralatan keselamatan dan alat profesional",
+    "introTitle": "Pengenalan",
+    "introParagraph1": "Pemasangan elektrik adalah aspek kritikal dalam mana-mana projek pembinaan atau pengubahsuaian. Sama ada anda membina rumah baru, menaik taraf sistem elektrik sedia ada, atau sekadar menambah soket baru, memahami asas kerja elektrik adalah penting untuk keselamatan dan pematuhan.",
+    "introParagraph2": "Dalam panduan komprehensif ini, kami akan meneroka prinsip utama pemasangan elektrik moden, merangkumi segala-galanya dari perancangan dan reka bentuk awal hingga ujian dan pensijilan akhir. Matlamat kami adalah untuk memberikan anda pengetahuan yang diperlukan untuk membuat keputusan termaklum tentang projek elektrik anda.",
+    "planningTitle": "Merancang Pemasangan Elektrik Anda",
+    "assessmentTitle": "Penilaian Awal",
+    "assessmentParagraph": "Sebelum memulakan sebarang kerja elektrik, adalah penting untuk menjalankan penilaian menyeluruh terhadap sistem elektrik semasa anda dan keperluan masa depan. Ini termasuk menilai pendawaian sedia ada, menentukan keperluan kuasa, dan mengenal pasti potensi bahaya keselamatan.",
+    "checklistTitle": "Senarai Semak Pra-Pemasangan:",
+    "checklist1": "Nilai kapasiti panel elektrik semasa",
+    "checklist2": "Nilai keadaan pendawaian sedia ada",
+    "checklist3": "Kira jumlah keperluan kuasa",
+    "checklist4": "Semak kod bangunan tempatan dan permit",
+    "safetyTitle": "Keselamatan Utama: Langkah Berjaga-jaga Penting",
+    "warningTitle": "Notis Keselamatan Penting",
+    "warningText": "Kerja elektrik boleh berbahaya dan hanya boleh dilakukan oleh profesional yang berkelayakan. Sentiasa matikan kuasa di pemutus utama sebelum memulakan sebarang kerja elektrik dan gunakan peralatan keselamatan yang sesuai.",
+    "safetyParagraph": "Keselamatan harus sentiasa menjadi keutamaan utama anda apabila bekerja dengan sistem elektrik. Berikut adalah langkah keselamatan penting yang harus diikuti oleh setiap projek pemasangan elektrik.",
+    "toolsTitle": "Alat dan Bahan Penting",
+    "toolsCardTitle": "Alat Asas",
+    "toolsCardText": "Pemotong wayar, pemutar skru, playar, penguji voltan, dan multimeter adalah penting untuk kebanyakan kerja elektrik.",
+    "safetyCardTitle": "Peralatan Keselamatan",
+    "safetyCardText": "Sarung tangan terlindung, cermin mata keselamatan, topi keras, dan kasut bukan konduktif untuk perlindungan peribadi.",
+    "materialsCardTitle": "Bahan Berkualiti",
+    "materialsCardText": "Gunakan hanya komponen elektrik yang diperakui, pendawaian tolok yang betul, dan kotak simpang yang diluluskan.",
+    "conclusionTitle": "Kesimpulan",
+    "conclusionParagraph": "Pemasangan elektrik yang betul adalah penting untuk keselamatan dan fungsi mana-mana bangunan. Walaupun panduan ini memberikan pandangan berharga tentang prosesnya, ingatlah bahawa kerja elektrik harus sentiasa dilakukan oleh profesional berlesen yang boleh memastikan pematuhan kepada kod tempatan dan piawaian keselamatan.",
+    "shareLabel": "Kongsi artikel ini:",
+    "shareButton": "Kongsi",
+    "copyLink": "Salin Pautan",
+    "backToBlog": "Kembali ke Blog"
+  },
+  "related": {
+    "title": "Kandungan Berkaitan",
+    "subtitle": "Temui maklumat dan perkhidmatan yang lebih relevan",
+    "category1": "Tips Keselamatan",
+    "category2": "Rumah Pintar",
+    "category3": "Jimat Tenaga",
+    "item1Title": "Tips Keselamatan Elektrik Penting untuk Rumah Anda",
+    "item1Excerpt": "Pelajari langkah keselamatan penting untuk melindungi keluarga dan harta anda daripada bahaya elektrik.",
+    "item2Title": "Penyelesaian Elektrik Rumah Pintar",
+    "item2Excerpt": "Transformasikan rumah anda dengan sistem elektrik pintar dan teknologi automasi.",
+    "item3Title": "Penyelesaian Kecekapan Tenaga",
+    "item3Excerpt": "Kurangkan penggunaan tenaga dan kos anda dengan penyelesaian elektrik cekap kami.",
+    "readMore": "Baca Selanjutnya",
+    "viewAll": "Lihat Semua Artikel"
+  },
+  "archiveProduct": {
+    "breadcrumb": {
+      "current": "Arkib Produk"
+    },
+    "header": {
+      "badge": "Katalog Lengkap",
+      "title": "Arkib Produk",
+      "subtitle": "Layari Koleksi Lengkap Produk Elektrik Kami",
+      "description": "Temui pelbagai produk elektrik berkualiti daripada jenama terkemuka. Gunakan penapis canggih kami untuk mencari produk yang tepat untuk projek elektrik anda.",
+      "imageAlt": "Koleksi Produk Elektrik"
+    },
+    "stats": {
+      "products": "Produk",
+      "brands": "Jenama",
+      "categories": "Kategori"
+    },
+    "search": {
+      "placeholder": "Cari produk..."
+    },
+    "filters": {
+      "toggle": "Penapis",
+      "title": "Penapis",
+      "clear": "Kosongkan Semua",
+      "apply": "Gunakan Penapis",
+      "active": "Penapis aktif:",
+      "category": "Kategori",
+      "brand": "Jenama",
+      "priceRange": "Julat Harga",
+      "availability": "Ketersediaan",
+      "categories": {
+        "led": "Lampu LED",
+        "cables": "Kabel Elektrik",
+        "mcb": "MCB & Panel",
+        "outlets": "Soket",
+        "spotlights": "Lampu Sorot",
+        "fittings": "Fitting Lampu",
+        "switches": "Suis",
+        "tools": "Alat Elektrik"
+      },
+      "price": {
+        "under50k": "Di bawah RM 200",
+        "50k-100k": "RM 200 - RM 400",
+        "100k-250k": "RM 400 - RM 1000",
+        "250k-500k": "RM 1000 - RM 2000",
+        "over500k": "Di atas RM 2000"
+      },
+      "inStock": "Ada Stok",
+      "onSale": "Sedang Jualan",
+      "newArrivals": "Produk Baru"
+    },
+    "sort": {
+      "featured": "Pilihan",
+      "nameAsc": "Nama A-Z",
+      "nameDesc": "Nama Z-A",
+      "priceAsc": "Harga Rendah ke Tinggi",
+      "priceDesc": "Harga Tinggi ke Rendah",
+      "newest": "Terbaru"
+    },
+    "results": {
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "products": "produk"
+    },
+    "loadMore": "Muatkan Lebih Banyak Produk",
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "archiveArticle": {
+    "breadcrumb": {
+      "current": "Arkib Artikel"
+    },
+    "header": {
+      "badge": "Koleksi Lengkap",
+      "title": "Arkib Artikel",
+      "subtitle": "Layari Koleksi Lengkap Artikel Elektrik Kami",
+      "description": "Temui perpustakaan artikel elektrik, tips, panduan, dan wawasan industri yang luas. Gunakan penapis canggih kami untuk mencari pengetahuan elektrik yang anda perlukan.",
+      "imageAlt": "Koleksi Artikel Elektrik"
+    },
+    "stats": {
+      "articles": "Artikel",
+      "categories": "Kategori",
+      "authors": "Penulis"
+    },
+    "search": {
+      "placeholder": "Cari artikel..."
+    },
+    "filters": {
+      "toggle": "Penapis",
+      "title": "Penapis",
+      "clear": "Kosongkan Semua",
+      "apply": "Gunakan Penapis",
+      "active": "Penapis aktif:",
+      "category": "Kategori",
+      "author": "Penulis",
+      "readingTime": "Masa Bacaan",
+      "date": "Tarikh Penerbitan",
+      "categories": {
+        "tips": "Tips & Trik",
+        "guides": "Panduan Pemasangan",
+        "safety": "Garis Panduan Keselamatan",
+        "technology": "Kemaskini Teknologi",
+        "maintenance": "Penyelenggaraan",
+        "troubleshooting": "Penyelesaian Masalah",
+        "news": "Berita Industri",
+        "reviews": "Ulasan Produk"
+      },
+      "time": {
+        "quick": "Bacaan Pantas (1-3 minit)",
+        "medium": "Bacaan Sederhana (4-7 minit)",
+        "long": "Bacaan Panjang (8+ minit)"
+      },
+      "date": {
+        "thisMonth": "Bulan Ini",
+        "last3Months": "3 Bulan Lepas",
+        "last6Months": "6 Bulan Lepas",
+        "thisYear": "Tahun Ini"
+      }
+    },
+    "sort": {
+      "newest": "Terbaru",
+      "oldest": "Terlama",
+      "popular": "Paling Popular",
+      "titleAsc": "Tajuk A-Z",
+      "titleDesc": "Tajuk Z-A"
+    },
+    "results": {
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "articles": "artikel"
+    },
+    "quickView": "Lihat Pantas",
+    "loadMore": "Muatkan Lebih Banyak Artikel",
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    },
+    "categories": {
+      "tips": "Tips",
+      "guides": "Panduan",
+      "safety": "Keselamatan",
+      "technology": "Teknologi",
+      "maintenance": "Penyelenggaraan",
+      "troubleshooting": "Penyelesaian Masalah",
+      "news": "Berita",
+      "reviews": "Ulasan"
+    },
+    "authors": {
+      "ahmadExpert": "Ahmad Pakar Elektrik",
+      "sariEngineer": "Sari Jurutera",
+      "budiTechnician": "Budi Juruteknik",
+      "omegaTeam": "Pasukan OmegaLight"
+    },
+    "sampleDates": {
+      "date1": "15 Januari 2024",
+      "date2": "12 Januari 2024",
+      "date3": "10 Januari 2024",
+      "date4": "8 Januari 2024",
+      "date5": "5 Januari 2024",
+      "date6": "3 Januari 2024"
+    },
+    "readingTimes": {
+      "threeMin": "3 minit baca",
+      "fourMin": "4 minit baca",
+      "fiveMin": "5 minit baca",
+      "sixMin": "6 minit baca",
+      "sevenMin": "7 minit baca",
+      "eightMin": "8 minit baca"
+    },
+    "sampleArticles": {
+      "safety": {
+        "title": "5 Tips Keselamatan Elektrik Penting untuk Rumah Anda",
+        "excerpt": "Pelajari langkah keselamatan asas untuk melindungi keluarga dan harta anda daripada bahaya elektrik. Tips penting ini akan membantu anda mengekalkan persekitaran elektrik yang selamat."
+      },
+      "ledGuide": {
+        "title": "Panduan Lengkap Pemasangan Lampu LED",
+        "excerpt": "Arahan langkah demi langkah untuk memasang lampu LED di rumah atau pejabat anda. Jimat tenaga dan wang dengan teknik pemasangan LED yang betul."
+      },
+      "smartHome": {
+        "title": "Sistem Elektrik Rumah Pintar: Masa Depan Automasi Rumah",
+        "excerpt": "Terokai teknologi rumah pintar terbaru dan bagaimana ia merevolusi sistem elektrik kediaman. Pelajari faedah automasi dan pemasangan."
+      },
+      "maintenance": {
+        "title": "Senarai Semak Penyelenggaraan Elektrik untuk Pemilik Rumah",
+        "excerpt": "Penyelenggaraan rutin adalah kunci kepada keselamatan dan kecekapan elektrik. Ikuti senarai semak komprehensif ini untuk mengekalkan sistem elektrik anda dalam keadaan terbaik."
+      },
+      "troubleshooting": {
+        "title": "Masalah Elektrik Biasa dan Cara Memperbaikinya",
+        "excerpt": "Kenal pasti dan selesaikan isu elektrik biasa di rumah anda. Pelajari bila perlu DIY dan bila perlu panggil jurutera elektrik profesional untuk keselamatan."
+      },
+      "trends": {
+        "title": "Trend dan Inovasi Industri Elektrik Terkini",
+        "excerpt": "Kekal terkini dengan perkembangan terbaru dalam industri elektrik. Dari teknologi baru hingga perubahan peraturan yang mempengaruhi kerja elektrik."
+      }
+    },
+    "tags": {
+      "safety": "Keselamatan",
+      "home": "Rumah",
+      "tips": "Tips",
+      "led": "LED",
+      "installation": "Pemasangan",
+      "energySaving": "Jimat Tenaga",
+      "smartHome": "Rumah Pintar",
+      "automation": "Automasi",
+      "technology": "Teknologi",
+      "maintenance": "Penyelenggaraan",
+      "checklist": "Senarai Semak",
+      "troubleshooting": "Penyelesaian Masalah",
+      "diy": "DIY",
+      "problems": "Masalah",
+      "industry": "Industri",
+      "trends": "Trend",
+      "innovation": "Inovasi"
+    }
+  },
+  "archiveCategory": {
+    "breadcrumb": {
+      "current": "Arkib Kategori"
+    },
+    "header": {
+      "badge": "Kategori Lengkap",
+      "title": "Arkib Kategori",
+      "subtitle": "Layari Koleksi Lengkap Kategori Produk Kami",
+      "description": "Temui pelbagai kategori produk elektrik yang komprehensif. Gunakan penapis canggih kami untuk mencari produk yang tepat untuk projek elektrik anda.",
+      "imageAlt": "Koleksi Kategori Elektrik"
+    },
+    "stats": {
+      "categories": "Kategori",
+      "products": "Produk",
+      "brands": "Jenama"
+    },
+    "search": {
+      "placeholder": "Cari kategori..."
+    },
+    "filters": {
+      "toggle": "Penapis",
+      "title": "Penapis",
+      "clear": "Kosongkan Semua",
+      "apply": "Gunakan Penapis",
+      "active": "Penapis aktif:",
+      "productCount": "Jumlah Produk",
+      "brand": "Jenama Tersedia",
+      "type": "Jenis Kategori",
+      "count": {
+        "small": "1-10 Produk",
+        "medium": "11-50 Produk",
+        "large": "51-100 Produk",
+        "xlarge": "100+ Produk"
+      },
+      "types": {
+        "lighting": "Pencahayaan",
+        "wiring": "Kabel & Pengkabelan",
+        "protection": "Perlindungan",
+        "tools": "Alat & Peralatan"
+      }
+    },
+    "sort": {
+      "featured": "Pilihan",
+      "nameAsc": "Nama A-Z",
+      "nameDesc": "Nama Z-A",
+      "productCount": "Produk Terbanyak",
+      "newest": "Terbaru"
+    },
+    "results": {
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "categories": "kategori"
+    },
+    "badges": {
+      "popular": "POPULAR",
+      "essential": "PENTING",
+      "safety": "KESELAMATAN",
+      "outdoor": "LUAR",
+      "smart": "PINTAR",
+      "professional": "PROFESIONAL"
+    },
+    "types": {
+      "lighting": "Pencahayaan",
+      "wiring": "Kabel & Pengkabelan",
+      "protection": "Perlindungan",
+      "tools": "Alat & Peralatan"
+    },
+    "features": {
+      "energySaving": "Jimat Tenaga",
+      "longLife": "Jangka Hayat Panjang",
+      "ecoFriendly": "Mesra Alam",
+      "sniCertified": "Bertauliah SNI",
+      "pureCoppper": "Tembaga Tulen",
+      "durable": "Tahan Lama",
+      "maxProtection": "Perlindungan Maksimum",
+      "reliable": "Boleh Dipercayai",
+      "certified": "Bertauliah",
+      "childSafe": "Selamat untuk Kanak-kanak",
+      "modern": "Moden",
+      "versatile": "Serba Boleh",
+      "waterproof": "Kalis Air",
+      "highPower": "Kuasa Tinggi",
+      "heatResistant": "Tahan Haba",
+      "quality": "Berkualiti",
+      "compatible": "Serasi",
+      "smart": "Pintar",
+      "stylish": "Bergaya",
+      "professional": "Profesional",
+      "precision": "Ketepatan"
+    },
+    "productLabel": "Produk",
+    "brandLabel": "Jenama",
+    "viewCategory": "Lihat Kategori",
+    "loadMore": "Muatkan Lebih Banyak Kategori",
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "portfolio": {
+    "breadcrumb": {
+      "currentProject": "Butiran Projek"
+    },
+    "meta": {
+      "category": "Pemasangan Elektrik",
+      "completedDate": "15 Disember 2024",
+      "status": "Selesai"
+    },
+    "header": {
+      "title": "Pemasangan Elektrik Bangunan Pejabat Moden",
+      "subtitle": "Pemasangan sistem elektrik lengkap untuk bangunan pejabat moden 15 tingkat termasuk pencahayaan pintar, pengagihan kuasa, dan sistem kecemasan dengan penyelesaian jimat tenaga."
+    },
+    "stats": {
+      "floors": "15",
+      "floorsLabel": "Tingkat",
+      "duration": "6",
+      "durationLabel": "Bulan",
+      "team": "12",
+      "teamLabel": "Juruteknik",
+      "power": "2.5MW",
+      "powerLabel": "Kapasiti"
+    },
+    "actions": {
+      "contactUs": "Hubungi Kami",
+      "share": "Kongsi",
+      "download": "Muat Turun PDF"
+    },
+    "gallery": {
+      "featured": {
+        "alt": "Pemasangan Elektrik Bangunan Pejabat Moden"
+      },
+      "zoomTitle": "Klik untuk membesarkan gambar"
+    },
+    "sections": {
+      "overview": {
+        "title": "Gambaran Keseluruhan Projek",
+        "text1": "Projek pemasangan elektrik komprehensif ini melibatkan mereka bentuk dan melaksanakan infrastruktur elektrik lengkap untuk bangunan pejabat moden 15 tingkat di daerah perniagaan pusat Jakarta. Projek ini memerlukan perancangan yang teliti, koordinasi dengan pelbagai pihak berkepentingan, dan pematuhan kepada piawaian keselamatan dan kualiti tertinggi.",
+        "text2": "Pasukan kami berjaya menyampaikan sistem elektrik canggih yang merangkumi kawalan pencahayaan pintar, pengagihan kuasa cekap tenaga, sistem sandaran kecemasan, dan keupayaan pengurusan bangunan bersepadu. Projek disiapkan tepat pada masa dan dalam bajet, melebihi jangkaan pelanggan."
+      },
+      "specifications": {
+        "title": "Spesifikasi Teknikal",
+        "power": {
+          "title": "Sistem Kuasa",
+          "item1": "Kapasiti keseluruhan 2.5MW",
+          "item2": "Bekalan kuasa berlebihan",
+          "item3": "Sistem sandaran UPS",
+          "item4": "Penjana kecemasan"
+        },
+        "lighting": {
+          "title": "Sistem Pencahayaan",
+          "item1": "Pencahayaan LED menyeluruh",
+          "item2": "Kawalan pintar & sensor",
+          "item3": "Pemanfaatan cahaya siang",
+          "item4": "Pencahayaan kecemasan"
+        },
+        "safety": {
+          "title": "Sistem Keselamatan",
+          "item1": "Integrasi penggera kebakaran",
+          "item2": "Penutupan kecemasan",
+          "item3": "Perlindungan kerosakan tanah",
+          "item4": "Pengesanan kerosakan arka"
+        },
+        "automation": {
+          "title": "Automasi Bangunan",
+          "item1": "Integrasi BMS",
+          "item2": "Pemantauan tenaga",
+          "item3": "Kawalan jauh",
+          "item4": "Penyelenggaraan ramalan"
+        }
+      },
+      "timeline": {
+        "title": "Garis Masa Projek",
+        "phase1": {
+          "title": "Fasa 1: Perancangan & Reka Bentuk",
+          "date": "Bulan 1-2",
+          "description": "Tinjauan tapak awal, pengiraan beban elektrik, reka bentuk sistem, dan permohonan permit."
+        },
+        "phase2": {
+          "title": "Fasa 2: Pemasangan Infrastruktur",
+          "date": "Bulan 2-4",
+          "description": "Panel elektrik utama, sistem konduit, dulang kabel, dan pengagihan kuasa primer."
+        },
+        "phase3": {
+          "title": "Fasa 3: Integrasi Sistem",
+          "date": "Bulan 4-5",
+          "description": "Kawalan pencahayaan, automasi bangunan, sistem keselamatan kebakaran, dan ciri bangunan pintar."
+        },
+        "phase4": {
+          "title": "Fasa 4: Ujian & Commissioning",
+          "date": "Bulan 5-6",
+          "description": "Ujian sistem, pengesahan prestasi, latihan kakitangan, dan dokumentasi akhir."
+        }
+      }
+    },
+    "testimonial": {
+      "text": "OmegaLight melebihi jangkaan kami dalam setiap aspek projek ini. Kepakaran teknikal mereka, perhatian terhadap butiran, dan komitmen terhadap kualiti menghasilkan sistem elektrik kelas dunia yang akan melayani bangunan kami selama beberapa dekad akan datang. Projek disiapkan tepat pada masa dan dalam bajet.",
+      "name": "Michael Chen",
+      "position": "Pengarah Projek",
+      "company": "Jakarta Business Center"
+    },
+    "cta": {
+      "title": "Sedia untuk Memulakan Projek Anda?",
+      "description": "Biarkan kami membantu anda mencipta sistem elektrik moden dan cekap untuk bangunan anda. Hubungi pasukan kami untuk perundingan percuma dan sebut harga projek.",
+      "getQuote": "Dapatkan Sebut Harga Percuma",
+      "viewMore": "Lihat Projek Lain"
+    },
+    "sidebar": {
+      "projectInfo": {
+        "title": "Maklumat Projek",
+        "client": {
+          "label": "Pelanggan:",
+          "value": "Jakarta Business Center"
+        },
+        "location": {
+          "label": "Lokasi:",
+          "value": "Jakarta, Indonesia"
+        },
+        "type": {
+          "label": "Jenis Projek:",
+          "value": "Bangunan Komersial"
+        },
+        "size": {
+          "label": "Saiz Bangunan:",
+          "value": "45,000 m²"
+        },
+        "budget": {
+          "label": "Nilai Projek:",
+          "value": "$2.8M USD"
+        }
+      },
+      "services": {
+        "title": "Perkhidmatan yang Disediakan",
+        "service1": "Reka Bentuk & Kejuruteraan Elektrik",
+        "service2": "Sistem Pengagihan Kuasa",
+        "service3": "Kawalan Pencahayaan Pintar",
+        "service4": "Automasi Bangunan",
+        "service5": "Sistem Kecemasan",
+        "service6": "Ujian & Commissioning"
+      },
+      "contact": {
+        "title": "Pengurus Projek",
+        "name": "Ahmad Pakar Elektrik",
+        "position": "Pengurus Projek Kanan",
+        "phone": "Panggil",
+        "email": "Emel"
+      },
+      "related": {
+        "title": "Projek Berkaitan",
+        "project1": {
+          "title": "Sistem Elektrik Pusat Membeli-belah",
+          "type": "Komersial"
+        },
+        "project2": {
+          "title": "Kuasa Kecemasan Hospital",
+          "type": "Penjagaan Kesihatan"
+        },
+        "project3": {
+          "title": "Naik Taraf Kilang Pembuatan",
+          "type": "Perindustrian"
+        }
+      },
+      "socialShare": {
+        "title": "Kongsi Projek Ini",
+        "facebook": "Kongsi di Facebook",
+        "twitter": "Kongsi di Twitter",
+        "linkedin": "Kongsi di LinkedIn",
+        "whatsapp": "Kongsi di WhatsApp"
+      }
+    }
+  },
+  "archivePortfolio": {
+    "breadcrumb": {
+      "current": "Arkib Portfolio"
+    },
+    "header": {
+      "badge": "Projek Lengkap",
+      "title": "Arkib Portfolio",
+      "subtitle": "Layari Koleksi Lengkap Projek Elektrik Kami",
+      "description": "Terokai portfolio lengkap projek elektrik yang telah disiapkan, pemasangan, dan kajian kes. Gunakan penapis canggih kami untuk mencari projek yang sesuai dengan keperluan anda dan lihat kepakaran kami dalam tindakan.",
+      "imageAlt": "Portfolio Projek Elektrik"
+    },
+    "stats": {
+      "projects": "Projek",
+      "categories": "Kategori",
+      "clients": "Pelanggan"
+    },
+    "search": {
+      "placeholder": "Cari projek..."
+    },
+    "filters": {
+      "toggle": "Penapis",
+      "title": "Penapis",
+      "clear": "Kosongkan Semua",
+      "apply": "Gunakan Penapis",
+      "active": "Penapis aktif:",
+      "projectType": "Jenis Projek",
+      "serviceCategory": "Kategori Perkhidmatan",
+      "projectScale": "Skala Projek",
+      "completionYear": "Tahun Siap",
+      "types": {
+        "residential": "Kediaman",
+        "commercial": "Komersial",
+        "industrial": "Perindustrian",
+        "healthcare": "Penjagaan Kesihatan",
+        "education": "Pendidikan",
+        "hospitality": "Perhotelan"
+      },
+      "services": {
+        "installation": "Pemasangan Elektrik",
+        "lighting": "Sistem Pencahayaan",
+        "panel": "Naik Taraf Panel",
+        "smart": "Sistem Pintar",
+        "maintenance": "Penyelenggaraan",
+        "emergency": "Sistem Kecemasan"
+      },
+      "scale": {
+        "small": "Skala Kecil",
+        "medium": "Skala Sederhana",
+        "large": "Skala Besar"
+      },
+      "year": {
+        "older": "2020 & Sebelumnya"
+      }
+    },
+    "sort": {
+      "newest": "Terbaru",
+      "oldest": "Terlama",
+      "popular": "Paling Popular",
+      "titleAsc": "Tajuk A-Z",
+      "titleDesc": "Tajuk Z-A"
+    },
+    "results": {
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "projects": "projek"
+    },
+    "quickView": "Lihat Pantas",
+    "viewProject": "Lihat Projek",
+    "loadMore": "Muatkan Lebih Banyak Projek",
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    },
+    "types": {
+      "residential": "Kediaman",
+      "commercial": "Komersial",
+      "industrial": "Perindustrian",
+      "healthcare": "Penjagaan Kesihatan",
+      "education": "Pendidikan",
+      "hospitality": "Perhotelan"
+    },
+    "categories": {
+      "installation": "Pemasangan Elektrik",
+      "lighting": "Sistem Pencahayaan",
+      "panel": "Naik Taraf Panel",
+      "smart": "Sistem Pintar",
+      "maintenance": "Penyelenggaraan",
+      "emergency": "Sistem Kecemasan",
+      "upgrade": "Naik Taraf Panel"
+    },
+    "sampleDates": {
+      "date1": "Disember 2024",
+      "date2": "November 2024",
+      "date3": "Oktober 2024",
+      "date4": "September 2024",
+      "date5": "Ogos 2024",
+      "date6": "Julai 2024"
+    },
+    "durations": {
+      "twoMonths": "2 bulan",
+      "threeMonths": "3 bulan",
+      "fourMonths": "4 bulan",
+      "fiveMonths": "5 bulan",
+      "sixMonths": "6 bulan",
+      "eightMonths": "8 bulan"
+    },
+    "sampleProjects": {
+      "office": {
+        "title": "Pemasangan Elektrik Bangunan Pejabat Moden",
+        "excerpt": "Pemasangan sistem elektrik lengkap untuk bangunan pejabat moden 15 tingkat termasuk pencahayaan pintar dan pengagihan kuasa."
+      },
+      "smartHome": {
+        "title": "Sistem Elektrik Rumah Pintar Mewah",
+        "excerpt": "Sistem automasi rumah pintar lengkap dengan pencahayaan pintar, keselamatan, dan pengurusan tenaga untuk kediaman mewah."
+      },
+      "manufacturing": {
+        "title": "Naik Taraf Elektrik Kilang Pembuatan",
+        "excerpt": "Naik taraf infrastruktur elektrik utama untuk kilang tekstil termasuk pengagihan kuasa dan sistem keselamatan."
+      },
+      "hospital": {
+        "title": "Sistem Kuasa Kecemasan Hospital",
+        "excerpt": "Pemasangan sistem kuasa kecemasan kritikal untuk hospital wilayah memastikan bekalan kuasa tanpa gangguan untuk peralatan perubatan."
+      },
+      "mall": {
+        "title": "Sistem Pencahayaan LED Pusat Membeli-belah",
+        "excerpt": "Retrofit pencahayaan LED lengkap untuk pusat membeli-belah utama dengan penyelesaian cekap tenaga dan kawalan pintar."
+      },
+      "university": {
+        "title": "Infrastruktur Elektrik Kampus Universiti",
+        "excerpt": "Pembangunan infrastruktur elektrik komprehensif untuk kampus universiti baru termasuk bilik darjah, makmal, dan asrama."
+      }
+    },
+    "tags": {
+      "smartLighting": "Pencahayaan Pintar",
+      "powerDistribution": "Pengagihan Kuasa",
+      "automation": "Automasi",
+      "homeAutomation": "Automasi Rumah",
+      "security": "Keselamatan",
+      "energyManagement": "Pengurusan Tenaga",
+      "powerUpgrade": "Naik Taraf Kuasa",
+      "safety": "Sistem Keselamatan",
+      "industrial": "Perindustrian",
+      "emergencyPower": "Kuasa Kecemasan",
+      "backup": "Sistem Sandaran",
+      "critical": "Sistem Kritikal",
+      "ledRetrofit": "Retrofit LED",
+      "energyEfficient": "Cekap Tenaga",
+      "smartControls": "Kawalan Pintar",
+      "campus": "Kampus",
+      "infrastructure": "Infrastruktur",
+      "education": "Pendidikan"
+    }
+  },
+  "team": {
+    "badge": "Pasukan Profesional",
+    "title": "Pasukan Pakar Kami",
+    "subtitle": "Juruteknik Berpengalaman dan Bertauliah",
+    "description": "Pasukan profesional kami terdiri daripada juruteknik elektrik bertauliah dengan pengalaman berpuluh tahun dalam bidang elektrik. Kami komited memberikan perkhidmatan terbaik untuk setiap projek.",
+    "stats": {
+      "members": "Ahli Pasukan",
+      "experience": "Tahun Pengalaman",
+      "projects": "Projek Selesai",
+      "certifications": "Pensijilan"
+    },
+    "cta": {
+      "primary": "Lihat Semua Pasukan",
+      "secondary": "Hubungi Pasukan"
+    },
+    "members": {
+      "ahmad": {
+        "name": "Ahmad Santoso",
+        "position": "Ketua Juruteknik Kanan",
+        "experience": "15+ tahun pengalaman",
+        "specialization": "Pemasangan Industri & Komersial"
+      },
+      "sari": {
+        "name": "Sari Wijaya",
+        "position": "Jurutera Elektrik",
+        "experience": "12+ tahun pengalaman",
+        "specialization": "Reka Bentuk Sistem & Perundingan"
+      },
+      "budi": {
+        "name": "Budi Pratama",
+        "position": "Juruteknik Pakar",
+        "experience": "10+ tahun pengalaman",
+        "specialization": "Rumah Pintar & Automasi"
+      },
+      "rina": {
+        "name": "Rina Kusuma",
+        "position": "Pengurus Projek",
+        "experience": "8+ tahun pengalaman",
+        "specialization": "Pengurusan & Koordinasi"
+      }
+    }
+  },
+  "archiveTeam": {
+    "breadcrumb": {
+      "current": "Pasukan Kami"
+    },
+    "header": {
+      "badge": "Pasukan Profesional",
+      "title": "Pasukan Pakar Kami",
+      "subtitle": "Bertemu dengan Para Pakar Elektrik Kami",
+      "description": "Pasukan profesional kami terdiri daripada juruteknik elektrik bertauliah, jurutera berpengalaman, dan pakar yang berdedikasi untuk memberikan penyelesaian elektrik terbaik. Setiap ahli pasukan membawa kepakaran unik dan komitmen terhadap kecemerlangan.",
+      "imageAlt": "Pasukan Profesional OmegaLight"
+    },
+    "stats": {
+      "totalMembers": "Ahli Pasukan",
+      "avgExperience": "Purata Pengalaman",
+      "certifications": "Jumlah Pensijilan"
+    },
+    "search": {
+      "placeholder": "Cari ahli pasukan..."
+    },
+    "filters": {
+      "toggle": "Penapis",
+      "title": "Penapis Pasukan",
+      "clear": "Kosongkan Semua",
+      "apply": "Gunakan Penapis",
+      "active": "Penapis aktif:",
+      "department": "Jabatan",
+      "specialization": "Pengkhususan",
+      "experience": "Pengalaman",
+      "certification": "Pensijilan",
+      "departments": {
+        "engineering": "Kejuruteraan",
+        "installation": "Pemasangan",
+        "maintenance": "Penyelenggaraan",
+        "sales": "Jualan",
+        "management": "Pengurusan"
+      },
+      "specializations": {
+        "industrial": "Industri",
+        "commercial": "Komersial",
+        "residential": "Kediaman",
+        "smartHome": "Rumah Pintar",
+        "automation": "Automasi",
+        "safety": "Keselamatan"
+      },
+      "experienceRanges": {
+        "junior": "1-5 Tahun",
+        "mid": "6-10 Tahun",
+        "senior": "11-15 Tahun",
+        "expert": "15+ Tahun"
+      },
+      "certifications": {
+        "electrical": "Elektrik Bertauliah",
+        "safety": "Keselamatan Kerja",
+        "project": "Pengurusan Projek",
+        "automation": "Automasi Industri"
+      }
+    },
+    "sort": {
+      "nameAsc": "Nama A-Z",
+      "nameDesc": "Nama Z-A",
+      "experienceDesc": "Pengalaman Terbanyak",
+      "experienceAsc": "Pengalaman Tersedikit",
+      "departmentAsc": "Jabatan A-Z"
+    },
+    "results": {
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "members": "ahli pasukan"
+    },
+    "memberCard": {
+      "experience": "Pengalaman",
+      "specialization": "Pengkhususan",
+      "certifications": "Pensijilan",
+      "projects": "Projek",
+      "viewProfile": "Lihat Profil",
+      "contact": "Hubungi"
+    },
+    "sampleMembers": {
+      "ahmad": {
+        "name": "Ahmad Pakar Elektrik",
+        "position": "Jurutera Elektrik Kanan",
+        "experience": "15+ Tahun Pengalaman",
+        "excerpt": "Pakar dalam sistem elektrik industri dan pemasangan kompleks. Berpengalaman dalam mengendalikan projek-projek berskala besar di pelbagai sektor."
+      },
+      "sari": {
+        "name": "Sari Jurutera",
+        "position": "Pakar Rumah Pintar",
+        "experience": "10+ Tahun Pengalaman",
+        "excerpt": "Pakar dalam automasi rumah pintar dan sistem elektrik moden. Berpengalaman dalam mengintegrasikan teknologi moden dengan sistem elektrik tradisional."
+      },
+      "budi": {
+        "name": "Budi Juruteknik",
+        "position": "Pakar Pencahayaan LED",
+        "experience": "8+ Tahun Pengalaman",
+        "excerpt": "Pakar dalam sistem pencahayaan LED dan penyelesaian jimat tenaga. Berpengalaman dalam mereka bentuk dan memasang sistem pencahayaan moden."
+      },
+      "andi": {
+        "name": "Andi Pengurus Projek",
+        "position": "Pengurus Projek Kanan",
+        "experience": "12+ Tahun Pengalaman",
+        "excerpt": "Pengurus projek berpengalaman dalam pemasangan elektrik skala besar. Memastikan setiap projek disiapkan tepat pada masa dan memenuhi piawaian kualiti."
+      }
+    },
+    "additionalMembers": {
+      "dina": {
+        "name": "Dina Engineer",
+        "position": "Jurutera Elektrik",
+        "experience": "7+ Tahun Pengalaman",
+        "excerpt": "Jurutera elektrik berpengalaman yang mengkhususkan diri dalam automasi industri dan sistem kawalan dengan fokus pada kecekapan dan kebolehpercayaan."
+      },
+      "rudi": {
+        "name": "Rudi Teknisi",
+        "position": "Juruteknik Kanan",
+        "experience": "11+ Tahun Pengalaman",
+        "excerpt": "Juruteknik kanan dengan kepakaran dalam penyelenggaraan elektrik industri dan penyelesaian masalah sistem elektrik yang kompleks."
+      }
+    },
+    "loadMore": "Muatkan Lebih Banyak Ahli",
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "detailTeam": {
+    "breadcrumb": {
+      "team": "Pasukan",
+      "current": "Ahli Pasukan"
+    },
+    "meta": {
+      "department": "Jabatan Kejuruteraan",
+      "experience": "15+ Tahun Pengalaman",
+      "status": "Tersedia"
+    },
+    "member": {
+      "name": "Ahmad Pakar Elektrik",
+      "position": "Jurutera Elektrik Kanan",
+      "excerpt": "Pakar dalam sistem elektrik industri dan pemasangan kompleks dengan lebih 15 tahun pengalaman dalam industri elektrik. Pakar dalam reka bentuk panel, pengagihan kuasa, dan pematuhan keselamatan."
+    },
+    "actions": {
+      "email": "Hantar Emel",
+      "call": "Panggil Sekarang",
+      "share": "Kongsi Profil"
+    },
+    "sections": {
+      "about": {
+        "title": "Tentang",
+        "text1": "Ahmad adalah jurutera elektrik yang sangat berpengalaman dengan lebih 15 tahun kepakaran dalam sistem elektrik industri. Beliau telah berjaya menguruskan dan melaksanakan banyak projek pemasangan elektrik kompleks merentasi pelbagai industri termasuk pembuatan, bangunan komersial, dan pembangunan infrastruktur.",
+        "text2": "Pemahaman mendalam beliau tentang kod elektrik, peraturan keselamatan, dan teknologi elektrik moden menjadikannya aset berharga kepada pasukan kami. Ahmad terkenal dengan perhatian teliti terhadap butiran dan komitmen untuk menyiapkan projek tepat pada masa dan dalam bajet."
+      },
+      "specializations": {
+        "title": "Pengkhususan"
+      },
+      "experience": {
+        "title": "Pengalaman & Projek Terkemuka"
+      },
+      "certifications": {
+        "title": "Pensijilan & Kelayakan"
+      }
+    },
+    "specializations": {
+      "industrial": {
+        "title": "Sistem Industri",
+        "description": "Pakar dalam mereka bentuk dan melaksanakan sistem elektrik untuk kemudahan industri, termasuk pusat kawalan motor, pengagihan kuasa, dan sistem automasi."
+      },
+      "panels": {
+        "title": "Reka Bentuk & Pemasangan Panel",
+        "description": "Mengkhusus dalam reka bentuk panel elektrik, pemasangan, dan naik taraf. Berpengalaman dengan pelbagai jenis panel termasuk panel pengagihan utama, sub-panel, dan panel kawalan."
+      },
+      "safety": {
+        "title": "Keselamatan & Pematuhan",
+        "description": "Memastikan semua pemasangan elektrik memenuhi piawaian keselamatan dan pematuhan peraturan. Pakar dalam tafsiran kod elektrik dan pelaksanaan protokol keselamatan."
+      }
+    },
+    "timeline": {
+      "project1": {
+        "date": "2023 - Sekarang",
+        "title": "Jurutera Elektrik Kanan - OmegaLight",
+        "description": "Memimpin projek kejuruteraan elektrik untuk pelanggan komersial dan industri. Bertanggungjawab untuk reka bentuk sistem, pengurusan projek, dan koordinasi pasukan."
+      },
+      "project2": {
+        "date": "2020 - 2023",
+        "title": "Naik Taraf Elektrik Kilang Pembuatan",
+        "description": "Memimpin naik taraf infrastruktur elektrik utama untuk kilang tekstil, termasuk pemodenan pengagihan kuasa dan pelaksanaan sistem keselamatan."
+      },
+      "project3": {
+        "date": "2018 - 2020",
+        "title": "Sistem Elektrik Bangunan Komersial",
+        "description": "Mereka bentuk dan menyelia pemasangan elektrik untuk beberapa bangunan komersial, termasuk kompleks pejabat dan pusat runcit."
+      }
+    },
+    "certifications": {
+      "license": {
+        "title": "Jurutera Elektrik Profesional Berlesen",
+        "description": "Kontraktor elektrik berlesen dengan kebenaran penuh untuk kerja elektrik komersial dan industri."
+      },
+      "safety": {
+        "title": "Pensijilan Keselamatan Elektrik",
+        "description": "Bertauliah dalam protokol keselamatan elektrik dan sistem pengurusan keselamatan tempat kerja."
+      },
+      "code": {
+        "title": "Pakar Kod Elektrik",
+        "description": "Pakar dalam kod elektrik nasional dan tempatan, memastikan semua pemasangan memenuhi keperluan peraturan."
+      }
+    },
+    "sidebar": {
+      "quickInfo": {
+        "title": "Maklumat Pantas",
+        "department": {
+          "label": "Jabatan:",
+          "value": "Kejuruteraan"
+        },
+        "experience": {
+          "label": "Pengalaman:",
+          "value": "15+ Tahun"
+        },
+        "status": {
+          "label": "Status:",
+          "value": "Tersedia"
+        },
+        "location": {
+          "label": "Lokasi:",
+          "value": "Jakarta, Indonesia"
+        }
+      },
+      "contact": {
+        "title": "Maklumat Hubungan",
+        "email": {
+          "label": "Emel"
+        },
+        "phone": {
+          "label": "Telefon"
+        },
+        "linkedin": {
+          "label": "LinkedIn",
+          "value": "Lihat Profil"
+        }
+      },
+      "skills": {
+        "title": "Kemahiran Utama",
+        "skill1": "Sistem Industri",
+        "skill2": "Reka Bentuk Panel",
+        "skill3": "Pematuhan Keselamatan",
+        "skill4": "Pengurusan Projek",
+        "skill5": "Tafsiran Kod",
+        "skill6": "Reka Bentuk Sistem"
+      },
+      "related": {
+        "title": "Ahli Pasukan Berkaitan",
+        "member1": {
+          "name": "Sari Jurutera",
+          "position": "Pakar Rumah Pintar"
+        },
+        "member2": {
+          "name": "Budi Juruteknik",
+          "position": "Pakar Pencahayaan LED"
+        }
+      }
+    },
+    "cta": {
+      "title": "Perlukan Perundingan Pakar?",
+      "description": "Hubungi Ahmad secara langsung untuk perundingan elektrik profesional dan perancangan projek.",
+      "email": "Hantar Emel",
+      "call": "Panggil Sekarang",
+      "viewTeam": "Lihat Semua Pasukan"
+    }
+  },
+  "faqs": {
+    "badge": "Soalan Lazim",
+    "title": "Soalan Lazim",
+    "subtitle": "Jawapan untuk Pertanyaan yang Kerap Ditanyakan",
+    "description": "Cari jawapan untuk soalan-soalan yang kerap ditanyakan seputar produk, perkhidmatan, dan dasar kedai kami.",
+    "filter": {
+      "all": "Semua",
+      "general": "Am",
+      "products": "Produk",
+      "services": "Perkhidmatan",
+      "warranty": "Jaminan",
+      "shipping": "Penghantaran",
+      "installation": "Pemasangan",
+      "payment": "Pembayaran"
+    },
+    "items": {
+      "q1": {
+        "question": "Adakah semua produk yang dijual asli?",
+        "preview": "Ya, semua produk yang kami jual adalah produk asli dengan jaminan rasmi daripada pengilang...",
+        "answer": {
+          "p1": "Ya, semua produk yang kami jual adalah produk asli dengan jaminan rasmi daripada pengilang. Kami bekerjasama langsung dengan pengedar rasmi jenama terkemuka seperti Schneider Electric, Panasonic, Philips, ABB, dan lain-lain."
+        }
+      },
+      "q2": {
+        "question": "Bagaimana untuk mengetahui spesifikasi produk yang tepat?",
+        "preview": "Pasukan juruteknik kami bersedia memberikan perundingan percuma untuk membantu anda memilih produk yang tepat...",
+        "answer": {
+          "p1": "Pasukan juruteknik kami bersedia memberikan perundingan percuma untuk membantu anda memilih produk yang tepat. Anda boleh menghubungi kami melalui WhatsApp, telefon, atau datang terus ke kedai untuk perundingan."
+        }
+      },
+      "q3": {
+        "question": "Adakah menyediakan perkhidmatan pemasangan elektrik?",
+        "preview": "Ya, kami menyediakan perkhidmatan pemasangan elektrik dengan juruteknik berpengalaman dan bertauliah...",
+        "answer": {
+          "p1": "Ya, kami menyediakan perkhidmatan pemasangan elektrik dengan juruteknik berpengalaman dan bertauliah. Perkhidmatan pemasangan meliputi pemasangan rumah kediaman, bangunan, kilang, dan pelbagai projek elektrik lain."
+        }
+      },
+      "q4": {
+        "question": "Berapa lama proses kerja pemasangan elektrik?",
+        "preview": "Masa kerja bergantung kepada kerumitan projek. Untuk rumah kediaman biasanya 1-3 hari...",
+        "answer": {
+          "p1": "Masa kerja bergantung kepada kerumitan projek. Untuk rumah kediaman biasanya 1-3 hari, manakala projek besar boleh mengambil masa beberapa minggu. Pasukan kami akan memberikan anggaran masa yang tepat selepas tinjauan."
+        }
+      },
+      "q5": {
+        "question": "Adakah perkhidmatan penghantaran ke luar bandar?",
+        "preview": "Ya, kami melayani penghantaran ke seluruh Indonesia melalui ekspedisi yang dipercayai...",
+        "answer": {
+          "p1": "Ya, kami melayani penghantaran ke seluruh Indonesia melalui ekspedisi yang dipercayai seperti JNE, J&T, dan TIKI. Untuk Jakarta dan sekitarnya, kami juga menyediakan perkhidmatan hantar dengan armada sendiri."
+        }
+      },
+      "q6": {
+        "question": "Berapa kos penghantaran untuk pembelian dalam jumlah besar?",
+        "preview": "Untuk pembelian dalam jumlah besar, kami memberikan diskaun khas termasuk penghantaran percuma...",
+        "answer": {
+          "p1": "Untuk pembelian dalam jumlah besar, kami memberikan diskaun khas termasuk penghantaran percuma untuk kawasan Jakarta, Bogor, Depok, Tangerang, dan Bekasi. Sila hubungi pasukan jualan kami untuk tawaran terbaik."
+        }
+      },
+      "q7": {
+        "question": "Kaedah pembayaran apa sahaja yang diterima?",
+        "preview": "Kami menerima pelbagai kaedah pembayaran: tunai, pindahan bank, e-wallet, dan kad kredit...",
+        "answer": {
+          "p1": "Kami menerima pelbagai kaedah pembayaran: tunai, pindahan bank (BCA, Mandiri, BNI, BRI), e-wallet (OVO, GoPay, Dana), dan kad kredit. Untuk pembelian besar, tersedia juga sistem kredit dengan syarat tertentu."
+        }
+      },
+      "q8": {
+        "question": "Bolehkah beli dengan sistem kredit atau ansuran?",
+        "preview": "Ya, kami menyediakan sistem pembayaran kredit untuk pelanggan tetap dan projek besar...",
+        "answer": {
+          "p1": "Ya, kami menyediakan sistem pembayaran kredit untuk pelanggan tetap dan projek besar. Kami juga bekerjasama dengan beberapa syarikat pajakan untuk kemudahan ansuran. Hubungi pasukan jualan kami untuk maklumat lanjut."
+        }
+      },
+      "q9": {
+        "question": "Berapa lama tempoh jaminan untuk produk elektrik?",
+        "preview": "Setiap produk mempunyai jaminan mengikut dasar pengilang, bermula dari 6 bulan hingga 5 tahun...",
+        "answer": {
+          "p1": "Setiap produk mempunyai jaminan mengikut dasar pengilang, bermula dari 6 bulan hingga 5 tahun. Jaminan merangkumi kecacatan pengeluaran dan kami akan membantu proses tuntutan jaminan ke pusat perkhidmatan rasmi."
+        }
+      }
+    },
+    "actions": {
+      "title": "Tidak menemui jawapan yang anda cari?",
+      "description": "Pasukan perkhidmatan pelanggan kami bersedia membantu anda 24/7",
+      "contact": "Hubungi Kami",
+      "viewAll": "Lihat Semua Soalan Lazim"
+    },
+    "archive": {
+      "breadcrumb": "Arkib Soalan Lazim",
+      "badge": "Bantuan & Sokongan",
+      "title": "Pusat Soalan Lazim", 
+      "subtitle": "Cari Jawapan yang Anda Perlukan",
+      "description": "Koleksi lengkap soalan dan jawapan untuk membantu anda memahami produk, perkhidmatan, dan dasar kami dengan lebih baik.",
+      "stats": {
+        "totalFaqs": "Jumlah Soalan Lazim",
+        "categories": "Kategori", 
+        "lastUpdated": "Dikemaskini Terakhir",
+        "lastUpdatedValue": "2 hari lalu"
+      },
+      "search": {
+        "placeholder": "Cari soalan atau topik..."
+      },
+      "filters": {
+        "all": "Semua Kategori",
+        "general": "Am",
+        "products": "Produk", 
+        "services": "Perkhidmatan",
+        "warranty": "Jaminan",
+        "shipping": "Penghantaran",
+        "installation": "Pemasangan"
+      },
+      "sort": {
+        "relevance": "Paling Relevan",
+        "newest": "Terbaru",
+        "oldest": "Terlama",
+        "alphabetical": "Abjad A-Z"
+      },
+      "results": {
+        "showing": "Menunjukkan",
+        "of": "daripada",
+        "faqs": "soalan lazim"
+      },
+      "quickActions": {
+        "bookmark": "Bookmark",
+        "share": "Kongsi",
+        "helpful": "Membantu?"
+      },
+      "loadMore": "Muatkan Lebih Banyak Soalan",
+      "pagination": {
+        "previous": "Sebelumnya",
+        "next": "Seterusnya",
+        "page": "Halaman"
+      }
+    },
+    "detail": {
+      "breadcrumb": {
+        "current": "Soalan Lazim"
+      },
+      "meta": {
+        "category": "Kategori",
+        "lastUpdated": "Dikemaskini",
+        "views": "paparan"
+      },
+      "actions": {
+        "bookmark": "Bookmark Soalan Ini",
+        "share": "Kongsi",
+        "print": "Cetak"
+      },
+      "feedback": {
+        "title": "Adakah jawapan ini membantu?",
+        "helpful": "Ya, Membantu",
+        "notHelpful": "Tidak Membantu",
+        "thanks": "Terima kasih atas maklum balas anda!",
+        "improve": "Bagaimana kami boleh memperbaiki jawapan ini?",
+        "submit": "Hantar Maklum Balas"
+      },
+      "rating": {
+        "title": "Berikan Penilaian",
+        "submit": "Hantar Penilaian"
+      },
+      "related": {
+        "title": "Soalan Berkaitan",
+        "viewAll": "Lihat Semua"
+      },
+      "contact": {
+        "title": "Masih Perlukan Bantuan?",
+        "description": "Jika anda tidak menemui jawapan yang dicari, jangan teragak-agak untuk menghubungi pasukan sokongan kami.",
+        "phone": "Telefon",
+        "whatsapp": "WhatsApp", 
+        "email": "E-mel",
+        "visit": "Lawat Kedai"
+      },
+      "sidebar": {
+        "categories": {
+          "title": "Kategori Soalan Lazim"
+        },
+        "popular": {
+          "title": "Soalan Popular"
+        },
+        "contact": {
+          "title": "Perlukan Bantuan Lanjut?",
+          "description": "Pasukan sokongan kami sedia membantu anda",
+          "hours": "Waktu Operasi: Isnin - Sabtu, 8:00 - 18:00"
+        }
+      }
+    }
+  }
+}

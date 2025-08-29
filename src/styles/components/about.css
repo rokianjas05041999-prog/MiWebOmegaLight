@@ -1,0 +1,233 @@
+/* ===========================================
+   ABOUT COMPONENT STYLES
+   About section and company information styles
+   =========================================== */
+
+@layer components {
+  /* ===== ABOUT SECTION ===== */
+  .about-section {
+    @apply py-16 bg-white;
+  }
+
+  @media (min-width: 1024px) {
+    .about-section {
+      @apply py-24;
+    }
+  }
+
+  .about-container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  @media (min-width: 640px) {
+    .about-container {
+      @apply px-6;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .about-container {
+      @apply px-8;
+    }
+  }
+
+  /* ===== SECTION HEADER ===== */
+  .about-header {
+    @apply text-center mb-16;
+  }
+
+  .about-badge {
+    @apply inline-block px-4 py-2 mb-4;
+    @apply text-sm font-medium rounded-full;
+    @apply transition-all duration-200;
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+    color: var(--color-primary-600);
+    border: 1px solid var(--color-primary-200);
+  }
+
+  .about-badge:hover {
+    background: linear-gradient(135deg, 
+      var(--color-primary-100) 0%, 
+      var(--color-primary-200) 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-title {
+    @apply text-3xl font-bold text-gray-900 mb-4;
+  }
+
+  @media (min-width: 640px) {
+    .about-title {
+      @apply text-4xl;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .about-title {
+      @apply text-5xl;
+    }
+  }
+
+  .about-subtitle {
+    @apply text-xl text-gray-600 mb-6;
+  }
+
+  @media (min-width: 1024px) {
+    .about-subtitle {
+      @apply text-2xl;
+    }
+  }
+
+  .about-description {
+    @apply text-lg text-gray-600 max-w-3xl mx-auto;
+  }
+
+  /* ===== ABOUT GRID ===== */
+  .about-grid {
+    @apply grid grid-cols-1 gap-12 items-center;
+  }
+
+  @media (min-width: 1024px) {
+    .about-grid {
+      @apply grid-cols-2 gap-16;
+    }
+  }
+
+  /* ===== ABOUT CONTENT ===== */
+  .about-content {
+    @apply space-y-6;
+  }
+
+  .about-content-title {
+    @apply text-2xl font-bold text-gray-900 mb-2;
+  }
+
+  @media (min-width: 640px) {
+    .about-content-title {
+      @apply text-3xl;
+    }
+  }
+
+  .about-content-tagline {
+    @apply text-lg font-medium mb-6;
+    color: var(--color-primary-600);
+  }
+
+  .about-content-text {
+    @apply space-y-4;
+  }
+
+  .about-content-text p {
+    @apply text-gray-600 leading-relaxed;
+  }
+
+  /* ===== ABOUT FEATURES ===== */
+  .about-features {
+    @apply grid grid-cols-1 gap-3 mt-8;
+  }
+
+  @media (min-width: 640px) {
+    .about-features {
+      @apply grid-cols-2;
+    }
+  }
+
+  .about-feature {
+    @apply flex items-center space-x-3;
+  }
+
+  .about-feature-icon {
+    @apply w-5 h-5 flex-shrink-0;
+    color: var(--color-primary-600);
+  }
+
+  .about-feature span {
+    @apply text-gray-700 font-medium;
+  }
+
+  /* ===== ABOUT MEDIA ===== */
+  .about-media {
+    @apply relative;
+  }
+
+  .about-image-wrapper {
+    @apply relative;
+  }
+
+  .about-image-main {
+    @apply w-full h-96 object-cover rounded-2xl shadow-lg;
+  }
+
+  @media (min-width: 640px) {
+    .about-image-main {
+      @apply h-[500px];
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .about-image-main {
+      @apply h-[600px];
+    }
+  }
+
+  .about-image-secondary {
+    @apply absolute -bottom-6 -right-6 w-32 h-32;
+    @apply object-cover rounded-xl shadow-lg;
+    @apply border-4 border-white;
+  }
+
+  @media (min-width: 640px) {
+    .about-image-secondary {
+      @apply w-40 h-40 -bottom-8 -right-8;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .about-image-secondary {
+      @apply w-48 h-48 -bottom-10 -right-10;
+    }
+  }
+
+  /* ===== HOVER EFFECTS ===== */
+  .about-image-wrapper:hover .about-image-main {
+    @apply transform scale-105 transition-transform duration-300;
+  }
+
+  .about-image-wrapper:hover .about-image-secondary {
+    @apply transform scale-110 transition-transform duration-300;
+  }
+
+  /* ===== DARK MODE SUPPORT ===== */
+  .dark .about-section {
+    @apply bg-gray-900;
+  }
+
+  .dark .about-title {
+    @apply text-white;
+  }
+
+  .dark .about-subtitle,
+  .dark .about-description {
+    @apply text-gray-300;
+  }
+
+  .dark .about-content-title {
+    @apply text-white;
+  }
+
+  .dark .about-content-text p {
+    @apply text-gray-300;
+  }
+
+  .dark .about-feature span {
+    @apply text-gray-200;
+  }
+
+  .dark .about-badge {
+    background-color: var(--color-primary-900);
+    color: var(--color-primary-300);
+  }
+}

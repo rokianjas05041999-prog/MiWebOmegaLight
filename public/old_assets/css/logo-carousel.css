@@ -1,0 +1,206 @@
+/**
+ * Logo Carousel CSS
+ * Auto-scrolling logo carousel with hover effects
+ * Compatible with OmegaLight color palette
+ */
+
+/* ===== LOGO CAROUSEL BASE STYLES ===== */
+.logo-carousel {
+    overflow: hidden;
+    position: relative;
+    padding: 2rem 0;
+    background-color: transparent;
+}
+
+.logo-track {
+    display: flex;
+    animation: scroll 30s linear infinite;
+    will-change: transform;
+}
+
+/* Pause animation on hover */
+.logo-carousel:hover .logo-track {
+    animation-play-state: paused;
+}
+
+/* ===== ANIMATION KEYFRAMES ===== */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Speed variations */
+.logo-track.speed-slow {
+    animation-duration: 40s;
+}
+
+.logo-track.speed-fast {
+    animation-duration: 20s;
+}
+
+/* ===== LOGO ITEMS ===== */
+.logo-item {
+    flex: 0 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+}
+
+.logo-item img {
+    height: 60px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.logo-item:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Alternative hover effect - subtle */
+.logo-carousel.hover-subtle .logo-item:hover img {
+    transform: scale(1.05);
+    filter: grayscale(50%);
+}
+
+/* ===== GRADIENT MASKS ===== */
+.logo-carousel::before,
+.logo-carousel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.logo-carousel::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.logo-carousel::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
+/* Gray background variant */
+.logo-carousel.bg-gray::before {
+    background: linear-gradient(to right, rgb(249, 250, 251), transparent);
+}
+
+.logo-carousel.bg-gray::after {
+    background: linear-gradient(to left, rgb(249, 250, 251), transparent);
+}
+
+/* ===== SIZE VARIATIONS ===== */
+/* Small size */
+.logo-carousel.size-sm .logo-item {
+    padding: 0 1rem;
+}
+
+.logo-carousel.size-sm .logo-item img {
+    height: 40px;
+    max-width: 150px;
+}
+
+/* Large size */
+.logo-carousel.size-lg .logo-item {
+    padding: 0 3rem;
+}
+
+.logo-carousel.size-lg .logo-item img {
+    height: 80px;
+    max-width: 200px;
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+/* Tablet */
+@media (max-width: 1024px) {
+    .logo-carousel::before,
+    .logo-carousel::after {
+        width: 60px;
+    }
+    
+    .logo-item {
+        padding: 0 1.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .logo-carousel {
+        padding: 1.5rem 0;
+    }
+    
+    .logo-carousel::before,
+    .logo-carousel::after {
+        width: 40px;
+    }
+    
+    .logo-item {
+        padding: 0 1rem;
+        min-width: 100px;
+    }
+    
+    .logo-item img {
+        height: 40px;
+        max-width: 120px;
+    }
+    
+    .logo-carousel.size-lg .logo-item img {
+        height: 50px;
+        max-width: 140px;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .logo-carousel::before,
+    .logo-carousel::after {
+        width: 20px;
+    }
+    
+    .logo-item {
+        padding: 0 0.75rem;
+    }
+    
+    .logo-item img {
+        height: 35px;
+        max-width: 100px;
+    }
+}
+
+/* ===== ACCESSIBILITY ===== */
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .logo-track {
+        animation: none;
+    }
+    
+    .logo-item img {
+        transition: none;
+    }
+}
+
+/* Focus styles */
+.logo-item:focus-within img {
+    outline: 2px solid var(--color-primary-500, #f97316);
+    outline-offset: 4px;
+    filter: grayscale(0%);
+    opacity: 1;
+}

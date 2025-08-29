@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive Portfolio - OmegaLight</title>
+    <meta name="description" content="Browse our complete archive of electrical portfolio projects - Find all OmegaLight completed projects with advanced filtering and search capabilities.">
+    <meta name="keywords" content="portfolio archive, electrical projects, OmegaLight portfolio, installation projects, case studies, electrical work">
+    <meta name="category" content="Portfolio Archive">
+    <meta name="page-type" content="archive-portfolio">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./src/styles/main.css">
+    
+    <!-- Main Application Script -->
+    <script type="module" src="./src/scripts/main.js"></script>
+</head>
+<body class="font-sans antialiased">
+    
+    <!-- Theme & Language Switcher Buttons (Fixed Position) -->
+    <div class="floating-switchers">
+        <!-- Language Switcher -->
+        <div class="floating-switchers-group">
+            <!-- Language Switcher Toggle -->
+            <button data-language-toggle class="switcher-toggle">
+                <iconify-icon icon="heroicons:language" class="switcher-toggle-icon"></iconify-icon>
+            </button>
+            
+            <!-- Language Options Panel -->
+            <div data-language-switcher class="switcher-panel">
+                <h3 class="switcher-panel-title" data-translate="common.chooseLanguage">Choose Language</h3>
+                <div data-language-options class="switcher-panel-options">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Theme Switcher -->
+        <div class="floating-switchers-group">
+            <!-- Theme Switcher Toggle -->
+            <button data-theme-toggle class="switcher-toggle">
+                <iconify-icon icon="heroicons:paint-brush" class="switcher-toggle-icon"></iconify-icon>
+            </button>
+            
+            <!-- Theme Options Panel -->
+            <div data-theme-switcher class="switcher-panel">
+                <h3 class="switcher-panel-title" data-translate="common.chooseTheme">Choose Theme</h3>
+                <div data-theme-options class="switcher-panel-options">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===== HEADER (Layout Component) ===== -->
+    <div data-layout="header"></div>
+
+    <!-- ===== PAGE SECTIONS (Dynamic Components) ===== -->
+    
+    <!-- Archive Portfolio Section -->
+    <div data-section="archive-portfolio"></div>
+
+    <!-- Contact Section -->
+    <div data-section="contact"></div>
+
+    <!-- ===== FOOTER (Layout Component) ===== -->
+    <div data-layout="footer"></div>
+
+</body>
+</html>

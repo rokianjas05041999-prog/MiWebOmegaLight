@@ -1,0 +1,528 @@
+/* ===========================================
+   DETAIL GENERAL COMPONENT STYLES
+   Professional detail page layout with sidebar
+   =========================================== */
+
+@layer components {
+  /* ========== MAIN SECTION ========== */
+  .detail-general-section {
+    @apply py-8 md:py-12;
+    background-color: var(--bg-primary);
+    /* Add top padding to account for fixed header */
+    padding-top: 6rem;
+  }
+
+  .detail-general-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* ========== BREADCRUMB NAVIGATION ========== */
+  .detail-general-breadcrumb {
+    @apply mb-8;
+    /* Ensure breadcrumb is not covered by fixed header */
+    position: relative;
+    z-index: 10;
+  }
+
+  .detail-general-breadcrumb-list {
+    @apply flex items-center flex-wrap gap-2 text-sm;
+  }
+
+  .detail-general-breadcrumb-item {
+    @apply flex items-center;
+  }
+
+  .detail-general-breadcrumb-link {
+    @apply flex items-center gap-1 transition-colors duration-200;
+    @apply hover:underline;
+    color: var(--color-primary-600);
+  }
+
+  .detail-general-breadcrumb-link:hover {
+    color: var(--color-primary-700);
+  }
+
+  .detail-general-breadcrumb-icon {
+    @apply w-4 h-4;
+  }
+
+  .detail-general-breadcrumb-separator {
+    @apply flex items-center;
+  }
+
+  .detail-general-breadcrumb-separator-icon {
+    @apply w-4 h-4;
+    color: var(--color-neutral-400);
+  }
+
+  .detail-general-breadcrumb-current {
+    color: var(--text-secondary);
+  }
+
+  /* ========== MAIN GRID LAYOUT ========== */
+  .detail-general-grid {
+    @apply grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12;
+  }
+
+  .detail-general-main {
+    @apply lg:col-span-2;
+  }
+
+  .detail-general-sidebar {
+    @apply lg:col-span-1;
+  }
+
+  /* ========== HEADER SECTION ========== */
+  .detail-general-header {
+    @apply mb-8;
+  }
+
+  .detail-general-meta {
+    @apply flex items-center gap-4 mb-4 text-sm;
+  }
+
+  .detail-general-category {
+    @apply px-3 py-1 rounded-full font-medium;
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-700);
+  }
+
+  .detail-general-date {
+    @apply flex items-center gap-1;
+    color: var(--text-secondary);
+  }
+
+  .detail-general-date-icon {
+    @apply w-4 h-4;
+  }
+
+  .detail-general-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight;
+    color: var(--text-primary);
+  }
+
+  .detail-general-subtitle {
+    @apply text-lg md:text-xl mb-6 leading-relaxed;
+    color: var(--text-secondary);
+  }
+
+  /* ========== ACTION BUTTONS ========== */
+  .detail-general-actions {
+    @apply flex flex-wrap gap-3;
+  }
+
+  .detail-general-action-btn {
+    @apply inline-flex items-center gap-2 px-6 py-3;
+    @apply font-semibold rounded-xl transition-all duration-200;
+    @apply hover:shadow-lg hover:transform hover:scale-105;
+  }
+
+  .detail-general-action-primary {
+    @apply text-white;
+    background: linear-gradient(135deg, 
+      var(--color-primary-600) 0%, 
+      var(--color-primary-700) 50%,
+      var(--color-secondary-600) 100%);
+  }
+
+  .detail-general-action-primary:hover {
+    background: linear-gradient(135deg, 
+      var(--color-primary-700) 0%, 
+      var(--color-primary-800) 50%,
+      var(--color-secondary-700) 100%);
+  }
+
+  .detail-general-action-secondary {
+    @apply border-2;
+    background-color: var(--bg-primary);
+    border-color: var(--color-neutral-300);
+    color: var(--text-primary);
+  }
+
+  .detail-general-action-secondary:hover {
+    background-color: var(--color-neutral-50);
+    border-color: var(--color-primary-400);
+    color: var(--color-primary-700);
+  }
+
+  .detail-general-action-icon {
+    @apply w-5 h-5;
+  }
+
+  /* ========== FEATURED IMAGE ========== */
+  .detail-general-image-wrapper {
+    @apply relative mb-8 rounded-2xl overflow-hidden;
+    @apply shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .detail-general-image {
+    @apply w-full h-64 md:h-80 lg:h-96 object-cover;
+  }
+
+  .detail-general-image-overlay {
+    @apply absolute inset-0 opacity-0 hover:opacity-100;
+    @apply transition-opacity duration-300;
+    @apply flex items-center justify-center;
+    background: linear-gradient(to top, 
+      rgba(0, 0, 0, 0.6) 0%, 
+      rgba(0, 0, 0, 0.3) 50%,
+      transparent 100%);
+  }
+
+  .detail-general-image-zoom {
+    @apply w-12 h-12 rounded-full flex items-center justify-center;
+    @apply text-white transition-transform duration-200;
+    @apply hover:scale-110;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  .detail-general-image-zoom-icon {
+    @apply w-6 h-6;
+  }
+
+  /* ========== CONTENT SECTIONS ========== */
+  .detail-general-content {
+    @apply space-y-8;
+  }
+
+  .detail-general-section-block {
+    @apply space-y-4;
+  }
+
+  .detail-general-section-title {
+    @apply text-2xl md:text-3xl font-bold mb-4;
+    color: var(--text-primary);
+  }
+
+  .detail-general-section-content {
+    @apply space-y-4 text-lg leading-relaxed;
+    color: var(--text-secondary);
+  }
+
+  .detail-general-subsection-title {
+    @apply text-xl font-semibold mt-6 mb-3;
+    color: var(--text-primary);
+  }
+
+  /* ========== FEATURES GRID ========== */
+  .detail-general-features-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+  }
+
+  .detail-general-feature-card {
+    @apply p-6 rounded-xl border transition-all duration-300;
+    @apply hover:shadow-lg hover:transform hover:scale-105;
+    background-color: var(--bg-primary);
+    border-color: var(--color-neutral-200);
+  }
+
+  .detail-general-feature-card:hover {
+    border-color: var(--color-primary-300);
+  }
+
+  .detail-general-feature-icon {
+    @apply w-12 h-12 rounded-lg flex items-center justify-center mb-4;
+    background: linear-gradient(135deg, 
+      var(--color-primary-100) 0%, 
+      var(--color-primary-200) 100%);
+  }
+
+  .detail-general-feature-icon-svg {
+    @apply w-6 h-6;
+    color: var(--color-primary-600);
+  }
+
+  .detail-general-feature-title {
+    @apply text-lg font-semibold mb-2;
+    color: var(--text-primary);
+  }
+
+  .detail-general-feature-description {
+    @apply text-sm leading-relaxed;
+    color: var(--text-secondary);
+  }
+
+  /* ========== LISTS ========== */
+  .detail-general-list {
+    @apply space-y-2 ml-4;
+  }
+
+  .detail-general-list-item {
+    @apply relative pl-6;
+    color: var(--text-secondary);
+  }
+
+  .detail-general-list-item::before {
+    content: '•';
+    @apply absolute left-0 font-bold;
+    color: var(--color-primary-600);
+  }
+
+  /* ========== CALL TO ACTION SECTION ========== */
+  .detail-general-cta-section {
+    @apply p-8 rounded-2xl;
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+    border: 1px solid var(--color-primary-200);
+  }
+
+  .detail-general-cta-content {
+    @apply text-center;
+  }
+
+  .detail-general-cta-title {
+    @apply text-2xl font-bold mb-3;
+    color: var(--text-primary);
+  }
+
+  .detail-general-cta-description {
+    @apply text-lg mb-6;
+    color: var(--text-secondary);
+  }
+
+  .detail-general-cta-actions {
+    @apply flex flex-col sm:flex-row gap-4 justify-center;
+  }
+
+  .detail-general-cta-btn {
+    @apply inline-flex items-center gap-2 px-8 py-4;
+    @apply font-semibold rounded-xl transition-all duration-200;
+    @apply hover:shadow-lg hover:transform hover:scale-105;
+  }
+
+  .detail-general-cta-primary {
+    @apply text-white;
+    background: linear-gradient(135deg, 
+      var(--color-primary-600) 0%, 
+      var(--color-secondary-600) 100%);
+  }
+
+  .detail-general-cta-primary:hover {
+    background: linear-gradient(135deg, 
+      var(--color-primary-700) 0%, 
+      var(--color-secondary-700) 100%);
+  }
+
+  .detail-general-cta-secondary {
+    @apply border-2;
+    background-color: var(--bg-primary);
+    border-color: var(--color-primary-600);
+    color: var(--color-primary-600);
+  }
+
+  .detail-general-cta-secondary:hover {
+    background-color: var(--color-primary-600);
+    color: white;
+  }
+
+  .detail-general-cta-icon {
+    @apply w-5 h-5;
+  }
+
+  /* ========== SIDEBAR STYLES ========== */
+  .detail-general-sidebar {
+    @apply space-y-6;
+  }
+
+  .detail-general-sidebar-card {
+    @apply p-6 rounded-xl border;
+    background-color: var(--bg-primary);
+    border-color: var(--color-neutral-200);
+  }
+
+  .detail-general-sidebar-title {
+    @apply text-lg font-semibold mb-4;
+    color: var(--text-primary);
+  }
+
+  /* ========== INFO LIST ========== */
+  .detail-general-info-list {
+    @apply space-y-3;
+  }
+
+  .detail-general-info-item {
+    @apply flex justify-between items-start gap-2;
+  }
+
+  .detail-general-info-label {
+    @apply font-medium;
+    color: var(--text-secondary);
+  }
+
+  .detail-general-info-value {
+    @apply font-semibold text-right;
+    color: var(--text-primary);
+  }
+
+  /* ========== CONTACT LIST ========== */
+  .detail-general-contact-list {
+    @apply space-y-4;
+  }
+
+  .detail-general-contact-item {
+    @apply flex items-start gap-3 p-3 rounded-lg;
+    @apply transition-colors duration-200;
+  }
+
+  .detail-general-contact-item:hover {
+    background-color: var(--color-primary-50);
+  }
+
+  .detail-general-contact-icon {
+    @apply w-5 h-5 mt-0.5 flex-shrink-0;
+    color: var(--color-primary-600);
+  }
+
+  .detail-general-contact-content {
+    @apply flex flex-col;
+  }
+
+  .detail-general-contact-label {
+    @apply text-sm font-medium;
+    color: var(--text-secondary);
+  }
+
+  .detail-general-contact-value {
+    @apply font-semibold;
+    color: var(--text-primary);
+  }
+
+  /* ========== LINKS LIST ========== */
+  .detail-general-links-list {
+    @apply space-y-2;
+  }
+
+  .detail-general-link-item {
+    @apply flex items-center gap-2 p-2 rounded-lg;
+    @apply transition-all duration-200;
+    @apply hover:transform hover:translate-x-1;
+    color: var(--text-primary);
+  }
+
+  .detail-general-link-item:hover {
+    background-color: var(--color-primary-50);
+    color: var(--color-primary-700);
+  }
+
+  .detail-general-link-icon {
+    @apply w-4 h-4;
+  }
+
+  /* ========== SOCIAL SHARE ========== */
+  .detail-general-social-share {
+    @apply flex gap-3;
+  }
+
+  .detail-general-social-btn {
+    @apply w-10 h-10 rounded-lg flex items-center justify-center;
+    @apply transition-all duration-200;
+    @apply hover:transform hover:scale-110;
+  }
+
+  .detail-general-social-facebook {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .detail-general-social-twitter {
+    @apply bg-gray-900 text-white hover:bg-gray-800;
+  }
+
+  .detail-general-social-linkedin {
+    @apply bg-blue-700 text-white hover:bg-blue-800;
+  }
+
+  .detail-general-social-whatsapp {
+    @apply bg-green-600 text-white hover:bg-green-700;
+  }
+
+  .detail-general-social-icon {
+    @apply w-5 h-5;
+  }
+
+  /* ========== RESPONSIVE DESIGN ========== */
+  @media (max-width: 768px) {
+    .detail-general-section {
+      padding-top: 5rem;
+    }
+    
+    .detail-general-title {
+      @apply text-2xl md:text-3xl;
+    }
+    
+    .detail-general-subtitle {
+      @apply text-base;
+    }
+    
+    .detail-general-actions {
+      @apply flex-col;
+    }
+    
+    .detail-general-action-btn {
+      @apply w-full justify-center;
+    }
+    
+    .detail-general-features-grid {
+      @apply grid-cols-1;
+    }
+    
+    .detail-general-cta-actions {
+      @apply flex-col;
+    }
+    
+    .detail-general-cta-btn {
+      @apply w-full justify-center;
+    }
+  }
+
+  /* ========== DARK MODE SUPPORT ========== */
+  [data-theme="dark"] .detail-general-section {
+    background-color: var(--color-neutral-900);
+  }
+
+  [data-theme="dark"] .detail-general-sidebar-card,
+  [data-theme="dark"] .detail-general-feature-card {
+    background-color: var(--color-neutral-800);
+    border-color: var(--color-neutral-700);
+  }
+
+  [data-theme="dark"] .detail-general-cta-section {
+    background: linear-gradient(135deg, 
+      var(--color-primary-900) 0%, 
+      var(--color-primary-800) 100%);
+    border-color: var(--color-primary-700);
+  }
+
+  [data-theme="dark"] .detail-general-contact-item:hover,
+  [data-theme="dark"] .detail-general-link-item:hover {
+    background-color: var(--color-primary-900);
+  }
+
+  /* ========== ACCESSIBILITY ========== */
+  .detail-general-action-btn:focus,
+  .detail-general-cta-btn:focus,
+  .detail-general-social-btn:focus {
+    @apply outline-none ring-2 ring-offset-2;
+    ring-color: var(--color-primary-400);
+  }
+
+  /* ========== REDUCED MOTION SUPPORT ========== */
+  @media (prefers-reduced-motion: reduce) {
+    .detail-general-action-btn,
+    .detail-general-cta-btn,
+    .detail-general-feature-card,
+    .detail-general-social-btn,
+    .detail-general-link-item {
+      @apply transition-none;
+    }
+    
+    .detail-general-action-btn:hover,
+    .detail-general-cta-btn:hover,
+    .detail-general-feature-card:hover,
+    .detail-general-social-btn:hover,
+    .detail-general-link-item:hover {
+      transform: none;
+    }
+  }
+}

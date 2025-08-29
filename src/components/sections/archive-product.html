@@ -1,0 +1,548 @@
+    <!-- ===== ARCHIVE PRODUCT SECTION ===== -->
+    <section id="archive-product" class="archive-product-section">
+        <div class="archive-product-container">
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="archive-product-breadcrumb">
+                <ol class="archive-product-breadcrumb-list">
+                    <li class="archive-product-breadcrumb-item">
+                        <a href="/" class="archive-product-breadcrumb-link">
+                            <iconify-icon icon="heroicons:home" class="archive-product-breadcrumb-icon"></iconify-icon>
+                            <span data-translate="common.home">Home</span>
+                        </a>
+                    </li>
+                    <li class="archive-product-breadcrumb-separator">
+                        <iconify-icon icon="heroicons:chevron-right" class="archive-product-breadcrumb-separator-icon"></iconify-icon>
+                    </li>
+                    <li class="archive-product-breadcrumb-item archive-product-breadcrumb-current">
+                        <span data-translate="archiveProduct.breadcrumb.current">Product Archive</span>
+                    </li>
+                </ol>
+            </nav>
+
+            <!-- Page Header -->
+            <div class="archive-product-header">
+                <div class="archive-product-header-content">
+                    <div class="archive-product-badge">
+                        <span data-translate="archiveProduct.header.badge">Complete Catalog</span>
+                    </div>
+                    <h1 class="archive-product-title" data-translate="archiveProduct.header.title">
+                        Product Archive
+                    </h1>
+                    <p class="archive-product-subtitle" data-translate="archiveProduct.header.subtitle">
+                        Browse Our Complete Collection of Electrical Products
+                    </p>
+                    <p class="archive-product-description" data-translate="archiveProduct.header.description">
+                        Discover our extensive range of quality electrical products from leading brands. Use our advanced filters to find exactly what you need for your electrical projects.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="archive-product-stats">
+                        <div class="archive-product-stat">
+                            <span class="archive-product-stat-number">500+</span>
+                            <span class="archive-product-stat-label" data-translate="archiveProduct.stats.products">Products</span>
+                        </div>
+                        <div class="archive-product-stat">
+                            <span class="archive-product-stat-number">15+</span>
+                            <span class="archive-product-stat-label" data-translate="archiveProduct.stats.brands">Brands</span>
+                        </div>
+                        <div class="archive-product-stat">
+                            <span class="archive-product-stat-number">8</span>
+                            <span class="archive-product-stat-label" data-translate="archiveProduct.stats.categories">Categories</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Header Image -->
+                <div class="archive-product-header-image">
+                    <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=400&fit=crop" 
+                         alt="Electrical Products Collection" 
+                         class="archive-product-hero-image"
+                         data-translate-attr="alt:archiveProduct.header.imageAlt">
+                </div>
+            </div>
+
+            <!-- Search and Filter Bar -->
+            <div class="archive-product-toolbar">
+                <!-- Search -->
+                <div class="archive-product-search">
+                    <div class="archive-product-search-wrapper">
+                        <iconify-icon icon="heroicons:magnifying-glass" class="archive-product-search-icon"></iconify-icon>
+                        <input type="text" 
+                               class="archive-product-search-input" 
+                               placeholder="Search products..."
+                               data-translate-attr="placeholder:archiveProduct.search.placeholder">
+                        <button class="archive-product-search-clear" style="display: none;">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-product-search-clear-icon"></iconify-icon>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Filter Toggle -->
+                <button class="archive-product-filter-toggle">
+                    <iconify-icon icon="heroicons:funnel" class="archive-product-filter-icon"></iconify-icon>
+                    <span data-translate="archiveProduct.filters.toggle">Filters</span>
+                    <span class="archive-product-filter-count" style="display: none;">0</span>
+                </button>
+                
+                <!-- View Toggle -->
+                <div class="archive-product-view-toggle">
+                    <button class="archive-product-view-btn active" data-view="grid">
+                        <iconify-icon icon="heroicons:squares-2x2" class="archive-product-view-icon"></iconify-icon>
+                    </button>
+                    <button class="archive-product-view-btn" data-view="list">
+                        <iconify-icon icon="heroicons:bars-3" class="archive-product-view-icon"></iconify-icon>
+                    </button>
+                </div>
+                
+                <!-- Sort -->
+                <div class="archive-product-sort">
+                    <select class="archive-product-sort-select">
+                        <option value="featured" data-translate="archiveProduct.sort.featured">Featured</option>
+                        <option value="name-asc" data-translate="archiveProduct.sort.nameAsc">Name A-Z</option>
+                        <option value="name-desc" data-translate="archiveProduct.sort.nameDesc">Name Z-A</option>
+                        <option value="price-asc" data-translate="archiveProduct.sort.priceAsc">Price Low to High</option>
+                        <option value="price-desc" data-translate="archiveProduct.sort.priceDesc">Price High to Low</option>
+                        <option value="newest" data-translate="archiveProduct.sort.newest">Newest First</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="archive-product-main">
+                
+                <!-- Sidebar Filters -->
+                <aside class="archive-product-sidebar">
+                    <div class="archive-product-filters">
+                        <div class="archive-product-filters-header">
+                            <h3 class="archive-product-filters-title" data-translate="archiveProduct.filters.title">Filters</h3>
+                            <button class="archive-product-filters-clear" data-translate="archiveProduct.filters.clear">Clear All</button>
+                        </div>
+                        
+                        <!-- Category Filter -->
+                        <div class="archive-product-filter-group">
+                            <h4 class="archive-product-filter-title" data-translate="archiveProduct.filters.category">Category</h4>
+                            <div class="archive-product-filter-options">
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="led-lights" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.led">LED Lights</span>
+                                    <span class="archive-product-filter-count">(45)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="cables" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.cables">Electrical Cables</span>
+                                    <span class="archive-product-filter-count">(32)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="mcb-panels" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.mcb">MCB & Panels</span>
+                                    <span class="archive-product-filter-count">(28)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="outlets" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.outlets">Outlets</span>
+                                    <span class="archive-product-filter-count">(24)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="spotlights" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.spotlights">Spotlights</span>
+                                    <span class="archive-product-filter-count">(18)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="fittings" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.fittings">Lamp Fittings</span>
+                                    <span class="archive-product-filter-count">(15)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="switches" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.switches">Switches</span>
+                                    <span class="archive-product-filter-count">(12)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="tools" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.categories.tools">Electrical Tools</span>
+                                    <span class="archive-product-filter-count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Brand Filter -->
+                        <div class="archive-product-filter-group">
+                            <h4 class="archive-product-filter-title" data-translate="archiveProduct.filters.brand">Brand</h4>
+                            <div class="archive-product-filter-options">
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="philips" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label">Philips</span>
+                                    <span class="archive-product-filter-count">(42)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="schneider" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label">Schneider Electric</span>
+                                    <span class="archive-product-filter-count">(38)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="panasonic" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label">Panasonic</span>
+                                    <span class="archive-product-filter-count">(35)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="osram" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label">Osram</span>
+                                    <span class="archive-product-filter-count">(28)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="legrand" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label">Legrand</span>
+                                    <span class="archive-product-filter-count">(22)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="abb" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label">ABB</span>
+                                    <span class="archive-product-filter-count">(18)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Price Range Filter -->
+                        <div class="archive-product-filter-group">
+                            <h4 class="archive-product-filter-title" data-translate="archiveProduct.filters.priceRange">Price Range</h4>
+                            <div class="archive-product-filter-options">
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="0-50000" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.price.under50k">Under Rp 50,000</span>
+                                    <span class="archive-product-filter-count">(65)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="50000-100000" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.price.50k-100k">Rp 50,000 - Rp 100,000</span>
+                                    <span class="archive-product-filter-count">(48)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="100000-250000" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.price.100k-250k">Rp 100,000 - Rp 250,000</span>
+                                    <span class="archive-product-filter-count">(32)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="250000-500000" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.price.250k-500k">Rp 250,000 - Rp 500,000</span>
+                                    <span class="archive-product-filter-count">(28)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="500000+" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.price.over500k">Over Rp 500,000</span>
+                                    <span class="archive-product-filter-count">(15)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Availability Filter -->
+                        <div class="archive-product-filter-group">
+                            <h4 class="archive-product-filter-title" data-translate="archiveProduct.filters.availability">Availability</h4>
+                            <div class="archive-product-filter-options">
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="in-stock" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.inStock">In Stock</span>
+                                    <span class="archive-product-filter-count">(156)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="on-sale" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.onSale">On Sale</span>
+                                    <span class="archive-product-filter-count">(24)</span>
+                                </label>
+                                <label class="archive-product-filter-option">
+                                    <input type="checkbox" value="new-arrivals" class="archive-product-filter-checkbox">
+                                    <span class="archive-product-filter-label" data-translate="archiveProduct.filters.newArrivals">New Arrivals</span>
+                                    <span class="archive-product-filter-count">(18)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <main class="archive-product-content">
+                    <!-- Results Header -->
+                    <div class="archive-product-results-header">
+                        <div class="archive-product-results-info">
+                            <span class="archive-product-results-count">
+                                <span data-translate="archiveProduct.results.showing">Showing</span>
+                                <strong class="archive-product-results-current">1-24</strong>
+                                <span data-translate="archiveProduct.results.of">of</span>
+                                <strong class="archive-product-results-total">182</strong>
+                                <span data-translate="archiveProduct.results.products">products</span>
+                            </span>
+                        </div>
+                        
+                        <!-- Active Filters -->
+                        <div class="archive-product-active-filters" style="display: none;">
+                            <span class="archive-product-active-filters-label" data-translate="archiveProduct.filters.active">Active filters:</span>
+                            <div class="archive-product-active-filters-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    <div class="archive-product-grid" data-view="grid">
+                        <!-- Product cards will be dynamically loaded here -->
+                        <!-- Sample Product Card 1 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <div class="product-badge-wrapper">
+                                    <span class="product-badge product-badge-sale" data-translate="products.badges.sale">SALE 30%</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" 
+                                     alt="Lampu LED Philips 9W" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Philips</p>
+                                <h3 class="product-name" data-translate="products.items.led.name">Lampu LED Philips 9W Cool Daylight</h3>
+                                <p class="product-description" data-translate="products.items.led.description">Hemat energi hingga 85%, tahan hingga 15.000 jam</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 35.000</span>
+                                    <span class="product-price-original">Rp 50.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 2 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <div class="product-badge-wrapper">
+                                    <span class="product-badge product-badge-new" data-translate="products.badges.new">NEW</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" 
+                                     alt="Kabel NYM 2x1.5 Supreme" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Supreme Cable</p>
+                                <h3 class="product-name" data-translate="products.items.cable.name">Kabel NYM 2x1.5 Supreme (50 Meter)</h3>
+                                <p class="product-description" data-translate="products.items.cable.description">Kabel instalasi listrik SNI, tembaga murni</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 450.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 3 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <div class="product-badge-wrapper">
+                                    <span class="product-badge product-badge-hot" data-translate="products.badges.hot">HOT</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=400" 
+                                     alt="MCB Schneider 16A" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Schneider Electric</p>
+                                <h3 class="product-name" data-translate="products.items.mcb.name">MCB Schneider Domae 1 Phase 16A</h3>
+                                <p class="product-description" data-translate="products.items.mcb.description">Circuit breaker untuk proteksi instalasi listrik</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 125.000</span>
+                                    <span class="product-price-original">Rp 150.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 4 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <div class="product-badge-wrapper">
+                                    <span class="product-badge product-badge-bestseller" data-translate="products.badges.bestseller">BEST SELLER</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400" 
+                                     alt="Stop Kontak Panasonic" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Panasonic</p>
+                                <h3 class="product-name" data-translate="products.items.outlet.name">Stop Kontak Panasonic Wide Series White</h3>
+                                <p class="product-description" data-translate="products.items.outlet.description">Stop kontak dinding dengan child protection</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 42.500</span>
+                                    <span class="product-price-original">Rp 50.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 5 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1565608438257-fac3c27beb36?w=400" 
+                                     alt="Lampu Sorot LED 50W" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Osram</p>
+                                <h3 class="product-name" data-translate="products.items.spotlight.name">Lampu Sorot LED Osram 50W Daylight</h3>
+                                <p class="product-description" data-translate="products.items.spotlight.description">IP65 Waterproof, cocok untuk outdoor</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 275.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 6 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <div class="product-badge-wrapper">
+                                    <span class="product-badge product-badge-limited" data-translate="products.badges.limited">LIMITED</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" 
+                                     alt="Fitting Lampu E27" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Broco</p>
+                                <h3 class="product-name" data-translate="products.items.fitting.name">Fitting Lampu Gantung E27 Broco</h3>
+                                <p class="product-description" data-translate="products.items.fitting.description">Material keramik tahan panas, kabel 1.5m</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 25.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 7 -->
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400" 
+                                     alt="Saklar Dimmer LED" 
+                                     class="product-image" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="product-quick-view" data-translate="products.quickView.button">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">Legrand</p>
+                                <h3 class="product-name" data-translate="products.items.dimmer.name">Saklar Dimmer LED Legrand Niloe</h3>
+                                <p class="product-description" data-translate="products.items.dimmer.description">Kontrol kecerahan lampu LED 10-300W</p>
+                                <div class="product-price">
+                                    <span class="product-price-current">Rp 185.000</span>
+                                </div>
+                                <button class="product-cta">
+                                    <iconify-icon icon="heroicons:shopping-cart" class="product-cta-icon"></iconify-icon>
+                                    <span data-translate="products.cta">Detail</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sample Product Card 8 - Out of Stock -->
+                        <div class="product-card product-card-disabled">
+                            <div class="product-image-wrapper">
+                                <div class="product-stock-overlay">
+                                    <span class="product-stock-label" data-translate="products.outOfStock">Stok Habis</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400" 
+                                     alt="Solar Panel 100W" 
+                                     class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <p class="product-brand">SolarMax</p>
+                                <h3 class="product-name" data-translate="products.items.solar.name">Solar Panel Monocrystalline 100W</h3>
+                                <p class="product-description" data-translate="products.items.solar.description">Panel surya efisiensi tinggi dengan garansi 25 tahun</p>
+                                <div class="product-price">
+                                    <span class="product-price-current product-price-disabled">Rp 1.250.000</span>
+                                </div>
+                                <button disabled class="product-cta product-cta-disabled" data-translate="products.outOfStock">Stok Habis</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Load More / Pagination -->
+                    <div class="archive-product-pagination">
+                        <div class="archive-product-load-more">
+                            <button class="archive-product-load-more-btn">
+                                <span data-translate="archiveProduct.loadMore">Load More Products</span>
+                                <iconify-icon icon="heroicons:chevron-down" class="archive-product-load-more-icon"></iconify-icon>
+                            </button>
+                        </div>
+                        
+                        <!-- Alternative: Traditional Pagination -->
+                        <nav class="archive-product-pagination-nav" style="display: none;">
+                            <button class="archive-product-pagination-btn archive-product-pagination-prev" disabled>
+                                <iconify-icon icon="heroicons:chevron-left" class="archive-product-pagination-icon"></iconify-icon>
+                                <span data-translate="archiveProduct.pagination.previous">Previous</span>
+                            </button>
+                            
+                            <div class="archive-product-pagination-pages">
+                                <button class="archive-product-pagination-page active">1</button>
+                                <button class="archive-product-pagination-page">2</button>
+                                <button class="archive-product-pagination-page">3</button>
+                                <span class="archive-product-pagination-dots">...</span>
+                                <button class="archive-product-pagination-page">8</button>
+                            </div>
+                            
+                            <button class="archive-product-pagination-btn archive-product-pagination-next">
+                                <span data-translate="archiveProduct.pagination.next">Next</span>
+                                <iconify-icon icon="heroicons:chevron-right" class="archive-product-pagination-icon"></iconify-icon>
+                            </button>
+                        </nav>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Mobile Filter Overlay -->
+            <div class="archive-product-mobile-overlay" style="display: none;">
+                <div class="archive-product-mobile-filters">
+                    <div class="archive-product-mobile-filters-header">
+                        <h3 class="archive-product-mobile-filters-title" data-translate="archiveProduct.filters.title">Filters</h3>
+                        <button class="archive-product-mobile-filters-close">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-product-mobile-filters-close-icon"></iconify-icon>
+                        </button>
+                    </div>
+                    
+                    <div class="archive-product-mobile-filters-content">
+                        <!-- Mobile filters content will be cloned from sidebar -->
+                    </div>
+                    
+                    <div class="archive-product-mobile-filters-actions">
+                        <button class="archive-product-mobile-filters-clear" data-translate="archiveProduct.filters.clear">Clear All</button>
+                        <button class="archive-product-mobile-filters-apply" data-translate="archiveProduct.filters.apply">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

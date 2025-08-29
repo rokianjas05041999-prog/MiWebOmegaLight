@@ -1,0 +1,215 @@
+/* ===========================================
+   portfolio COMPONENT STYLES
+   Project portfolio with lightbox
+   =========================================== */
+
+@layer components {
+  .portfolio-section {
+    @apply py-16 md:py-24 bg-white;
+  }
+
+  .portfolio-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .portfolio-header {
+    @apply text-center mb-12;
+  }
+
+  .portfolio-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-4;
+    color: var(--text-primary);
+  }
+
+  .portfolio-subtitle {
+    @apply text-xl md:text-2xl mb-6;
+    color: var(--text-secondary);
+  }
+
+  .portfolio-description {
+    @apply text-lg max-w-3xl mx-auto;
+    color: var(--text-secondary);
+  }
+
+  .portfolio-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12;
+  }
+
+  .portfolio-item {
+    @apply relative overflow-hidden rounded-lg shadow-md;
+    @apply transition-all duration-300 cursor-pointer;
+  }
+
+  .portfolio-item:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  .portfolio-image-wrapper {
+    @apply relative overflow-hidden h-72;
+  }
+
+  .portfolio-image {
+    @apply w-full h-full object-cover;
+    @apply transition-transform duration-500;
+  }
+
+  .portfolio-item:hover .portfolio-image {
+    transform: scale(1.1);
+  }
+
+  .portfolio-overlay {
+    @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+    @apply flex items-end;
+    background: linear-gradient(to top, 
+      rgba(0, 0, 0, 0.8) 0%, 
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.1) 70%,
+      transparent 100%);
+  }
+
+  .portfolio-item:hover .portfolio-overlay {
+    @apply opacity-100;
+  }
+
+  .portfolio-content {
+    @apply p-6 w-full transform translate-y-4;
+    @apply transition-transform duration-300;
+  }
+
+  .portfolio-item:hover .portfolio-content {
+    @apply translate-y-0;
+  }
+
+  .portfolio-item-title {
+    @apply text-white font-semibold text-lg mb-1;
+  }
+
+  .portfolio-item-description {
+    @apply text-white/80 text-sm;
+  }
+
+  .portfolio-zoom-icon {
+    @apply absolute top-4 right-4 bg-white/90 backdrop-blur-sm;
+    @apply w-10 h-10 rounded-full opacity-0;
+    @apply transform scale-0 transition-all duration-300;
+    @apply flex items-center justify-center;
+  }
+
+  .portfolio-item:hover .portfolio-zoom-icon {
+    @apply opacity-100 scale-100;
+  }
+
+  .portfolio-zoom-icon-svg {
+    @apply text-gray-700 w-5 h-5;
+  }
+
+  .portfolio-cta {
+    @apply text-center;
+  }
+
+  .portfolio-cta-button {
+    @apply inline-flex items-center px-8 py-3;
+    @apply text-white font-semibold rounded-lg;
+    @apply transform transition-all duration-300 shadow-lg;
+    background-color: var(--color-primary-600);
+  }
+
+  .portfolio-cta-button:hover {
+    background-color: var(--color-primary-700);
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  .portfolio-cta-icon {
+    @apply ml-2 transform transition-transform;
+  }
+
+  .portfolio-cta-button:hover .portfolio-cta-icon {
+    transform: translateX(0.25rem);
+  }
+
+  /* Lightbox */
+  .portfolio-lightbox {
+    @apply fixed inset-0 z-50 hidden bg-black/90;
+    @apply items-center justify-center p-8;
+  }
+
+  .portfolio-lightbox.show {
+    @apply flex;
+  }
+
+  .portfolio-lightbox-close {
+    @apply absolute top-4 right-4 bg-white/10 hover:bg-white/20;
+    @apply backdrop-blur-sm w-12 h-12 rounded-full z-10;
+    @apply flex items-center justify-center text-white;
+    @apply transition-all duration-300;
+  }
+
+  .portfolio-lightbox-close-icon {
+    @apply w-6 h-6 transition-transform duration-300;
+  }
+
+  .portfolio-lightbox-close:hover .portfolio-lightbox-close-icon {
+    @apply rotate-90;
+  }
+
+  .portfolio-lightbox-container {
+    @apply relative w-full h-full flex items-center justify-center;
+  }
+
+  .portfolio-lightbox-content {
+    @apply relative max-w-4xl max-h-[85vh] mx-auto;
+  }
+
+  .portfolio-lightbox-counter {
+    @apply absolute -top-12 left-0 bg-white/10 backdrop-blur-sm;
+    @apply px-4 py-2 rounded-full text-white text-sm;
+  }
+
+  .portfolio-lightbox-figure {
+    @apply relative bg-black rounded-lg overflow-hidden;
+  }
+
+  .portfolio-lightbox-image {
+    @apply max-w-full max-h-[75vh] w-auto h-auto mx-auto object-contain;
+  }
+
+  .portfolio-lightbox-caption {
+    @apply absolute bottom-0 left-0 right-0;
+    @apply px-6 py-4 text-center;
+    background: linear-gradient(to top, 
+      rgba(0, 0, 0, 0.9) 0%, 
+      rgba(0, 0, 0, 0.7) 50%,
+      rgba(0, 0, 0, 0.3) 80%,
+      transparent 100%);
+    backdrop-filter: blur(2px);
+  }
+
+  .portfolio-lightbox-title {
+    @apply text-xl md:text-2xl font-semibold text-white mb-1;
+  }
+
+  .portfolio-lightbox-description {
+    @apply text-gray-200 text-sm md:text-base;
+  }
+
+  .portfolio-lightbox-nav {
+    @apply absolute top-1/2 -translate-y-1/2;
+    @apply bg-white/10 hover:bg-white/20 backdrop-blur-sm;
+    @apply w-12 h-12 md:w-14 md:h-14 rounded-full;
+    @apply transition-all duration-300 transform hover:scale-110;
+    @apply flex items-center justify-center;
+  }
+
+  .portfolio-lightbox-prev {
+    @apply left-4 md:left-8;
+  }
+
+  .portfolio-lightbox-next {
+    @apply right-4 md:right-8;
+  }
+
+  .portfolio-lightbox-nav-icon {
+    @apply text-white w-6 h-6;
+  }
+}

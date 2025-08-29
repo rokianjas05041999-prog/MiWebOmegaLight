@@ -1,0 +1,105 @@
+/* ===========================================
+   CATEGORY COMPONENT STYLES
+   Product category carousel section
+   =========================================== */
+
+@layer components {
+  .category-section {
+    @apply py-16 md:py-24;
+    background-color: var(--bg-primary);
+  }
+
+  .category-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .category-header {
+    @apply text-center mb-12;
+  }
+
+  .category-badge {
+    @apply inline-block px-4 py-2 mb-4 text-sm font-semibold rounded-full;
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-700);
+    border: 1px solid var(--color-primary-200);
+  }
+
+  .category-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-4;
+    color: var(--text-primary);
+  }
+
+  .category-subtitle {
+    @apply text-xl md:text-2xl mb-6;
+    color: var(--text-secondary);
+  }
+
+  .category-description {
+    @apply text-lg max-w-3xl mx-auto;
+    color: var(--text-secondary);
+  }
+
+  /* Category Grid */
+  .category-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6;
+  }
+
+  .category-card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-xl;
+    @apply transition-shadow duration-300 flex flex-col h-full;
+    @apply cursor-pointer transform hover:scale-105;
+  }
+
+  .category-card-image {
+    @apply flex-shrink-0;
+  }
+
+  .category-image {
+    @apply w-full h-48 object-cover rounded-t-lg;
+  }
+
+  .category-card-content {
+    @apply p-4 flex flex-col flex-grow;
+  }
+
+  .category-card-title {
+    @apply text-lg font-semibold mb-2;
+    color: var(--text-primary);
+  }
+
+  .category-card-description {
+    @apply text-sm flex-grow;
+    color: var(--text-secondary);
+  }
+
+  /* Category CTA */
+  .category-cta {
+    @apply text-center mt-12;
+  }
+
+  .category-cta-button {
+    @apply inline-flex items-center px-8 py-3;
+    @apply text-white font-semibold rounded-lg;
+    @apply transform transition-all duration-300 shadow-lg;
+    background-color: var(--color-primary-600);
+  }
+
+  .category-cta-button:hover {
+    background-color: var(--color-primary-700);
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  .category-cta-icon {
+    @apply ml-2 transform transition-transform;
+  }
+
+  .category-cta-button:hover .category-cta-icon {
+    transform: translateX(0.25rem);
+  }
+
+  .category-load-more-icon {
+    @apply ml-2 text-lg;
+    color: var(--color-white);
+  }
+}

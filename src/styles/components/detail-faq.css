@@ -1,0 +1,503 @@
+/* ===========================================
+   DETAIL FAQ COMPONENT STYLES
+   Detail FAQ page with comprehensive content
+   =========================================== */
+
+@layer components {
+  /* ===== DETAIL FAQ SECTION ===== */
+  .detail-faq-section {
+    @apply min-h-screen pt-8 pb-8 bg-white;
+  }
+
+  @media (min-width: 1024px) {
+    .detail-faq-section {
+      @apply pt-12 pb-12;
+    }
+  }
+
+  .detail-faq-container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  @media (min-width: 640px) {
+    .detail-faq-container {
+      @apply px-6;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .detail-faq-container {
+      @apply px-8;
+    }
+  }
+
+  /* ===== PAGE HEADER ===== */
+  .detail-faq-page-header {
+    @apply mb-12;
+  }
+
+  .detail-faq-breadcrumb {
+    @apply flex items-center;
+    @apply gap-2 text-sm mb-8;
+    color: var(--color-neutral-500);
+  }
+
+  .detail-faq-breadcrumb a {
+    @apply transition-colors duration-300;
+  }
+
+  .detail-faq-breadcrumb a:hover {
+    color: var(--color-primary-500);
+  }
+
+  .detail-faq-breadcrumb iconify-icon {
+    @apply text-xs;
+  }
+
+  .detail-faq-category-badge {
+    @apply inline-block px-4 py-2 text-sm font-medium rounded-full mb-6 transition-all duration-200;
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+    color: var(--color-primary-600);
+    border: 1px solid var(--color-primary-200);
+  }
+
+  .detail-faq-title {
+    @apply text-3xl font-bold mb-8;
+    color: var(--color-neutral-900);
+  }
+
+  @media (min-width: 640px) {
+    .detail-faq-title {
+      @apply text-4xl;
+    }
+  }
+
+  .detail-faq-meta {
+    @apply flex flex-col gap-6;
+  }
+
+  @media (min-width: 768px) {
+    .detail-faq-meta {
+      @apply flex-row justify-between items-start;
+    }
+  }
+
+  .detail-faq-stats {
+    @apply flex flex-wrap gap-6 text-sm;
+    color: var(--color-neutral-600);
+  }
+
+  .detail-faq-stats span {
+    @apply flex items-center gap-2;
+  }
+
+  .detail-faq-actions {
+    @apply flex gap-3;
+  }
+
+  .detail-faq-bookmark,
+  .detail-faq-share {
+    @apply flex items-center gap-2 px-4 py-2 border rounded-xl transition-all duration-300 no-underline;
+    border-color: var(--color-neutral-200);
+    color: var(--color-neutral-600);
+  }
+
+  .detail-faq-bookmark:hover,
+  .detail-faq-share:hover {
+    color: var(--color-primary-500);
+    border-color: var(--color-primary-500);
+  }
+
+  /* ===== CONTENT LAYOUT ===== */
+  .detail-faq-content {
+    @apply grid gap-8;
+  }
+
+  @media (min-width: 1024px) {
+    .detail-faq-content {
+      @apply grid-cols-[2fr_1fr] gap-12;
+    }
+  }
+
+  .detail-faq-main {
+    @apply flex flex-col gap-8;
+  }
+
+  .detail-faq-sidebar {
+    @apply flex flex-col gap-8;
+  }
+
+  /* ===== ANSWER CONTENT ===== */
+  .detail-faq-answer {
+    @apply p-8 rounded-2xl;
+    background: linear-gradient(135deg, 
+      var(--color-neutral-50) 0%, 
+      var(--color-neutral-100) 100%);
+  }
+
+  .detail-faq-answer-title {
+    @apply text-2xl font-bold mb-6;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-answer-content {
+    @apply max-w-none;
+  }
+
+  .detail-faq-answer-content p {
+    @apply leading-7 mb-4;
+    color: var(--color-neutral-700);
+  }
+
+  .detail-faq-additional {
+    @apply mt-8 p-6 rounded-xl border;
+    background: linear-gradient(135deg, 
+      var(--color-accent-50) 0%, 
+      var(--color-accent-100) 100%);
+    border-color: var(--color-accent-200);
+  }
+
+  .detail-faq-additional h3 {
+    @apply text-lg font-semibold mb-4;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-additional ul {
+    @apply flex flex-col gap-2;
+  }
+
+  .detail-faq-additional li {
+    @apply flex items-start gap-2;
+    color: var(--color-neutral-700);
+  }
+
+  .detail-faq-additional li::before {
+    content: "•";
+    color: var(--color-primary-500);
+    font-weight: 700;
+  }
+
+  .detail-faq-related-links {
+    @apply mt-6;
+  }
+
+  .detail-faq-related-links h4 {
+    @apply text-lg font-semibold mb-3;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-related-links ul {
+    @apply flex flex-col gap-2;
+  }
+
+  .detail-faq-related-links a {
+    @apply transition-colors duration-300;
+    color: var(--color-primary-500);
+  }
+
+  .detail-faq-related-links a:hover {
+    color: var(--color-primary-400);
+  }
+
+  /* ===== RATING SECTION ===== */
+  .detail-faq-rating {
+    @apply bg-white border rounded-2xl p-8 shadow-sm;
+    border-color: var(--color-neutral-200);
+  }
+
+  .detail-faq-rating-title {
+    @apply text-xl font-semibold mb-6 text-center;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-rating-buttons {
+    @apply flex gap-4 justify-center mb-6;
+  }
+
+  .detail-faq-rating-btn {
+    @apply flex items-center gap-2 px-6 py-3 rounded-xl font-medium transition-all duration-300 border;
+  }
+
+  .detail-faq-rating-btn.positive {
+    background: var(--color-accent-50);
+    color: var(--color-accent-700);
+    border-color: var(--color-accent-200);
+  }
+
+  .detail-faq-rating-btn.positive:hover {
+    background: var(--color-accent-100);
+    border-color: var(--color-accent-300);
+  }
+
+  .detail-faq-rating-btn.negative {
+    @apply bg-red-50 text-red-700 border-red-200;
+  }
+
+  .detail-faq-rating-btn.negative:hover {
+    @apply bg-red-100 border-red-300;
+  }
+
+  .detail-faq-feedback {
+    @apply flex flex-col gap-4;
+  }
+
+  .detail-faq-feedback.hidden {
+    @apply hidden;
+  }
+
+  .detail-faq-feedback h4 {
+    @apply text-lg font-medium;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-feedback-textarea {
+    @apply w-full p-4 border rounded-xl resize-none min-h-[120px];
+    border-color: var(--color-neutral-200);
+  }
+
+  .detail-faq-feedback-textarea:focus {
+    @apply outline-none;
+    border-color: var(--color-primary-500);
+    box-shadow: 0 0 0 3px rgba(var(--color-primary-500), 0.1);
+  }
+
+  .detail-faq-feedback-actions {
+    @apply flex gap-3;
+  }
+
+  .detail-faq-feedback-submit {
+    @apply px-6 py-2 rounded-xl transition-colors duration-300 border-none;
+    background: var(--color-primary-500);
+    color: white;
+  }
+
+  .detail-faq-feedback-submit:hover {
+    background: var(--color-primary-600);
+  }
+
+  .detail-faq-feedback-cancel {
+    @apply px-6 py-2 rounded-xl transition-colors duration-300 border-none;
+    background: var(--color-neutral-200);
+    color: var(--color-neutral-700);
+  }
+
+  .detail-faq-feedback-cancel:hover {
+    background: var(--color-neutral-300);
+  }
+
+  /* ===== SIDEBAR COMPONENTS ===== */
+  .detail-faq-contact-card {
+    @apply p-6 rounded-2xl text-white;
+    background: linear-gradient(135deg, 
+      var(--color-primary-500) 0%, 
+      var(--color-primary-600) 100%);
+  }
+
+  .detail-faq-contact-header {
+    @apply flex items-center gap-3 mb-4;
+  }
+
+  .detail-faq-contact-header iconify-icon {
+    @apply text-2xl;
+  }
+
+  .detail-faq-contact-header h3 {
+    @apply text-xl font-semibold;
+  }
+
+  .detail-faq-contact-card p {
+    @apply mb-6;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .detail-faq-contact-buttons {
+    @apply flex flex-col gap-3;
+  }
+
+  .detail-faq-contact-btn {
+    @apply flex items-center gap-3 w-full px-3 py-3 rounded-xl text-white transition-all duration-300 no-underline border;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .detail-faq-contact-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .detail-faq-contact-btn.whatsapp:hover {
+    @apply bg-emerald-500;
+  }
+
+  .detail-faq-contact-btn.phone:hover {
+    @apply bg-blue-500;
+  }
+
+  .detail-faq-contact-btn.email:hover {
+    @apply bg-gray-700;
+  }
+
+  /* Related FAQs */
+  .detail-faq-related {
+    @apply bg-white border rounded-2xl p-6 shadow-sm;
+    border-color: var(--color-neutral-200);
+  }
+
+  .detail-faq-related-title {
+    @apply text-xl font-semibold mb-6;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-related-list {
+    @apply flex flex-col gap-4;
+  }
+
+  .detail-faq-related-item {
+    @apply block p-4 rounded-xl transition-colors duration-300 no-underline;
+    background: var(--color-neutral-50);
+  }
+
+  .detail-faq-related-item:hover {
+    background: var(--color-neutral-100);
+  }
+
+  .detail-faq-related-item h4 {
+    @apply font-medium mb-2 overflow-hidden;
+    color: var(--color-neutral-900);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 3.6em;
+    line-height: 1.8;
+  }
+
+  .detail-faq-related-category {
+    @apply text-sm font-medium;
+    color: var(--color-primary-500);
+  }
+
+  /* Categories */
+  .detail-faq-categories {
+    @apply bg-white border rounded-2xl p-6 shadow-sm;
+    border-color: var(--color-neutral-200);
+  }
+
+  .detail-faq-categories-title {
+    @apply text-xl font-semibold mb-6;
+    color: var(--color-neutral-900);
+  }
+
+  .detail-faq-categories-list {
+    @apply flex flex-col gap-2;
+  }
+
+  .detail-faq-category-item {
+    @apply flex items-center justify-between px-3 py-3 rounded-xl transition-all duration-300 no-underline;
+    color: var(--color-neutral-700);
+  }
+
+  .detail-faq-category-item:hover {
+    background: var(--color-neutral-50);
+    color: var(--color-primary-500);
+  }
+
+  .detail-faq-category-item.active {
+    background: linear-gradient(135deg, 
+      var(--color-primary-50) 0%, 
+      var(--color-primary-100) 100%);
+    color: var(--color-primary-600);
+  }
+
+  .detail-faq-category-item > span:first-of-type {
+    @apply flex items-center gap-3;
+  }
+
+  .detail-faq-category-count {
+    @apply text-sm px-2 py-1 rounded-full;
+    background: var(--color-neutral-200);
+    color: var(--color-neutral-600);
+  }
+
+  .detail-faq-category-item.active .detail-faq-category-count {
+    background: var(--color-primary-500);
+    color: white;
+  }
+
+  /* ===== DARK MODE SUPPORT ===== */
+  :root.dark .detail-faq-section {
+    background: var(--color-neutral-900);
+  }
+
+  :root.dark .detail-faq-title {
+    color: white;
+  }
+
+  :root.dark .detail-faq-stats {
+    color: var(--color-neutral-300);
+  }
+
+  :root.dark .detail-faq-answer {
+    background: linear-gradient(135deg, 
+      var(--color-neutral-800) 0%, 
+      var(--color-neutral-700) 100%);
+  }
+
+  :root.dark .detail-faq-answer-title {
+    color: white;
+  }
+
+  :root.dark .detail-faq-answer-content p {
+    color: var(--color-neutral-300);
+  }
+
+  :root.dark .detail-faq-rating,
+  :root.dark .detail-faq-related,
+  :root.dark .detail-faq-categories {
+    background: var(--color-neutral-800);
+    border-color: var(--color-neutral-700);
+  }
+
+  :root.dark .detail-faq-rating-title,
+  :root.dark .detail-faq-related-title,
+  :root.dark .detail-faq-categories-title {
+    color: white;
+  }
+
+  /* ===== RESPONSIVE DESIGN ===== */
+  @media (max-width: 1023px) {
+    .detail-faq-content {
+      @apply grid-cols-1;
+    }
+    
+    .detail-faq-sidebar {
+      @apply order-first;
+    }
+    
+    .detail-faq-contact-card {
+      @apply mb-8;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .detail-faq-answer,
+    .detail-faq-rating {
+      @apply p-6;
+    }
+    
+    .detail-faq-title {
+      @apply text-2xl;
+    }
+    
+    .detail-faq-meta {
+      @apply gap-4;
+    }
+    
+    .detail-faq-stats {
+      @apply gap-4;
+    }
+  }
+}

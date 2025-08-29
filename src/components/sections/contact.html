@@ -1,0 +1,195 @@
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact-simple">
+        <div class="contact-simple-container">
+            
+            <!-- Section Header -->
+            <div class="contact-simple-header">
+                <div class="about-badge" data-translate="contact.badge">Hubungi Kami</div>
+                <h2 class="about-title" data-translate="contact.title">Kontak & Lokasi</h2>
+                <p class="about-subtitle" data-translate="contact.subtitle">Siap Melayani Kebutuhan Listrik Anda</p>
+                <p class="about-description" data-translate="contact.description">
+                    Hubungi kami untuk konsultasi gratis, pemesanan produk, atau layanan instalasi. 
+                    Tim profesional kami siap membantu Anda 24/7.
+                </p>
+            </div>
+            
+            <!-- Contact Content Grid -->
+            <div class="contact-simple-grid">
+                
+                <!-- Contact Form Section -->
+                <div class="contact-simple-form-section">
+                    <h3 class="about-content-title" data-translate="contact.form.title">
+                        Kirim Pesan
+                    </h3>
+                    <p class="about-content-tagline" data-translate="contact.form.subtitle">
+                        Isi form di bawah ini dan kami akan segera menghubungi Anda
+                    </p>
+                    
+                    <!-- Contact Form -->
+                    <form class="contact-simple-form" data-contact-simple-form>
+                        <!-- Form Row 1 -->
+                        <div class="contact-simple-form-row">
+                            <div class="contact-simple-form-group">
+                                <label for="name" class="contact-simple-form-label" data-translate="contact.form.name">
+                                    Nama Lengkap *
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    class="contact-simple-form-input"
+                                    data-translate-placeholder="contact.form.namePlaceholder"
+                                    placeholder="Masukkan nama lengkap Anda"
+                                    required
+                                >
+                                <div class="contact-simple-form-error" data-error="name"></div>
+                            </div>
+                            
+                            <div class="contact-simple-form-group">
+                                <label for="email" class="contact-simple-form-label" data-translate="contact.form.email">
+                                    Email *
+                                </label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    class="contact-simple-form-input"
+                                    data-translate-placeholder="contact.form.emailPlaceholder"
+                                    placeholder="nama@email.com"
+                                    required
+                                >
+                                <div class="contact-simple-form-error" data-error="email"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Form Row 2 -->
+                        <div class="contact-simple-form-row">
+                            <div class="contact-simple-form-group">
+                                <label for="phone" class="contact-simple-form-label" data-translate="contact.form.phone">
+                                    Nomor Telepon
+                                </label>
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    name="phone" 
+                                    class="contact-simple-form-input"
+                                    data-translate-placeholder="contact.form.phonePlaceholder"
+                                    placeholder="08xx-xxxx-xxxx"
+                                >
+                                <div class="contact-simple-form-error" data-error="phone"></div>
+                            </div>
+                            
+                            <div class="contact-simple-form-group">
+                                <label for="company" class="contact-simple-form-label" data-translate="contact.form.company">
+                                    Perusahaan
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="company" 
+                                    name="company" 
+                                    class="contact-simple-form-input"
+                                    data-translate-placeholder="contact.form.companyPlaceholder"
+                                    placeholder="Nama perusahaan (opsional)"
+                                >
+                                <div class="contact-simple-form-error" data-error="company"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Message Field -->
+                        <div class="contact-simple-form-group">
+                            <label for="message" class="contact-simple-form-label" data-translate="contact.form.message">
+                                Pesan *
+                            </label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="contact-simple-form-textarea"
+                                data-translate-placeholder="contact.form.messagePlaceholder"
+                                placeholder="Ceritakan kebutuhan listrik Anda atau pertanyaan yang ingin disampaikan..."
+                                required
+                            ></textarea>
+                            <div class="contact-simple-form-error" data-error="message"></div>
+                        </div>
+                        
+                        <!-- Submit Button -->
+                        <button type="submit" class="contact-simple-form-submit" data-submit-btn>
+                            <span data-submit-text data-translate="contact.form.submit">Kirim Pesan</span>
+                            <iconify-icon icon="heroicons:paper-airplane" class="ml-2 hidden" data-submit-loader></iconify-icon>
+                        </button>
+                        
+                        <!-- Form Message -->
+                        <div class="hidden mt-4" data-form-message></div>
+                    </form>
+                </div>
+                
+                <!-- Contact Information Section -->
+                <div class="contact-simple-info-cards">
+                    <h3 class="about-content-title mb-6" data-translate="contact.info.title">
+                        Informasi Kontak
+                    </h3>
+                    
+                    <!-- Address Card -->
+                    <div class="contact-simple-info-card">
+                        <iconify-icon icon="heroicons:map-pin" class="contact-simple-info-icon"></iconify-icon>
+                        <div class="contact-simple-info-content">
+                            <h4 class="contact-simple-info-title" data-translate="contact.info.address.title">
+                                Alamat Toko
+                            </h4>
+                            <p class="contact-simple-info-details" data-translate="contact.info.address.details">
+                                Jl. Raya Industri No. 88
+                                Kawasan Industri Jababeka
+                                Cikarang, Bekasi 17530
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Phone Card -->
+                    <div class="contact-simple-info-card">
+                        <iconify-icon icon="heroicons:phone" class="contact-simple-info-icon"></iconify-icon>
+                        <div class="contact-simple-info-content">
+                            <h4 class="contact-simple-info-title" data-translate="contact.info.phone.title">
+                                Telepon & WhatsApp
+                            </h4>
+                            <p class="contact-simple-info-details" data-translate="contact.info.phone.details">
+                                (021) 8934-5678
+                                +62 812-3456-7890
+                                +62 856-7890-1234
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Email Card -->
+                    <div class="contact-simple-info-card">
+                        <iconify-icon icon="heroicons:envelope" class="contact-simple-info-icon"></iconify-icon>
+                        <div class="contact-simple-info-content">
+                            <h4 class="contact-simple-info-title" data-translate="contact.info.email.title">
+                                Email
+                            </h4>
+                            <p class="contact-simple-info-details" data-translate="contact.info.email.details">
+                                info@omegalight.co.id
+                                sales@omegalight.co.id
+                                support@omegalight.co.id
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Business Hours Card -->
+                    <div class="contact-simple-info-card">
+                        <iconify-icon icon="heroicons:clock" class="contact-simple-info-icon"></iconify-icon>
+                        <div class="contact-simple-info-content">
+                            <h4 class="contact-simple-info-title" data-translate="contact.info.hours.title">
+                                Jam Operasional
+                            </h4>
+                            <p class="contact-simple-info-details" data-translate="contact.info.hours.details">
+                                Senin - Jumat: 08:00 - 17:00
+                                Sabtu: 08:00 - 15:00
+                                Minggu: Tutup
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>

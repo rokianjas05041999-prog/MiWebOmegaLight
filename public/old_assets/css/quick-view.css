@@ -1,0 +1,33 @@
+/* Quick View Modal Animations */
+#quickViewModal .bg-white {
+    transform: scale(0.95);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+#quickViewModal .bg-white.scale-100 {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Smooth transitions */
+.quick-view-btn {
+    transition: all 0.3s ease;
+}
+
+/* Input number spinner hide */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Product card hover effects */
+.product-card:hover .product-image {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

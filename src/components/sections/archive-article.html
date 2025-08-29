@@ -1,0 +1,475 @@
+    <!-- ===== ARCHIVE ARTICLE SECTION ===== -->
+    <section id="archive-article" class="archive-article-section">
+        <div class="archive-article-container">
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="archive-article-breadcrumb">
+                <ol class="archive-article-breadcrumb-list">
+                    <li class="archive-article-breadcrumb-item">
+                        <a href="/" class="archive-article-breadcrumb-link">
+                            <iconify-icon icon="heroicons:home" class="archive-article-breadcrumb-icon"></iconify-icon>
+                            <span data-translate="common.home">Home</span>
+                        </a>
+                    </li>
+                    <li class="archive-article-breadcrumb-separator">
+                        <iconify-icon icon="heroicons:chevron-right" class="archive-article-breadcrumb-separator-icon"></iconify-icon>
+                    </li>
+                    <li class="archive-article-breadcrumb-item archive-article-breadcrumb-current">
+                        <span data-translate="archiveArticle.breadcrumb.current">Article Archive</span>
+                    </li>
+                </ol>
+            </nav>
+
+            <!-- Page Header -->
+            <div class="archive-article-header">
+                <div class="archive-article-header-content">
+                    <div class="archive-article-badge">
+                        <span data-translate="archiveArticle.header.badge">Complete Collection</span>
+                    </div>
+                    <h1 class="archive-article-title" data-translate="archiveArticle.header.title">
+                        Article Archive
+                    </h1>
+                    <p class="archive-article-subtitle" data-translate="archiveArticle.header.subtitle">
+                        Browse Our Complete Collection of Electrical Articles
+                    </p>
+                    <p class="archive-article-description" data-translate="archiveArticle.header.description">
+                        Discover our extensive library of electrical articles, tips, guides, and industry insights. Use our advanced filters to find exactly what you need for your electrical knowledge.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="archive-article-stats">
+                        <div class="archive-article-stat">
+                            <span class="archive-article-stat-number">150+</span>
+                            <span class="archive-article-stat-label" data-translate="archiveArticle.stats.articles">Articles</span>
+                        </div>
+                        <div class="archive-article-stat">
+                            <span class="archive-article-stat-number">8</span>
+                            <span class="archive-article-stat-label" data-translate="archiveArticle.stats.categories">Categories</span>
+                        </div>
+                        <div class="archive-article-stat">
+                            <span class="archive-article-stat-number">25+</span>
+                            <span class="archive-article-stat-label" data-translate="archiveArticle.stats.authors">Authors</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Header Image -->
+                <div class="archive-article-header-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop" 
+                         alt="Electrical Articles Collection" 
+                         class="archive-article-hero-image"
+                         data-translate-attr="alt:archiveArticle.header.imageAlt">
+                </div>
+            </div>
+
+            <!-- Search and Filter Bar -->
+            <div class="archive-article-toolbar">
+                <!-- Search -->
+                <div class="archive-article-search">
+                    <div class="archive-article-search-wrapper">
+                        <iconify-icon icon="heroicons:magnifying-glass" class="archive-article-search-icon"></iconify-icon>
+                        <input type="text" 
+                               class="archive-article-search-input" 
+                               placeholder="Search articles..."
+                               data-translate-attr="placeholder:archiveArticle.search.placeholder">
+                        <button class="archive-article-search-clear" style="display: none;">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-article-search-clear-icon"></iconify-icon>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Filter Toggle -->
+                <button class="archive-article-filter-toggle">
+                    <iconify-icon icon="heroicons:funnel" class="archive-article-filter-icon"></iconify-icon>
+                    <span data-translate="archiveArticle.filters.toggle">Filters</span>
+                    <span class="archive-article-filter-count" style="display: none;">0</span>
+                </button>
+                
+                <!-- View Toggle -->
+                <div class="archive-article-view-toggle">
+                    <button class="archive-article-view-btn active" data-view="grid">
+                        <iconify-icon icon="heroicons:squares-2x2" class="archive-article-view-icon"></iconify-icon>
+                    </button>
+                    <button class="archive-article-view-btn" data-view="list">
+                        <iconify-icon icon="heroicons:bars-3" class="archive-article-view-icon"></iconify-icon>
+                    </button>
+                </div>
+                
+                <!-- Sort -->
+                <div class="archive-article-sort">
+                    <select class="archive-article-sort-select">
+                        <option value="newest" data-translate="archiveArticle.sort.newest">Newest First</option>
+                        <option value="oldest" data-translate="archiveArticle.sort.oldest">Oldest First</option>
+                        <option value="popular" data-translate="archiveArticle.sort.popular">Most Popular</option>
+                        <option value="title-asc" data-translate="archiveArticle.sort.titleAsc">Title A-Z</option>
+                        <option value="title-desc" data-translate="archiveArticle.sort.titleDesc">Title Z-A</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="archive-article-main">
+                
+                <!-- Sidebar Filters -->
+                <aside class="archive-article-sidebar">
+                    <div class="archive-article-filters">
+                        <div class="archive-article-filters-header">
+                            <h3 class="archive-article-filters-title" data-translate="archiveArticle.filters.title">Filters</h3>
+                            <button class="archive-article-filters-clear" data-translate="archiveArticle.filters.clear">Clear All</button>
+                        </div>
+                        
+                        <!-- Category Filter -->
+                        <div class="archive-article-filter-group">
+                            <h4 class="archive-article-filter-title" data-translate="archiveArticle.filters.category">Category</h4>
+                            <div class="archive-article-filter-options">
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="tips" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.tips">Tips & Tricks</span>
+                                    <span class="archive-article-filter-count">(32)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="guides" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.guides">Installation Guides</span>
+                                    <span class="archive-article-filter-count">(28)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="safety" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.safety">Safety Guidelines</span>
+                                    <span class="archive-article-filter-count">(24)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="technology" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.technology">Technology Updates</span>
+                                    <span class="archive-article-filter-count">(18)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="maintenance" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.maintenance">Maintenance</span>
+                                    <span class="archive-article-filter-count">(15)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="troubleshooting" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.troubleshooting">Troubleshooting</span>
+                                    <span class="archive-article-filter-count">(12)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="news" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.news">Industry News</span>
+                                    <span class="archive-article-filter-count">(10)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="reviews" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.categories.reviews">Product Reviews</span>
+                                    <span class="archive-article-filter-count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Author Filter -->
+                        <div class="archive-article-filter-group">
+                            <h4 class="archive-article-filter-title" data-translate="archiveArticle.filters.author">Author</h4>
+                            <div class="archive-article-filter-options">
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="ahmad-expert" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label">Ahmad Electrical Expert</span>
+                                    <span class="archive-article-filter-count">(25)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="sari-engineer" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label">Sari Engineer</span>
+                                    <span class="archive-article-filter-count">(18)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="budi-technician" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label">Budi Technician</span>
+                                    <span class="archive-article-filter-count">(15)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="omega-team" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label">OmegaLight Team</span>
+                                    <span class="archive-article-filter-count">(12)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Reading Time Filter -->
+                        <div class="archive-article-filter-group">
+                            <h4 class="archive-article-filter-title" data-translate="archiveArticle.filters.readingTime">Reading Time</h4>
+                            <div class="archive-article-filter-options">
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="quick" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.time.quick">Quick Read (1-3 min)</span>
+                                    <span class="archive-article-filter-count">(45)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="medium" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.time.medium">Medium Read (4-7 min)</span>
+                                    <span class="archive-article-filter-count">(38)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="long" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.time.long">Long Read (8+ min)</span>
+                                    <span class="archive-article-filter-count">(22)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Date Filter -->
+                        <div class="archive-article-filter-group">
+                            <h4 class="archive-article-filter-title" data-translate="archiveArticle.filters.date">Publication Date</h4>
+                            <div class="archive-article-filter-options">
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="this-month" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.date.thisMonth">This Month</span>
+                                    <span class="archive-article-filter-count">(8)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="last-3-months" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.date.last3Months">Last 3 Months</span>
+                                    <span class="archive-article-filter-count">(24)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="last-6-months" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.date.last6Months">Last 6 Months</span>
+                                    <span class="archive-article-filter-count">(42)</span>
+                                </label>
+                                <label class="archive-article-filter-option">
+                                    <input type="checkbox" value="this-year" class="archive-article-filter-checkbox">
+                                    <span class="archive-article-filter-label" data-translate="archiveArticle.filters.date.thisYear">This Year</span>
+                                    <span class="archive-article-filter-count">(85)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Articles Grid -->
+                <main class="archive-article-content">
+                    <!-- Results Header -->
+                    <div class="archive-article-results-header">
+                        <div class="archive-article-results-info">
+                            <span class="archive-article-results-count">
+                                <span data-translate="archiveArticle.results.showing">Showing</span>
+                                <strong class="archive-article-results-current">1-12</strong>
+                                <span data-translate="archiveArticle.results.of">of</span>
+                                <strong class="archive-article-results-total">147</strong>
+                                <span data-translate="archiveArticle.results.articles">articles</span>
+                            </span>
+                        </div>
+                        
+                        <!-- Active Filters -->
+                        <div class="archive-article-active-filters" style="display: none;">
+                            <span class="archive-article-active-filters-label" data-translate="archiveArticle.filters.active">Active filters:</span>
+                            <div class="archive-article-active-filters-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- Articles Grid -->
+                    <div class="archive-article-grid" data-view="grid">
+                        <!-- Article cards will be dynamically loaded here -->
+                        <!-- Sample Article Card 1 -->
+                        <article class="article-card">
+                            <div class="article-image-wrapper">
+                                <div class="article-category-badge">
+                                    <span data-translate="archiveArticle.categories.tips">Tips</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=400&h=250&fit=crop"
+                                     alt="Electrical Safety Tips"
+                                     class="article-image" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-author" data-translate="archiveArticle.authors.ahmadExpert">Ahmad Electrical Expert</span>
+                                    <span class="article-date" data-translate="archiveArticle.sampleDates.date1">January 15, 2024</span>
+                                    <span class="article-reading-time" data-translate="archiveArticle.readingTimes.fiveMin">5 min read</span>
+                                </div>
+                                <h3 class="article-title" data-translate="archiveArticle.sampleArticles.safety.title">5 Essential Electrical Safety Tips for Your Home</h3>
+                                <p class="article-excerpt" data-translate="archiveArticle.sampleArticles.safety.excerpt">Learn the fundamental safety measures to protect your family and property from electrical hazards.</p>
+                                <a href="detail-article.html" class="article-cta">
+                                    <span data-translate="blog.readMore">Read More</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="article-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Article Card 2 -->
+                        <article class="article-card">
+                            <div class="article-image-wrapper">
+                                <div class="article-category-badge article-category-guide">
+                                    <span data-translate="archiveArticle.categories.guides">Guide</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop"
+                                     alt="LED Installation Guide"
+                                     class="article-image" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-author" data-translate="archiveArticle.authors.sariEngineer">Sari Engineer</span>
+                                    <span class="article-date" data-translate="archiveArticle.sampleDates.date2">January 12, 2024</span>
+                                    <span class="article-reading-time" data-translate="archiveArticle.readingTimes.eightMin">8 min read</span>
+                                </div>
+                                <h3 class="article-title" data-translate="archiveArticle.sampleArticles.ledGuide.title">Complete Guide to LED Light Installation</h3>
+                                <p class="article-excerpt" data-translate="archiveArticle.sampleArticles.ledGuide.excerpt">Step-by-step instructions for installing LED lights in your home or office.</p>
+                                <a href="detail-article.html" class="article-cta">
+                                    <span data-translate="blog.readMore">Read More</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="article-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Article Card 3 -->
+                        <article class="article-card">
+                            <div class="article-image-wrapper">
+                                <div class="article-category-badge article-category-tech">
+                                    <span data-translate="archiveArticle.categories.technology">Technology</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
+                                     alt="Smart Home Technology"
+                                     class="article-image" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-author" data-translate="archiveArticle.authors.budiTechnician">Budi Technician</span>
+                                    <span class="article-date" data-translate="archiveArticle.sampleDates.date3">January 10, 2024</span>
+                                    <span class="article-reading-time" data-translate="archiveArticle.readingTimes.sixMin">6 min read</span>
+                                </div>
+                                <h3 class="article-title" data-translate="archiveArticle.sampleArticles.smartHome.title">Smart Home Electrical Systems: Future of Home Automation</h3>
+                                <p class="article-excerpt" data-translate="archiveArticle.sampleArticles.smartHome.excerpt">Explore the latest smart home technologies and how they're revolutionizing residential electrical systems.</p>
+                                <a href="detail-article.html" class="article-cta">
+                                    <span data-translate="blog.readMore">Read More</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="article-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Article Card 4 -->
+                        <article class="article-card">
+                            <div class="article-image-wrapper">
+                                <div class="article-category-badge article-category-maintenance">
+                                    <span data-translate="archiveArticle.categories.maintenance">Maintenance</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=250&fit=crop"
+                                     alt="Electrical Maintenance"
+                                     class="article-image" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-author" data-translate="archiveArticle.authors.omegaTeam">OmegaLight Team</span>
+                                    <span class="article-date" data-translate="archiveArticle.sampleDates.date4">January 8, 2024</span>
+                                    <span class="article-reading-time" data-translate="archiveArticle.readingTimes.fourMin">4 min read</span>
+                                </div>
+                                <h3 class="article-title" data-translate="archiveArticle.sampleArticles.maintenance.title">Electrical Maintenance Checklist for Homeowners</h3>
+                                <p class="article-excerpt" data-translate="archiveArticle.sampleArticles.maintenance.excerpt">Regular maintenance is key to electrical safety and efficiency.</p>
+                                <a href="detail-article.html" class="article-cta">
+                                    <span data-translate="blog.readMore">Read More</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="article-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Article Card 5 -->
+                        <article class="article-card">
+                            <div class="article-image-wrapper">
+                                <div class="article-category-badge article-category-troubleshooting">
+                                    <span data-translate="archiveArticle.categories.troubleshooting">Troubleshooting</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1565608438257-fac3c27beb36?w=400&h=250&fit=crop"
+                                     alt="Electrical Troubleshooting"
+                                     class="article-image" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-author" data-translate="archiveArticle.authors.ahmadExpert">Ahmad Electrical Expert</span>
+                                    <span class="article-date" data-translate="archiveArticle.sampleDates.date5">January 5, 2024</span>
+                                    <span class="article-reading-time" data-translate="archiveArticle.readingTimes.sevenMin">7 min read</span>
+                                </div>
+                                <h3 class="article-title" data-translate="archiveArticle.sampleArticles.troubleshooting.title">Common Electrical Problems and How to Fix Them</h3>
+                                <p class="article-excerpt" data-translate="archiveArticle.sampleArticles.troubleshooting.excerpt">Identify and resolve common electrical issues in your home.</p>
+                                <a href="detail-article.html" class="article-cta">
+                                    <span data-translate="blog.readMore">Read More</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="article-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Sample Article Card 6 -->
+                        <article class="article-card">
+                            <div class="article-image-wrapper">
+                                <div class="article-category-badge article-category-news">
+                                    <span data-translate="archiveArticle.categories.news">News</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400&h=250&fit=crop"
+                                     alt="Industry News"
+                                     class="article-image" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-author" data-translate="archiveArticle.authors.sariEngineer">Sari Engineer</span>
+                                    <span class="article-date" data-translate="archiveArticle.sampleDates.date6">January 3, 2024</span>
+                                    <span class="article-reading-time" data-translate="archiveArticle.readingTimes.threeMin">3 min read</span>
+                                </div>
+                                <h3 class="article-title" data-translate="archiveArticle.sampleArticles.trends.title">Latest Electrical Industry Trends and Innovations</h3>
+                                <p class="article-excerpt" data-translate="archiveArticle.sampleArticles.trends.excerpt">Stay updated with the latest developments in the electrical industry.</p>
+                                <a href="detail-article.html" class="article-cta">
+                                    <span data-translate="blog.readMore">Read More</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="article-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Load More / Pagination -->
+                    <div class="archive-article-pagination">
+                        <div class="archive-article-load-more">
+                            <button class="archive-article-load-more-btn">
+                                <span data-translate="archiveArticle.loadMore">Load More Articles</span>
+                                <iconify-icon icon="heroicons:chevron-down" class="archive-article-load-more-icon"></iconify-icon>
+                            </button>
+                        </div>
+                        
+                        <!-- Alternative: Traditional Pagination -->
+                        <nav class="archive-article-pagination-nav" style="display: none;">
+                            <button class="archive-article-pagination-btn archive-article-pagination-prev" disabled>
+                                <iconify-icon icon="heroicons:chevron-left" class="archive-article-pagination-icon"></iconify-icon>
+                                <span data-translate="archiveArticle.pagination.previous">Previous</span>
+                            </button>
+                            
+                            <div class="archive-article-pagination-pages">
+                                <button class="archive-article-pagination-page active">1</button>
+                                <button class="archive-article-pagination-page">2</button>
+                                <button class="archive-article-pagination-page">3</button>
+                                <span class="archive-article-pagination-dots">...</span>
+                                <button class="archive-article-pagination-page">13</button>
+                            </div>
+                            
+                            <button class="archive-article-pagination-btn archive-article-pagination-next">
+                                <span data-translate="archiveArticle.pagination.next">Next</span>
+                                <iconify-icon icon="heroicons:chevron-right" class="archive-article-pagination-icon"></iconify-icon>
+                            </button>
+                        </nav>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Mobile Filter Overlay -->
+            <div class="archive-article-mobile-overlay" style="display: none;">
+                <div class="archive-article-mobile-filters">
+                    <div class="archive-article-mobile-filters-header">
+                        <h3 class="archive-article-mobile-filters-title" data-translate="archiveArticle.filters.title">Filters</h3>
+                        <button class="archive-article-mobile-filters-close">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-article-mobile-filters-close-icon"></iconify-icon>
+                        </button>
+                    </div>
+                    
+                    <div class="archive-article-mobile-filters-content">
+                        <!-- Mobile filters content will be cloned from sidebar -->
+                    </div>
+                    
+                    <div class="archive-article-mobile-filters-actions">
+                        <button class="archive-article-mobile-filters-clear" data-translate="archiveArticle.filters.clear">Clear All</button>
+                        <button class="archive-article-mobile-filters-apply" data-translate="archiveArticle.filters.apply">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

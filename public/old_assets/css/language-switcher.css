@@ -1,0 +1,75 @@
+@import "tailwindcss";
+/* language-switcher.css */
+
+/* Floating Language Switcher */
+
+.floating-lang-container {
+    @apply fixed left-5 top-56 -translate-y-1/2 z-[1000];
+}
+
+.floating-lang-button {
+    @apply w-14 h-14 rounded-full bg-emerald-500 text-white border-0 cursor-pointer flex items-center justify-center transition-all duration-300 ease-in-out;
+    @apply shadow-[0_4px_12px_rgba(16,185,129,0.3)] hover:scale-110 hover:shadow-[0_6px_20px_rgba(16,185,129,0.4)];
+}
+
+.lang-selector-panel {
+    @apply absolute left-[70px] top-1/2 bg-white rounded-xl p-5 min-w-[220px] opacity-0 invisible transition-all duration-300;
+    @apply shadow-[0_8px_32px_rgba(0,0,0,0.15)];
+    transform: translateY(-50%) translateX(-20px) scale(0.9);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Arrow indicator */
+.lang-selector-panel:before {
+    content: '';
+    @apply absolute -left-2 top-1/2 w-0 h-0 -translate-y-1/2;
+    @apply border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white;
+}
+
+.lang-selector-panel.active {
+    @apply opacity-100 visible;
+    transform: translateY(-50%) translateX(0) scale(1);
+}
+
+.lang-selector-panel h4 {
+    @apply font-semibold mb-3 text-gray-800;
+}
+
+.lang-option {
+    @apply block my-2.5 cursor-pointer;
+}
+
+.lang-option input[type="radio"] {
+    @apply hidden;
+}
+
+.lang-option .option-content {
+    @apply flex items-center p-3 border-2 border-gray-200 rounded-lg transition-all duration-300 ease-in-out;
+}
+
+.lang-option input[type="radio"]:checked + .option-content {
+    @apply border-emerald-500 bg-emerald-50;
+}
+
+.lang-option:hover .option-content {
+    @apply bg-gray-100;
+}
+
+.flag-icon {
+    @apply w-6 h-[18px] mr-2.5 rounded-sm;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .floating-lang-container {
+        @apply left-2.5;
+    }
+    
+    .floating-lang-button {
+        @apply w-12 h-12;
+    }
+    
+    .lang-selector-panel {
+        @apply left-[60px] min-w-[180px];
+    }
+}

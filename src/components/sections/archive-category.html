@@ -1,0 +1,420 @@
+<!-- ===== ARCHIVE CATEGORY SECTION ===== -->
+    <section id="archive-category" class="archive-category-section">
+        <div class="archive-category-container">
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="archive-category-breadcrumb">
+                <ol class="archive-category-breadcrumb-list">
+                    <li class="archive-category-breadcrumb-item">
+                        <a href="/" class="archive-category-breadcrumb-link">
+                            <iconify-icon icon="heroicons:home" class="archive-category-breadcrumb-icon"></iconify-icon>
+                            <span data-translate="common.home">Home</span>
+                        </a>
+                    </li>
+                    <li class="archive-category-breadcrumb-separator">
+                        <iconify-icon icon="heroicons:chevron-right" class="archive-category-breadcrumb-separator-icon"></iconify-icon>
+                    </li>
+                    <li class="archive-category-breadcrumb-item archive-category-breadcrumb-current">
+                        <span data-translate="archiveCategory.breadcrumb.current">Category Archive</span>
+                    </li>
+                </ol>
+            </nav>
+
+            <!-- Page Header -->
+            <div class="archive-category-header">
+                <div class="archive-category-header-content">
+                    <div class="archive-category-badge">
+                        <span data-translate="archiveCategory.header.badge">Complete Categories</span>
+                    </div>
+                    <h1 class="archive-category-title" data-translate="archiveCategory.header.title">
+                        Category Archive
+                    </h1>
+                    <p class="archive-category-subtitle" data-translate="archiveCategory.header.subtitle">
+                        Browse Our Complete Collection of Product Categories
+                    </p>
+                    <p class="archive-category-description" data-translate="archiveCategory.header.description">
+                        Discover our comprehensive range of electrical product categories. Use our advanced filters to find exactly what you need for your electrical projects.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="archive-category-stats">
+                        <div class="archive-category-stat">
+                            <span class="archive-category-stat-number">8</span>
+                            <span class="archive-category-stat-label" data-translate="archiveCategory.stats.categories">Categories</span>
+                        </div>
+                        <div class="archive-category-stat">
+                            <span class="archive-category-stat-number">500+</span>
+                            <span class="archive-category-stat-label" data-translate="archiveCategory.stats.products">Products</span>
+                        </div>
+                        <div class="archive-category-stat">
+                            <span class="archive-category-stat-number">15+</span>
+                            <span class="archive-category-stat-label" data-translate="archiveCategory.stats.brands">Brands</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Header Image -->
+                <div class="archive-category-header-image">
+                    <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=400&fit=crop" 
+                         alt="Electrical Categories Collection" 
+                         class="archive-category-hero-image"
+                         data-translate-attr="alt:archiveCategory.header.imageAlt">
+                </div>
+            </div>
+
+            <!-- Search and Filter Bar -->
+            <div class="archive-category-toolbar">
+                <!-- Search -->
+                <div class="archive-category-search">
+                    <div class="archive-category-search-wrapper">
+                        <iconify-icon icon="heroicons:magnifying-glass" class="archive-category-search-icon"></iconify-icon>
+                        <input type="text" 
+                               class="archive-category-search-input" 
+                               placeholder="Search categories..."
+                               data-translate-attr="placeholder:archiveCategory.search.placeholder">
+                        <button class="archive-category-search-clear" style="display: none;">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-category-search-clear-icon"></iconify-icon>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Filter Toggle -->
+                <button class="archive-category-filter-toggle">
+                    <iconify-icon icon="heroicons:funnel" class="archive-category-filter-icon"></iconify-icon>
+                    <span data-translate="archiveCategory.filters.toggle">Filters</span>
+                    <span class="archive-category-filter-count" style="display: none;">0</span>
+                </button>
+                
+                <!-- View Toggle -->
+                <div class="archive-category-view-toggle">
+                    <button class="archive-category-view-btn active" data-view="grid">
+                        <iconify-icon icon="heroicons:squares-2x2" class="archive-category-view-icon"></iconify-icon>
+                    </button>
+                    <button class="archive-category-view-btn" data-view="list">
+                        <iconify-icon icon="heroicons:bars-3" class="archive-category-view-icon"></iconify-icon>
+                    </button>
+                </div>
+                
+                <!-- Sort -->
+                <div class="archive-category-sort">
+                    <select class="archive-category-sort-select">
+                        <option value="featured" data-translate="archiveCategory.sort.featured">Featured</option>
+                        <option value="name-asc" data-translate="archiveCategory.sort.nameAsc">Name A-Z</option>
+                        <option value="name-desc" data-translate="archiveCategory.sort.nameDesc">Name Z-A</option>
+                        <option value="product-count" data-translate="archiveCategory.sort.productCount">Most Products</option>
+                        <option value="newest" data-translate="archiveCategory.sort.newest">Newest First</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="archive-category-main">
+                
+                <!-- Sidebar Filters -->
+                <aside class="archive-category-sidebar">
+                    <div class="archive-category-filters">
+                        <div class="archive-category-filters-header">
+                            <h3 class="archive-category-filters-title" data-translate="archiveCategory.filters.title">Filters</h3>
+                            <button class="archive-category-filters-clear" data-translate="archiveCategory.filters.clear">Clear All</button>
+                        </div>
+                        
+                        <!-- Product Count Filter -->
+                        <div class="archive-category-filter-group">
+                            <h4 class="archive-category-filter-title" data-translate="archiveCategory.filters.productCount">Product Count</h4>
+                            <div class="archive-category-filter-options">
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="1-10" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.count.small">1-10 Products</span>
+                                    <span class="archive-category-filter-count">(2)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="11-50" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.count.medium">11-50 Products</span>
+                                    <span class="archive-category-filter-count">(3)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="51-100" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.count.large">51-100 Products</span>
+                                    <span class="archive-category-filter-count">(2)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="100+" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.count.xlarge">100+ Products</span>
+                                    <span class="archive-category-filter-count">(1)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Brand Filter -->
+                        <div class="archive-category-filter-group">
+                            <h4 class="archive-category-filter-title" data-translate="archiveCategory.filters.brand">Available Brands</h4>
+                            <div class="archive-category-filter-options">
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="philips" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label">Philips</span>
+                                    <span class="archive-category-filter-count">(6)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="schneider" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label">Schneider Electric</span>
+                                    <span class="archive-category-filter-count">(7)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="panasonic" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label">Panasonic</span>
+                                    <span class="archive-category-filter-count">(5)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="osram" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label">Osram</span>
+                                    <span class="archive-category-filter-count">(4)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="legrand" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label">Legrand</span>
+                                    <span class="archive-category-filter-count">(3)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Category Type Filter -->
+                        <div class="archive-category-filter-group">
+                            <h4 class="archive-category-filter-title" data-translate="archiveCategory.filters.type">Category Type</h4>
+                            <div class="archive-category-filter-options">
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="lighting" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.types.lighting">Lighting</span>
+                                    <span class="archive-category-filter-count">(3)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="wiring" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.types.wiring">Wiring & Cables</span>
+                                    <span class="archive-category-filter-count">(2)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="protection" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.types.protection">Protection</span>
+                                    <span class="archive-category-filter-count">(2)</span>
+                                </label>
+                                <label class="archive-category-filter-option">
+                                    <input type="checkbox" value="tools" class="archive-category-filter-checkbox">
+                                    <span class="archive-category-filter-label" data-translate="archiveCategory.filters.types.tools">Tools & Equipment</span>
+                                    <span class="archive-category-filter-count">(1)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Categories Grid -->
+                <main class="archive-category-content">
+                    <!-- Results Header -->
+                    <div class="archive-category-results-header">
+                        <div class="archive-category-results-info">
+                            <span class="archive-category-results-count">
+                                <span data-translate="archiveCategory.results.showing">Showing</span>
+                                <strong class="archive-category-results-current">1-8</strong>
+                                <span data-translate="archiveCategory.results.of">of</span>
+                                <strong class="archive-category-results-total">8</strong>
+                                <span data-translate="archiveCategory.results.categories">categories</span>
+                            </span>
+                        </div>
+                        
+                        <!-- Active Filters -->
+                        <div class="archive-category-active-filters" style="display: none;">
+                            <span class="archive-category-active-filters-label" data-translate="archiveCategory.filters.active">Active filters:</span>
+                            <div class="archive-category-active-filters-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- Categories Grid -->
+                    <div class="archive-category-grid" data-view="grid">
+                        <!-- Category cards will be dynamically loaded here -->
+                        <!-- Sample Category Card 1 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+                                     alt="LED Lights Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.led.title">LED Lights</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.led.description">Save up to 80% energy with long lifespan</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 2 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=300&fit=crop"
+                                     alt="Electrical Cables Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.cable.title">Electrical Cables</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.cable.description">SNI certified cables in various sizes and types</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 3 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop"
+                                     alt="MCB & Panels Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.panel.title">MCB & Panels</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.panel.description">Maximum protection for electrical installations</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 4 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1565608438257-fac3c27beb36?w=400&h=300&fit=crop"
+                                     alt="Outlets Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.outlet.title">Outlets</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.outlet.description">Various models for all needs</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 5 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400&h=300&fit=crop"
+                                     alt="Spotlights Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.spotlight.title">Spotlights</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.spotlight.description">Indoor & outdoor with high durability</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 6 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
+                                     alt="Lamp Fittings Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.fitting.title">Lamp Fittings</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.fitting.description">Quality fittings for various lamp types</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 7 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=300&fit=crop"
+                                     alt="Switches Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.switch.title">Switches</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.switch.description">Modern design with optimal function</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sample Category Card 8 -->
+                        <div class="archive-category-card">
+                            <div class="archive-category-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop"
+                                     alt="Electrical Tools Category"
+                                     class="archive-category-image" loading="lazy">
+                            </div>
+                            <div class="archive-category-card-content">
+                                <h3 class="archive-category-card-title" data-translate="category.items.tools.title">Electrical Tools</h3>
+                                <p class="archive-category-card-description" data-translate="category.items.tools.description">Professional work equipment</p>
+                                <a href="detail-category.html" class="archive-category-cta">
+                                    <span data-translate="archiveCategory.viewCategory">View Category</span>
+                                    <iconify-icon icon="heroicons:arrow-right" class="archive-category-cta-icon"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Load More / Pagination -->
+                    <div class="archive-category-pagination">
+                        <div class="archive-category-load-more">
+                            <button class="archive-category-load-more-btn">
+                                <span data-translate="archiveCategory.loadMore">Load More Categories</span>
+                                <iconify-icon icon="heroicons:chevron-down" class="archive-category-load-more-icon"></iconify-icon>
+                            </button>
+                        </div>
+                        
+                        <!-- Alternative: Traditional Pagination -->
+                        <nav class="archive-category-pagination-nav" style="display: none;">
+                            <button class="archive-category-pagination-btn archive-category-pagination-prev" disabled>
+                                <iconify-icon icon="heroicons:chevron-left" class="archive-category-pagination-icon"></iconify-icon>
+                                <span data-translate="archiveCategory.pagination.previous">Previous</span>
+                            </button>
+                            
+                            <div class="archive-category-pagination-pages">
+                                <button class="archive-category-pagination-page active">1</button>
+                            </div>
+                            
+                            <button class="archive-category-pagination-btn archive-category-pagination-next" disabled>
+                                <span data-translate="archiveCategory.pagination.next">Next</span>
+                                <iconify-icon icon="heroicons:chevron-right" class="archive-category-pagination-icon"></iconify-icon>
+                            </button>
+                        </nav>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Mobile Filter Overlay -->
+            <div class="archive-category-mobile-overlay" style="display: none;">
+                <div class="archive-category-mobile-filters">
+                    <div class="archive-category-mobile-filters-header">
+                        <h3 class="archive-category-mobile-filters-title" data-translate="archiveCategory.filters.title">Filters</h3>
+                        <button class="archive-category-mobile-filters-close">
+                            <iconify-icon icon="heroicons:x-mark" class="archive-category-mobile-filters-close-icon"></iconify-icon>
+                        </button>
+                    </div>
+                    
+                    <div class="archive-category-mobile-filters-content">
+                        <!-- Mobile filters content will be cloned from sidebar -->
+                    </div>
+                    
+                    <div class="archive-category-mobile-filters-actions">
+                        <button class="archive-category-mobile-filters-clear" data-translate="archiveCategory.filters.clear">Clear All</button>
+                        <button class="archive-category-mobile-filters-apply" data-translate="archiveCategory.filters.apply">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

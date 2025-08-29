@@ -1,0 +1,35 @@
+/* ===========================================
+   LAYOUT UTILITIES
+   =========================================== */
+
+@layer components {
+  /* Section Container Utilities */
+  .section-container {
+    @apply py-16 lg:py-24;
+  }
+
+  .section-inner {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+
+  /* Section Header Components */
+  .section-header {
+    @apply mb-12 text-center lg:mb-16;
+  }
+
+  .section-badge {
+    @apply inline-block px-4 py-2 mb-4 text-sm font-semibold rounded-full;
+    background-color: var(--color-accent-100);
+    color: var(--color-accent-700);
+  }
+
+  .section-title {
+    @apply mb-6 text-3xl font-bold lg:text-4xl;
+    color: var(--text-primary);
+  }
+
+  .section-subtitle {
+    @apply max-w-3xl mx-auto text-lg leading-relaxed lg:text-xl;
+    color: var(--text-secondary);
+  }
+}

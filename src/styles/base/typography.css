@@ -1,0 +1,85 @@
+/* ===========================================
+   TYPOGRAPHY & FONT SYSTEM
+   Theme-aware typography classes
+   =========================================== */
+
+/* Base Typography Classes (Use CSS variables for dynamic switching) */
+.theme-typography {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-body);
+  letter-spacing: var(--letter-spacing-base);
+  line-height: var(--line-height-base);
+}
+
+.theme-heading {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  letter-spacing: var(--letter-spacing-base);
+  line-height: 1.2;
+}
+
+.theme-body {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-body);
+  letter-spacing: var(--letter-spacing-base);
+  line-height: var(--line-height-base);
+}
+
+/* Apply theme typography to body by default */
+body {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-body);
+  letter-spacing: var(--letter-spacing-base);
+  line-height: var(--line-height-base);
+}
+
+/* Apply theme typography to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  letter-spacing: var(--letter-spacing-base);
+}
+
+/* Additional typography utilities */
+.font-theme-heading {
+  font-family: var(--font-family-heading) !important;
+  font-weight: var(--font-weight-heading) !important;
+}
+
+.font-theme-body {
+  font-family: var(--font-family-base) !important;
+  font-weight: var(--font-weight-body) !important;
+}
+
+.text-theme-spacing {
+  letter-spacing: var(--letter-spacing-base) !important;
+}
+
+.leading-theme {
+  line-height: var(--line-height-base) !important;
+}
+
+/* Font Preview Classes (For theme switcher) */
+.font-preview-inter {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.font-preview-roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.font-preview-poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-preview-nunito {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.font-preview-source {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.font-preview-jetbrains {
+  font-family: 'JetBrains Mono', monospace !important;
+}
